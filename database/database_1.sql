@@ -45,11 +45,18 @@ CREATE TABLE identification_type(
     name VARCHAR(100) NOT NULL
 );
 
+CREATE TABLE area(
+    id VARCHAR(1) NOT NULL PRIMARY KEY,
+    name VARCHAR(100) NOT NULL
+);
+
 CREATE TABLE career(
     id INT AUTO_INCREMENT PRIMARY KEY,
+    area_id VARCHAR(1) NOT NULL,
     professional_school VARCHAR(100) NOT NULL,
     faculty_id INT NOT NULL,
-    FOREIGN KEY (faculty_id) REFERENCES faculty(id)
+    FOREIGN KEY (faculty_id) REFERENCES faculty(id),
+    FOREIGN KEY (area_id) REFERENCES area(id)
 );
 
 CREATE TABLE document(
@@ -88,11 +95,6 @@ CREATE TABLE candidate(
 );
 
 -- EXÁMENES
-
-CREATE TABLE area(
-    id VARCHAR(1) NOT NULL PRIMARY KEY,
-    name VARCHAR(100) NOT NULL
-);
 
 CREATE TABLE question(
     id INT AUTO_INCREMENT PRIMARY KEY,

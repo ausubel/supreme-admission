@@ -23,9 +23,10 @@ END //
 DROP PROCEDURE IF EXISTS get_careers//
 CREATE PROCEDURE get_careers()
 BEGIN
-    SELECT c.id, professional_school AS name, f.name AS faculty_name
+    SELECT c.id, professional_school AS name, f.name AS facultyName, a.id AS areaId
     FROM career c
     INNER JOIN faculty f ON c.faculty_id = f.id
+    INNER JOIN area a ON c.area_id = a.id
     ORDER BY c.id;
 END //
 
@@ -80,7 +81,7 @@ BEGIN
 
     -- Obtener el ID del proceso de admisión activo
     SELECT id INTO admision_process_id FROM admision_process WHERE status = 1 LIMIT 1;
-
+    
     -- Insertar el candidato en la base de datos
     INSERT INTO candidate(
         name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
@@ -100,4 +101,3 @@ BEGIN
     -- Retornar un mensaje de éxito
     SELECT "SUCCESS" AS message;
 END //
-
