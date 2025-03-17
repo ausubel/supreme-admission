@@ -317,3 +317,174 @@ INSERT INTO config_question_exam_by_subject(quantity, subject_id) VALUES
 (5, 16),
 (20, 17),
 (20, 18);
+
+USE supreme_admision;
+
+-- Sample questions for BIOLOGÍA (subject_id = 1)
+INSERT INTO question(description, alternative_a, alternative_b, alternative_c, alternative_d, correct_alternative, subject_id) VALUES
+('¿Cuál es la unidad básica de la vida?', 'Célula', 'Átomo', 'Molécula', 'Tejido', 'A', 1),
+('¿Qué organelo celular es responsable de la producción de energía?', 'Ribosoma', 'Mitocondria', 'Núcleo', 'Aparato de Golgi', 'B', 1),
+('¿Qué proceso utilizan las plantas para producir su propio alimento?', 'Respiración', 'Digestión', 'Fotosíntesis', 'Excreción', 'C', 1),
+('¿Cuál es la molécula que almacena la información genética?', 'ARN', 'Proteína', 'Lípido', 'ADN', 'D', 1),
+('¿Qué tipo de células no tienen núcleo definido?', 'Procariotas', 'Eucariotas', 'Animales', 'Vegetales', 'A', 1),
+('¿Cuál es el proceso de división celular para reproducción sexual?', 'Mitosis', 'Meiosis', 'Citocinesis', 'Cariocinesis', 'B', 1),
+('¿Qué estructura celular controla qué sustancias entran y salen de la célula?', 'Pared celular', 'Núcleo', 'Membrana celular', 'Citoplasma', 'C', 1),
+('¿Cuál es la teoría que explica el origen de las especies?', 'Generación espontánea', 'Creacionismo', 'Lamarckismo', 'Evolución', 'D', 1),
+('¿Qué científico propuso la teoría de la evolución por selección natural?', 'Charles Darwin', 'Gregor Mendel', 'Louis Pasteur', 'Alexander Fleming', 'A', 1),
+('¿Qué estructura celular contiene clorofila en las plantas?', 'Mitocondria', 'Cloroplasto', 'Vacuola', 'Ribosoma', 'B', 1);
+
+-- Sample questions for QUÍMICA (subject_id = 2)
+INSERT INTO question(description, alternative_a, alternative_b, alternative_c, alternative_d, correct_alternative, subject_id) VALUES
+('¿Cuál es el elemento químico más abundante en el universo?', 'Oxígeno', 'Carbono', 'Hidrógeno', 'Nitrógeno', 'C', 2),
+('¿Qué tipo de enlace se forma cuando se comparten electrones?', 'Iónico', 'Metálico', 'Puente de hidrógeno', 'Covalente', 'D', 2),
+('¿Cuál es la fórmula química del agua?', 'H2O', 'CO2', 'NaCl', 'CH4', 'A', 2),
+('¿Qué es un ácido según la teoría de Arrhenius?', 'Aceptor de protones', 'Donador de protones', 'Donador de electrones', 'Aceptor de electrones', 'B', 2),
+('¿Cuál es el número atómico del carbono?', '12', '14', '6', '8', 'C', 2),
+('¿Qué gas es responsable del efecto invernadero?', 'Oxígeno', 'Dióxido de carbono', 'Nitrógeno', 'Hidrógeno', 'B', 2),
+('¿Qué tipo de reacción ocurre cuando se forma un precipitado?', 'Oxidación', 'Reducción', 'Precipitación', 'Neutralización', 'C', 2),
+('¿Cuál es la unidad básica de la tabla periódica?', 'Compuesto', 'Molécula', 'Átomo', 'Elemento', 'D', 2);
+
+-- Sample questions for FÍSICA (subject_id = 3)
+INSERT INTO question(description, alternative_a, alternative_b, alternative_c, alternative_d, correct_alternative, subject_id) VALUES
+('¿Cuál es la unidad de fuerza en el Sistema Internacional?', 'Newton', 'Joule', 'Watt', 'Pascal', 'A', 3),
+('¿Qué ley establece que la energía no se crea ni se destruye, solo se transforma?', 'Segunda ley de la termodinámica', 'Primera ley de la termodinámica', 'Ley de Ohm', 'Ley de Coulomb', 'B', 3),
+('¿Cuál es la fórmula de la segunda ley de Newton?', 'E = m·c²', 'V = I·R', 'F = m·a', 'P = m·g', 'C', 3),
+('¿Qué científico formuló la ley de la gravitación universal?', 'Albert Einstein', 'Galileo Galilei', 'Niels Bohr', 'Isaac Newton', 'D', 3),
+('¿Cuál es la unidad de potencia en el Sistema Internacional?', 'Watt', 'Joule', 'Newton', 'Voltio', 'A', 3),
+('¿Qué tipo de ondas necesitan un medio material para propagarse?', 'Electromagnéticas', 'Mecánicas', 'De radio', 'Luminosas', 'B', 3),
+('¿Cuál es la velocidad de la luz en el vacío?', '3 × 10⁶ m/s', '3 × 10⁴ m/s', '3 × 10⁸ m/s', '3 × 10² m/s', 'C', 3);
+
+-- Sample questions for other subjects (4-18)
+-- FILOSOFÍA (subject_id = 4)
+INSERT INTO question(description, alternative_a, alternative_b, alternative_c, alternative_d, correct_alternative, subject_id) VALUES
+('¿Quién es considerado el padre de la filosofía occidental?', 'Sócrates', 'Platón', 'Aristóteles', 'Tales de Mileto', 'A', 4),
+('¿Qué filósofo propuso la teoría de las Ideas o Formas?', 'Aristóteles', 'Platón', 'Sócrates', 'Descartes', 'B', 4),
+('¿Cuál es la frase célebre de Descartes?', 'Conócete a ti mismo', 'El hombre es la medida de todas las cosas', 'Pienso, luego existo', 'Solo sé que no sé nada', 'C', 4);
+
+-- ECONOMÍA (subject_id = 5)
+INSERT INTO question(description, alternative_a, alternative_b, alternative_c, alternative_d, correct_alternative, subject_id) VALUES
+('¿Qué es la inflación?', 'Disminución del valor de la moneda', 'Aumento del desempleo', 'Disminución de la producción', 'Aumento generalizado de precios', 'D', 5),
+('¿Qué estudia la microeconomía?', 'Comportamiento individual de agentes económicos', 'Economía global', 'Política monetaria', 'Balanza comercial', 'A', 5),
+('¿Qué es el PBI?', 'Producto Básico Internacional', 'Producto Bruto Interno', 'Proceso Bancario Integral', 'Programa Básico de Inversión', 'B', 5);
+
+-- Add sample questions for remaining subjects
+INSERT INTO question(description, alternative_a, alternative_b, alternative_c, alternative_d, correct_alternative, subject_id) VALUES
+-- GEOGRAFÍA (subject_id = 6)
+('¿Cuál es el río más largo del mundo?', 'Amazonas', 'Misisipi', 'Nilo', 'Yangtsé', 'C', 6),
+('¿Cuál es el país más grande del mundo por territorio?', 'China', 'Estados Unidos', 'Canadá', 'Rusia', 'D', 6),
+('¿Cuál es la capital de Perú?', 'Lima', 'Cusco', 'Arequipa', 'Trujillo', 'A', 6),
+
+-- HISTORIA UNIVERSAL (subject_id = 7)
+('¿En qué año comenzó la Primera Guerra Mundial?', '1918', '1914', '1939', '1945', 'B', 7),
+('¿Quién fue el primer emperador romano?', 'Julio César', 'Nerón', 'Augusto', 'Calígula', 'C', 7),
+('¿Qué evento marcó el fin de la Edad Media?', 'Descubrimiento de América', 'Revolución Francesa', 'Revolución Industrial', 'Caída de Constantinopla', 'D', 7),
+
+-- Add more subjects with at least the required number of questions for each
+-- HISTORIA DEL PERÚ (subject_id = 8)
+('¿Quién fue el último emperador inca?', 'Atahualpa', 'Huayna Cápac', 'Túpac Amaru', 'Manco Inca', 'A', 8),
+('¿En qué año se proclamó la independencia del Perú?', '1824', '1821', '1811', '1830', 'B', 8),
+('¿Quién fue el primer presidente del Perú?', 'Simón Bolívar', 'Ramón Castilla', 'José de San Martín', 'Andrés de Santa Cruz', 'C', 8);
+
+-- Add questions for remaining subjects (9-18)
+INSERT INTO question(description, alternative_a, alternative_b, alternative_c, alternative_d, correct_alternative, subject_id) VALUES
+-- EDUCACIÓN CÍVICA (subject_id = 9)
+('¿Cuántos poderes del Estado existen en Perú?', 'Cuatro', 'Dos', 'Cinco', 'Tres', 'D', 9),
+('¿Qué documento establece los derechos fundamentales de los ciudadanos?', 'Constitución', 'Código Civil', 'Código Penal', 'Ley Orgánica', 'A', 9),
+('¿Quién es el jefe de Estado en Perú?', 'Primer Ministro', 'Presidente de la República', 'Presidente del Congreso', 'Presidente del Poder Judicial', 'B', 9),
+
+-- PERSONAL SOCIAL (PSICOLOGÍA) (subject_id = 10)
+('¿Quién es considerado el padre del psicoanálisis?', 'Carl Jung', 'Ivan Pavlov', 'Sigmund Freud', 'B.F. Skinner', 'C', 10),
+('¿Qué teoría propuso Jean Piaget?', 'Condicionamiento clásico', 'Condicionamiento operante', 'Psicoanálisis', 'Desarrollo cognitivo', 'D', 10),
+('¿Qué estudia la psicología social?', 'Comportamiento en grupos', 'Desarrollo infantil', 'Trastornos mentales', 'Procesos cognitivos', 'A', 10),
+
+-- LITERATURA (subject_id = 11)
+('¿Quién escribió "Cien años de soledad"?', 'Mario Vargas Llosa', 'Gabriel García Márquez', 'Julio Cortázar', 'Pablo Neruda', 'B', 11),
+('¿A qué movimiento literario pertenece César Vallejo?', 'Romanticismo', 'Realismo', 'Vanguardismo', 'Naturalismo', 'C', 11),
+('¿Quién es el autor de "La ciudad y los perros"?', 'Gabriel García Márquez', 'Julio Cortázar', 'Jorge Luis Borges', 'Mario Vargas Llosa', 'D', 11),
+('¿Qué obra escribió William Shakespeare?', 'Don Quijote', 'Hamlet', 'La Ilíada', 'La Divina Comedia', 'B', 11),
+
+-- LENGUAJE (subject_id = 12)
+('¿Qué es un sustantivo?', 'Palabra que indica acción', 'Palabra que califica al sustantivo', 'Palabra que reemplaza al sustantivo', 'Palabra que nombra personas, animales o cosas', 'D', 12),
+('¿Qué es un adverbio?', 'Palabra que modifica al verbo', 'Palabra que nombra personas', 'Palabra que califica al sustantivo', 'Palabra que indica posesión', 'A', 12),
+('¿Cuál es el plural de "lápiz"?', 'Lapizes', 'Lápices', 'Lápiz', 'Lapiz', 'B', 12),
+('¿Qué es una oración?', 'Conjunto de palabras sin sentido', 'Palabra que indica acción', 'Unidad de comunicación con sentido completo', 'Signo de puntuación', 'C', 12);
+
+-- Add questions for MATEMÁTICAS (13-16)
+INSERT INTO question(description, alternative_a, alternative_b, alternative_c, alternative_d, correct_alternative, subject_id) VALUES
+-- TRIGONOMETRÍA (subject_id = 13)
+('¿Cuál es el valor de sen(30°)?', '0', '1', '0.5', '√3/2', 'C', 13),
+('¿Cuál es la fórmula del teorema de Pitágoras?', 'a + b = c', 'a × b = c', 'a/b = c', 'a² + b² = c²', 'D', 13),
+('¿Cuánto vale cos(0°)?', '1', '0', '0.5', '-1', 'A', 13),
+('¿Qué relación trigonométrica es correcta?', 'sen(θ) + cos(θ) = 1', 'tan(θ) = sen(θ) × cos(θ)', 'cot(θ) = sen(θ) / cos(θ)', 'sen²(θ) + cos²(θ) = 1', 'D', 13),
+('¿Cuál es el valor de tan(45°)?', '0', '√3', '2', '1', 'D', 13),
+('¿Qué es un radián?', 'Unidad de longitud', 'Unidad de medida de ángulos', 'Unidad de área', 'Unidad de volumen', 'B', 13),
+
+-- GEOMETRÍA (subject_id = 14)
+('¿Cuál es la fórmula del área de un círculo?', '2πr', '4πr²', 'πr³', 'πr²', 'D', 14),
+('¿Cuántos lados tiene un pentágono?', '4', '6', '5', '7', 'C', 14),
+('¿Cuál es la suma de los ángulos internos de un triángulo?', '90°', '360°', '270°', '180°', 'D', 14),
+('¿Qué es un poliedro?', 'Figura plana', 'Línea recta', 'Cuerpo geométrico con caras planas', 'Punto en el espacio', 'C', 14),
+('¿Cuál es el volumen de un cubo de lado a?', 'a²', '6a²', 'a³', '4a³', 'C', 14),
+('¿Qué figura tiene todos sus lados iguales y todos sus ángulos iguales?', 'Rectángulo', 'Rombo', 'Trapecio', 'Cuadrado', 'D', 14),
+
+-- ÁLGEBRA (subject_id = 15)
+('¿Cuál es la solución de x² - 5x + 6 = 0?', 'x = -2, x = -3', 'x = 2, x = -3', 'x = -2, x = 3', 'x = 2, x = 3', 'D', 15),
+('¿Qué es un monomio?', 'Expresión con dos términos', 'Ecuación de primer grado', 'Expresión algebraica con un solo término', 'Función trigonométrica', 'C', 15),
+('¿Cuál es el resultado de (a + b)²?', 'a² + b²', 'a² - b²', '(a + b)(a - b)', 'a² + 2ab + b²', 'D', 15),
+('¿Qué son los números complejos?', 'Números enteros', 'Números de la forma a + bi', 'Números racionales', 'Números irracionales', 'B', 15),
+('¿Cuál es la definición de una función?', 'Ecuación de segundo grado', 'Expresión con radicales', 'Polinomio de grado n', 'Relación que asigna a cada elemento de un conjunto un único elemento de otro conjunto', 'D', 15),
+('¿Qué es una matriz?', 'Conjunto de puntos', 'Línea recta', 'Arreglo rectangular de números', 'Función trigonométrica', 'C', 15),
+
+-- ARITMÉTICA (subject_id = 16)
+('¿Cuál es el M.C.D. de 12 y 18?', '12', '18', '36', '6', 'D', 16),
+('¿Qué es un número primo?', 'Número divisible por 2', 'Número natural mayor que 1 que solo es divisible por 1 y por sí mismo', 'Número menor que 0', 'Número racional', 'B', 16),
+('¿Cuál es el resultado de 2³?', '6', '9', '8', '16', 'C', 16),
+('¿Qué es una fracción?', 'Número decimal', 'Número irracional', 'Número complejo', 'Cociente de dos números enteros', 'D', 16),
+('¿Cuál es el resultado de 20% de 50?', '5', '25', '100', '10', 'D', 16),
+('¿Qué es un número racional?', 'Número que no puede expresarse como fracción', 'Número que puede expresarse como fracción', 'Número imaginario', 'Número natural', 'B', 16);
+
+-- Add questions for HABILIDADES (17-18)
+INSERT INTO question(description, alternative_a, alternative_b, alternative_c, alternative_d, correct_alternative, subject_id) VALUES
+-- HABILIDAD VERBAL (subject_id = 17)
+('¿Cuál es el sinónimo de "efímero"?', 'Duradero', 'Intenso', 'Pasajero', 'Profundo', 'C', 17),
+('¿Cuál es el antónimo de "prolijo"?', 'Detallado', 'Extenso', 'Minucioso', 'Desordenado', 'D', 17),
+('Complete la analogía: Libro es a leer como película es a...', 'Escuchar', 'Ver', 'Tocar', 'Oler', 'B', 17),
+('¿Qué es una metáfora?', 'Repetición de sonidos', 'Exageración', 'Contradicción de términos', 'Figura retórica que identifica algo real con algo imaginario', 'D', 17),
+('¿Cuál es el significado de "ambiguo"?', 'Claro y preciso', 'Que puede entenderse de varios modos', 'Antiguo', 'Moderno', 'B', 17),
+('¿Qué es un texto argumentativo?', 'Texto que narra una historia', 'Texto que describe algo', 'Texto que defiende una idea', 'Texto que explica un proceso', 'C', 17),
+('¿Cuál es el plural de "régimen"?', 'Régimenes', 'Régimens', 'Régimenes', 'Regímenes', 'D', 17),
+('¿Qué es una oración subordinada?', 'Oración independiente', 'Oración que depende de otra', 'Oración sin verbo', 'Oración exclamativa', 'B', 17),
+('¿Cuál es el género literario de "Don Quijote de la Mancha"?', 'Lírico', 'Dramático', 'Didáctico', 'Narrativo', 'D', 17),
+('¿Qué figura literaria consiste en atribuir cualidades humanas a objetos inanimados?', 'Metáfora', 'Hipérbole', 'Personificación', 'Símil', 'C', 17),
+('¿Cuál es el significado de "inherente"?', 'Que se puede separar', 'Que es opcional', 'Que es temporal', 'Que por su naturaleza está inseparablemente unido a algo', 'D', 17),
+('¿Qué es un hiato?', 'Encuentro de dos consonantes', 'Encuentro de dos vocales que se pronuncian en sílabas distintas', 'Unión de dos palabras', 'Separación de una palabra', 'B', 17),
+('¿Cuál es la función de los signos de puntuación?', 'Decorar el texto', 'Alargar el texto', 'Organizar el texto y facilitar su comprensión', 'Complicar la lectura', 'C', 17),
+('¿Qué es un texto expositivo?', 'Texto que narra una historia', 'Texto que defiende una idea', 'Texto que describe algo', 'Texto que presenta información de manera objetiva', 'D', 17),
+('¿Cuál es el significado de "paradoja"?', 'Idea falsa', 'Idea que parece contradictoria pero puede ser cierta', 'Idea obvia', 'Idea compleja', 'B', 17),
+('¿Qué es una palabra aguda?', 'Palabra con acento en la penúltima sílaba', 'Palabra con acento en la antepenúltima sílaba', 'Palabra con acento en la última sílaba', 'Palabra sin acento', 'C', 17),
+('¿Cuál es el significado de "elocuente"?', 'Que habla poco', 'Que habla o se expresa con facilidad y eficacia', 'Que habla con dificultad', 'Que no sabe hablar', 'B', 17),
+('¿Qué es un texto narrativo?', 'Texto que describe algo', 'Texto que explica un proceso', 'Texto que cuenta una historia', 'Texto que defiende una idea', 'C', 17),
+('¿Cuál es el significado de "tácito"?', 'Que se expresa claramente', 'Que es obvio', 'Que no se expresa o no se dice pero se supone', 'Que es falso', 'C', 17),
+('¿Qué es un adjetivo?', 'Palabra que indica acción', 'Palabra que califica o determina al sustantivo', 'Palabra que sustituye al nombre', 'Palabra que modifica al verbo', 'B', 17),
+
+-- HABILIDAD LÓGICO MATEMÁTICO (subject_id = 18)
+('Si 3x + 2 = 14, ¿cuál es el valor de x?', '3', '5', '6', '4', 'D', 18),
+('¿Cuál es el siguiente número en la secuencia: 2, 4, 8, 16, ...?', '24', '20', '64', '32', 'D', 18),
+('Un tren recorre 240 km en 3 horas. ¿Cuál es su velocidad?', '60 km/h', '120 km/h', '40 km/h', '80 km/h', 'D', 18),
+('Si a + b = 10 y a - b = 4, ¿cuánto vale a?', '5', '6', '7', '8', 'C', 18),
+('¿Cuál es la probabilidad de obtener un número par al lanzar un dado?', '1/3', '1/6', '2/3', '1/2', 'D', 18),
+('¿Cuántos minutos hay en 2 horas y media?', '120', '180', '90', '150', 'D', 18),
+('Si un artículo cuesta S/80 y tiene un descuento del 25%, ¿cuánto se paga?', 'S/55', 'S/65', 'S/60', 'S/70', 'C', 18),
+('¿Cuál es el área de un rectángulo de 6 m de largo y 4 m de ancho?', '20 m²', '10 m²', '24 m²', '30 m²', 'C', 18),
+('Si 5 obreros construyen un muro en 12 días, ¿cuántos días tardarán 3 obreros?', '15', '18', '24', '20', 'D', 18),
+('¿Cuál es el 20% de 350?', '35', '7', '700', '70', 'D', 18),
+('Si un auto recorre 42 km con 3 litros de gasolina, ¿cuántos litros necesita para recorrer 98 km?', '6', '8', '9', '7', 'D', 18),
+('¿Cuál es el resultado de (3 + 2) × 4 - 6 ÷ 2?', '14', '16', '20', '17', 'D', 18),
+('Si a:b = 2:3 y b:c = 4:5, ¿cuál es la relación a:c?', '2:5', '3:5', '4:15', '8:15', 'D', 18),
+('¿Cuántos triángulos hay en la figura: △△△?', '6', '4', '5', '3', 'D', 18),
+('Si un tren sale a las 10:45 y llega a las 13:20, ¿cuánto dura el viaje?', '2 horas y 25 minutos', '3 horas y 15 minutos', '2 horas y 45 minutos', '2 horas y 35 minutos', 'D', 18),
+('¿Cuál es la media aritmética de 15, 20, 25, 30 y 35?', '20', '30', '22.5', '25', 'D', 18),
+('Si tengo 3/4 de un pastel y como 1/3 de lo que tengo, ¿qué fracción del pastel original me queda?', '1/4', '2/3', '3/8', '1/2', 'D', 18),
+('¿Cuál es el mínimo común múltiplo de 6, 8 y 12?', '12', '48', '36', '24', 'D', 18),
+('Si un reloj se adelanta 2 minutos cada hora, ¿cuánto se habrá adelantado en un día?', '24 minutos', '60 minutos', '36 minutos', '48 minutos', 'D', 18),
+('¿Cuál es el número que sigue en la secuencia: 1, 4, 9, 16, 25, ...?', '30', '49', '64', '36', 'D', 18);
