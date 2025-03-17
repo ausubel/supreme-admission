@@ -1,4 +1,4 @@
-package com.api.supremeAdmision.repository;
+package com.api.supremeAdmision.repository.career;
 
 import com.api.supremeAdmision.model.Career;
 import org.springframework.jdbc.core.RowMapper;

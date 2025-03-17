@@ -96,6 +96,27 @@ CREATE TABLE candidate(
 
 -- EXÁMENES
 
+CREATE TABLE discipline(
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100) NOT NULL
+);
+
+CREATE TABLE subject(
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    discipline_id INT NOT NULL,
+    FOREIGN KEY (discipline_id) REFERENCES discipline(id)
+);
+
+
+CREATE TABLE config_question_exam_by_subject(
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    quantity INT NOT NULL,
+    subject_id INT NOT NULL,
+    FOREIGN KEY (subject_id) REFERENCES subject(id)
+);
+
+
 CREATE TABLE question(
     id INT AUTO_INCREMENT PRIMARY KEY,
     description VARCHAR(100) NOT NULL,
@@ -103,18 +124,27 @@ CREATE TABLE question(
     alternative_b VARCHAR(100) NOT NULL,
     alternative_c VARCHAR(100) NOT NULL,
     alternative_d VARCHAR(100) NOT NULL,
-    correct_alternative VARCHAR(1) NOT NULL
+    correct_alternative VARCHAR(1) NOT NULL,
+    subject_id INT NOT NULL,
+    FOREIGN KEY (subject_id) REFERENCES subject(id)
 );
 
 CREATE TABLE exam(
     id INT AUTO_INCREMENT PRIMARY KEY,
-    name VARCHAR(100) NOT NULL,
-    document_id VARCHAR(36) NOT NULL,
+    type VARCHAR(1) NOT NULL,
+    document_id VARCHAR(36) NULL,
     area_id VARCHAR(1) NOT NULL,
     admision_process_id INT NOT NULL,
-    FOREIGN KEY (document_id) REFERENCES document(uuid),
     FOREIGN KEY (area_id) REFERENCES area(id),
     FOREIGN KEY (admision_process_id) REFERENCES admision_process(id)
+);
+
+CREATE TABLE question_exam(
+    question_id INT NOT NULL,
+    exam_id INT NOT NULL,
+    order_number INT NOT NULL,
+    FOREIGN KEY (question_id) REFERENCES question(id),
+    FOREIGN KEY (exam_id) REFERENCES exam(id)
 );
 
 CREATE TABLE results(

@@ -1,6 +1,7 @@
-package com.api.supremeAdmision.repository;
+package com.api.supremeAdmision.repository.career;
 
 import com.api.supremeAdmision.model.Career;
+import com.api.supremeAdmision.repository.JdbcRepository;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;

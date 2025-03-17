@@ -1,7 +1,7 @@
 package com.api.supremeAdmision.controller;
 
 import com.api.supremeAdmision.model.Career;
-import com.api.supremeAdmision.repository.CareerRepository;
+import com.api.supremeAdmision.repository.career.CareerRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;

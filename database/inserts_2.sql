@@ -1,8 +1,5 @@
 USE supreme_admision;
 
-INSERT INTO admision_process(name, start_date, end_date, status) 
-VALUES('PROCESO ADMISIÓN 2025', '2025-01-01', '2025-12-31', 1);
-
 INSERT INTO faculty(name) 
 VALUES('Facultad de Medicina Humana'),
 ('Facultad de Ingenieria de Sistemas'),
@@ -270,3 +267,53 @@ INSERT INTO career(professional_school, faculty_id, area_id) VALUES
 ('Obstetricia',22, 'A'),
 ('Odontología',23, 'A'),
 ('Psicología',24, 'A');
+
+-- EXAMENES
+
+INSERT INTO discipline(name) VALUES
+('CIENCIA TECNOLOGÍA Y AMBIENTE'),
+('CIENCIAS SOCIALES'),
+('PERSONAL FAMILIA Y RELACIONES HUMANAS'),
+('COMUNICACIÓN'),
+('MATEMÁTICAS'),
+('SECCIÓN DE HABILIDADES');
+
+INSERT INTO subject(name, discipline_id) VALUES
+('BIOLOGÍA', 1),
+('QUÍMICA', 1),
+('FÍSICA', 1),
+('FILOSOFÍA', 1),
+('ECONOMÍA', 2),
+('GEOGRAFÍA', 2),
+('HISTORIA UNIVERSAL', 2),
+('HISTORIA DEL PERÚ', 2),
+('EDUCACIÓN CÍVICA', 3),
+('PERSONAL SOCIAL (PSICOLOGÍA)', 3),
+('LITERATURA', 4),
+('LENGUAJE', 4),
+('TRIGONOMETRÍA', 5),
+('GEOMETRÍA', 5),
+('ALGEBRA', 5),
+('ARITMÉTICA', 5),
+('HABILIDAD VERBAL', 6),
+('HABILIDAD LÓGICO MATEMÁTICO', 6);
+
+INSERT INTO config_question_exam_by_subject(quantity, subject_id) VALUES
+(8, 1),
+(6, 2),
+(6, 3),
+(2, 4),
+(2, 5),
+(2, 6),
+(2, 7),
+(2, 8),
+(2, 9),
+(2, 10),
+(3, 11),
+(3, 12),
+(5, 13),
+(5, 14),
+(5, 15),
+(5, 16),
+(20, 17),
+(20, 18);
