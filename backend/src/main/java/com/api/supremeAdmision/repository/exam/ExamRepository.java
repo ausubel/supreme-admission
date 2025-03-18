@@ -79,4 +79,8 @@ public class ExamRepository extends JdbcRepository {
         String sql = "DELETE FROM exam WHERE id = ?";
         return jdbcTemplate.update(sql, id);
     }
+
+    public List<Exam> getAllExams() {
+        return jdbcTemplate.query("CALL get_exams()", examRowMapper);
+    }
 }

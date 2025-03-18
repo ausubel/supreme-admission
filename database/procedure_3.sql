@@ -54,6 +54,12 @@ BEGIN
     SELECT "SUCCESS";
 END //
 
+DROP PROCEDURE IF EXISTS get_exams//
+CREATE PROCEDURE get_exams()
+BEGIN
+    SELECT id, type, document_id, area_id, admision_process_id FROM exam;
+END //
+
 DROP PROCEDURE IF EXISTS enroll_candidate//
 CREATE PROCEDURE enroll_candidate(
     p_name VARCHAR(50),
@@ -99,5 +105,19 @@ BEGIN
     );
 
     -- Retornar un mensaje de éxito
+    SELECT "SUCCESS" AS message;
+END //
+
+DROP PROCEDURE IF EXISTS save_result//
+
+CREATE PROCEDURE save_result(
+    p_candidate_id INT,
+    p_exam_id INT,
+    p_score DECIMAL(5,3)
+)
+BEGIN
+    INSERT INTO results(candidate_id, exam_id, score)
+    VALUES(p_candidate_id, p_exam_id, p_score);
+
     SELECT "SUCCESS" AS message;
 END //

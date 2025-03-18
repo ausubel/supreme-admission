@@ -3,8 +3,14 @@ USE mysql;
 DROP DATABASE IF EXISTS supreme_admision;
 
 CREATE DATABASE supreme_admision;
-
+ 
 USE supreme_admision;
+
+CREATE TABLE exam_count(
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    exam_id INT NOT NULL,
+    count INT NOT NULL
+);
 
 CREATE TABLE admision_process(
     id INT AUTO_INCREMENT PRIMARY KEY,
@@ -15,7 +21,6 @@ CREATE TABLE admision_process(
 );
 
 -- INSCRIPCIÓN
-
 CREATE TABLE faculty(
     id INT AUTO_INCREMENT PRIMARY KEY,
     name VARCHAR(200) NOT NULL
@@ -151,7 +156,7 @@ CREATE TABLE results(
     id INT AUTO_INCREMENT PRIMARY KEY,
     candidate_id INT NOT NULL,
     exam_id INT NOT NULL,
-    score DECIMAL(4,3) NOT NULL,
+    score DECIMAL(5,3) NOT NULL,
     FOREIGN KEY (candidate_id) REFERENCES candidate(id),
     FOREIGN KEY (exam_id) REFERENCES exam(id)
 );

@@ -31,6 +31,17 @@ BEGIN
     ('O', NULL, 'C', @admision_process_id),
     ('P', NULL, 'C', @admision_process_id);
 
+    INSERT INTO exam_count(exam_id, count)
+    VALUES(1, 009999),
+    (2, 009999),
+    (3, 009999),
+    (4, 009999),
+    (5, 009999),
+    (6, 009999),
+    (7, 009999),
+    (8, 009999),
+    (9, 009999);
+
     SELECT "SUCCESS";
 END //
 

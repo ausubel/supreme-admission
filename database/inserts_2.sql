@@ -227,15 +227,14 @@ INSERT INTO identification_type(name) VALUES
 
 INSERT INTO career(professional_school, faculty_id, area_id) VALUES
 ('Medicina Humana', 1, 'A'),
-('Ingenieria de Sistemas', 2, 'C'),
-('Ingenieria de Civil', 3, 'C'),
-('Administración', 4, 'B'),
-('Agronomía', 5, 'C'),
-('Arquitectura', 6, 'C'),
-('Estadística', 7, 'C'),
-('Física', 7, 'C'),
-('Matemática e Informática', 7, 'C'),
+('Medicina Veterinaria y Zootecnia',21, 'A'),
+('Obstetricia',22, 'A'),
+('Odontología',23, 'A'),
+('Psicología',24, 'A'),
 ('Biología', 8, 'A'),
+('Enfermería', 13, 'A'),
+('Farmacia y Bioquímica', 14, 'A'),
+('Administración', 4, 'B'),
 ('Arqueología', 9, 'B'),
 ('Ciencias de la Comunicación', 9, 'B'),
 ('Turismo', 9, 'B'),
@@ -252,8 +251,13 @@ INSERT INTO career(professional_school, faculty_id, area_id) VALUES
 ('Negocios Internacionales', 11, 'B'),
 ('Contabilidad', 12, 'B'),
 ('Derecho', 12, 'B'),
-('Enfermería', 13, 'A'),
-('Farmacia y Bioquímica', 14, 'A'),
+('Ingenieria de Sistemas', 2, 'C'),
+('Ingenieria de Civil', 3, 'C'),
+('Agronomía', 5, 'C'),
+('Arquitectura', 6, 'C'),
+('Estadística', 7, 'C'),
+('Física', 7, 'C'),
+('Matemática e Informática', 7, 'C'),
 ('Ingenieria Ambiental', 15, 'C'),
 ('Ingeniería de Minas', 16, 'C'),
 ('Ingeniería Metalúrgica', 16, 'C'),
@@ -262,11 +266,7 @@ INSERT INTO career(professional_school, faculty_id, area_id) VALUES
 ('Ingeniería de Alimentos',19, 'C'),
 ('Ingenieria Pesquera',19, 'C'),
 ('Ingeniería Química',20, 'C'),
-('Ingenieria Petroquímica',20, 'C'),
-('Medicina Veterinaria y Zootecnia',21, 'A'),
-('Obstetricia',22, 'A'),
-('Odontología',23, 'A'),
-('Psicología',24, 'A');
+('Ingenieria Petroquímica',20, 'C');
 
 -- EXAMENES
 

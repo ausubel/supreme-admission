@@ -13,6 +13,10 @@ const Home: React.FC = () => {
     navigate('/admin/processes');
   };
 
+  const handleExamManagement = () => {
+    navigate('/admin/exams');
+  };
+
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-50 flex flex-col items-center justify-center p-6">
       <div className="max-w-4xl w-full bg-white rounded-xl shadow-lg p-8 text-center">
@@ -38,6 +42,13 @@ const Home: React.FC = () => {
             className="text-lg px-8 py-3 transition-all duration-300 transform hover:scale-105"
           >
             ADMINISTRAR PROCESOS
+          </Button>
+
+          <Button 
+            onClick={handleExamManagement}
+            className="text-lg px-8 py-3 bg-gradient-to-r from-purple-600 to-pink-500 hover:from-purple-700 hover:to-pink-600 transition-all duration-300 transform hover:scale-105"
+          >
+            GESTIÓN DE EXÁMENES
           </Button>
         </div>
       </div>

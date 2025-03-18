@@ -67,12 +67,21 @@ const AdminProcesses: React.FC = () => {
     setSuccess('');
 
     try {
-      const response = await axios.post<string>(
+      await axios.post<string>(
         'http://localhost:8080/api/admision-processes/start',
         formData
       );
+      try {
+        await axios.post<string>(
+          'http://localhost:8080/api/questions/distribute'
+        );
+        
+        setSuccess('Proceso de admisión iniciado exitosamente y preguntas distribuidas correctamente');
+      } catch (distributionErr) {
+        console.error('Error al distribuir preguntas:', distributionErr);
+        setSuccess('Proceso de admisión iniciado exitosamente, pero hubo un error al distribuir las preguntas');
+      }
 
-      setSuccess('Proceso de admisión iniciado exitosamente');
       setFormData({
         name: '',
         startDate: '',
