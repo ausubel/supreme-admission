@@ -30,7 +30,7 @@ BEGIN
     ORDER BY c.id;
 END //
 
-DROP PROCEDURE IF EXISTS get_identification_types;
+DROP PROCEDURE IF EXISTS get_identification_types//
 CREATE PROCEDURE get_identification_types()
 BEGIN
     SELECT id, name FROM identification_type;

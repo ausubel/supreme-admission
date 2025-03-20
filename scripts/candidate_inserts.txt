@@ -5,1327 +5,11 @@ INSERT INTO candidate(
             compromise_study_certificate_attachment, criminal_record_attachment, 
             veracity_declaration_attachment, career_id, admision_process_id
         ) VALUES (
-            'Emmanuel', 'Poblete', 'Sepúlveda', 1, '70000000', 
-            'M', '2000-09-01', 'D', 0, 'PERU', 
-            '2025-03-18', 20, 'E', 
-            'e51a0345-9ae0-43eb-98e8-f0371aecedac', '9d23a919-cb65-47b9-9bf7-05c652d63372', 'fef9098d-284f-4464-b4b3-d1e16420b43e', 
-            'f374d460-38f0-4a02-ad37-ab0efa2cfe51', 'adbff80d-af85-4433-9a11-351ae70311ad', 14, 
-            1
-        );
-INSERT INTO candidate(
-            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
-            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
-            origin_institution_type, dni_attachment, study_certificate_attachment, 
-            compromise_study_certificate_attachment, criminal_record_attachment, 
-            veracity_declaration_attachment, career_id, admision_process_id
-        ) VALUES (
-            'Paul', 'Leiva', 'Toro', 1, '70000001', 
-            'M', '1999-03-23', 'S', 1, 'PERU', 
-            '2025-03-18', 124, 'P', 
-            'bad284a1-37e0-437d-b6ee-8abdbffb4afe', '7cd210d4-9ed6-4a1c-89f0-474e5b01460e', 'e6cf80ae-4d5c-43f1-84d2-dde26a43c20a', 
-            'ac36b839-eb6c-4d16-8f9b-54ae11d1f7ea', '6cd9297a-5e65-48e6-a699-7e0a242884d5', 32, 
-            1
-        );
-INSERT INTO candidate(
-            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
-            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
-            origin_institution_type, dni_attachment, study_certificate_attachment, 
-            compromise_study_certificate_attachment, criminal_record_attachment, 
-            veracity_declaration_attachment, career_id, admision_process_id
-        ) VALUES (
-            'Yu', 'Soto', 'Sáez', 1, '70000002', 
-            'F', '2000-09-29', 'S', 0, 'PERU', 
-            '2025-03-18', 48, 'E', 
-            'a28d7398-5d42-4265-a981-26306deed12f', '8b3e06fb-19e7-45ed-9f1e-deec2570967f', 'c60cbb99-f7a0-4044-82bb-a8e00721ffae', 
-            '66d39d14-0189-4a29-a637-559625b9f2ee', 'a2cf8435-26e1-486d-b068-a4604b799ca6', 2, 
-            1
-        );
-INSERT INTO candidate(
-            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
-            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
-            origin_institution_type, dni_attachment, study_certificate_attachment, 
-            compromise_study_certificate_attachment, criminal_record_attachment, 
-            veracity_declaration_attachment, career_id, admision_process_id
-        ) VALUES (
-            'Rita', 'Contreras', 'Herrera', 1, '70000003', 
-            'F', '1997-12-24', 'C', 0, 'PERU', 
-            '2025-03-18', 38, 'P', 
-            'fc39e21c-fcaf-49cd-bd83-e12aa58125c6', '8fc945d4-bf80-4d72-957f-1d189e37e423', '9dd07bf5-d1d0-4c95-a4a7-b2c34e834ab7', 
-            '3a700934-36e3-41ec-8335-16a7303ad1f3', 'ecf8709c-7c9f-4c00-84e2-f4dce4ca5d95', 13, 
-            1
-        );
-INSERT INTO candidate(
-            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
-            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
-            origin_institution_type, dni_attachment, study_certificate_attachment, 
-            compromise_study_certificate_attachment, criminal_record_attachment, 
-            veracity_declaration_attachment, career_id, admision_process_id
-        ) VALUES (
-            'Jean', 'Medina', 'Parra', 1, '70000004', 
-            'F', '2005-06-06', 'S', 2, 'PERU', 
-            '2025-03-18', 106, 'P', 
-            'b7573530-480c-4d4a-8af6-4dc89572eec5', '937ba922-12dc-4e53-acea-d0b6396dc07e', 'e8345ad5-d83f-4e0a-a4ae-e6f6f5ea2c22', 
-            '738c58e9-85b2-42a1-8e42-258df65c7583', '5134ef9e-46cf-4f1f-8151-e05ff324c81e', 12, 
-            1
-        );
-INSERT INTO candidate(
-            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
-            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
-            origin_institution_type, dni_attachment, study_certificate_attachment, 
-            compromise_study_certificate_attachment, criminal_record_attachment, 
-            veracity_declaration_attachment, career_id, admision_process_id
-        ) VALUES (
-            'Sarah', 'Figueroa', 'Escobar', 1, '70000005', 
-            'F', '2007-02-09', 'S', 0, 'PERU', 
-            '2025-03-18', 44, 'P', 
-            '4d7d189a-bc4a-4a56-a8ad-40296a862b05', 'e3fcc2dc-5213-42d7-9367-d8eea15cceec', '59c409c1-5c13-48b2-8b9b-8cb62940a66f', 
-            '609c5eca-ba9e-430b-a6b6-d97847d3ce96', '3e29acdd-0246-42da-a51a-359700b2e743', 38, 
-            1
-        );
-INSERT INTO candidate(
-            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
-            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
-            origin_institution_type, dni_attachment, study_certificate_attachment, 
-            compromise_study_certificate_attachment, criminal_record_attachment, 
-            veracity_declaration_attachment, career_id, admision_process_id
-        ) VALUES (
-            'Manuel', 'Muñoz', 'Leiva', 1, '70000006', 
-            'M', '2001-08-16', 'D', 1, 'PERU', 
-            '2025-03-18', 58, 'E', 
-            '38181f07-eea9-49f4-8ddf-e709012cf443', '926c5024-7579-4968-b89a-b6f4d0b23553', 'e1a2d83c-fbcb-4488-aa10-f8a7e1e56617', 
-            '5ea2208c-22c3-49d4-8fe0-3ba529b1f3d4', '5f5938b0-2602-4d7e-a051-ae6fc86607cd', 38, 
-            1
-        );
-INSERT INTO candidate(
-            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
-            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
-            origin_institution_type, dni_attachment, study_certificate_attachment, 
-            compromise_study_certificate_attachment, criminal_record_attachment, 
-            veracity_declaration_attachment, career_id, admision_process_id
-        ) VALUES (
-            'Fatima', 'Bustamante', 'Pizarro', 1, '70000007', 
-            'F', '2006-08-28', 'C', 0, 'PERU', 
-            '2025-03-18', 106, 'P', 
-            'd4be1d5b-1c41-49ff-8867-400bcff3f192', '90eb54ed-be59-4b0d-ac9c-24321d5b644a', '3c8d4118-3ed8-46fd-9b0a-87a475df1982', 
-            'c1730f49-f0a8-4f9c-846a-bc0c19165e96', '2a465a7f-3c27-47ee-8f49-5336b9268611', 40, 
-            1
-        );
-INSERT INTO candidate(
-            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
-            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
-            origin_institution_type, dni_attachment, study_certificate_attachment, 
-            compromise_study_certificate_attachment, criminal_record_attachment, 
-            veracity_declaration_attachment, career_id, admision_process_id
-        ) VALUES (
-            'Víctor', 'Vargas', 'Jara', 1, '70000008', 
-            'M', '1995-11-01', 'S', 0, 'PERU', 
-            '2025-03-18', 124, 'E', 
-            '8012468a-d34c-4ed3-9239-91764fd0a65c', '827b0731-fa7e-4968-85dc-aab113c6a57e', 'b7eb2ddb-624d-4848-b154-4c513bbf69ea', 
-            'c55cf856-2e15-4a79-88c1-0fb52424e471', 'a7cbd6c6-7807-4c9e-989f-5bad275a3245', 2, 
-            1
-        );
-INSERT INTO candidate(
-            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
-            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
-            origin_institution_type, dni_attachment, study_certificate_attachment, 
-            compromise_study_certificate_attachment, criminal_record_attachment, 
-            veracity_declaration_attachment, career_id, admision_process_id
-        ) VALUES (
-            'Bin', 'Sáez', 'Escobar', 1, '70000009', 
-            'F', '2000-03-27', 'D', 2, 'PERU', 
-            '2025-03-18', 11, 'E', 
-            'df70316c-d671-435a-ba7c-ea7e2d6e4875', 'f1cfa2f4-e9a9-4926-a143-717cab12f363', '42aa7aed-c86f-4919-a47c-a10d2ff6e30b', 
-            '175b953e-ee5e-4cf3-a325-d42b556fe0e0', 'db339c30-0765-4743-bf21-ab6058667106', 6, 
-            1
-        );
-INSERT INTO candidate(
-            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
-            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
-            origin_institution_type, dni_attachment, study_certificate_attachment, 
-            compromise_study_certificate_attachment, criminal_record_attachment, 
-            veracity_declaration_attachment, career_id, admision_process_id
-        ) VALUES (
-            'Luis', 'Escobar', 'Sánchez', 1, '70000010', 
-            'M', '1996-08-13', 'D', 2, 'PERU', 
-            '2025-03-18', 75, 'E', 
-            '3215587a-ab72-4337-bb12-441f99ee605b', '6a46b42a-cd87-43e9-b835-efd27d0f468a', 'e277cebc-f7dc-4d80-aff4-308e03fde394', 
-            '227c5cc9-2587-4dcc-93ff-a5eef376c6dc', '4bd681ad-d37f-4ee2-af22-b5f5d638c070', 24, 
-            1
-        );
-INSERT INTO candidate(
-            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
-            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
-            origin_institution_type, dni_attachment, study_certificate_attachment, 
-            compromise_study_certificate_attachment, criminal_record_attachment, 
-            veracity_declaration_attachment, career_id, admision_process_id
-        ) VALUES (
-            'Siti', 'Orellana', 'Silva', 1, '70000011', 
-            'F', '2000-09-08', 'C', 3, 'PERU', 
-            '2025-03-18', 150, 'E', 
-            '70a5601a-c9ea-4678-94fe-632d440a34ec', 'd2751282-24ac-43cb-8535-85d1c306f59a', 'b8d5f4d7-8dcb-4804-9d9d-8deb13c7f38a', 
-            '0974e34f-fe4d-4ce7-9eae-a46a9793b15b', 'e725404e-8418-4c56-b0a1-2d1deef38ed1', 3, 
-            1
-        );
-INSERT INTO candidate(
-            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
-            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
-            origin_institution_type, dni_attachment, study_certificate_attachment, 
-            compromise_study_certificate_attachment, criminal_record_attachment, 
-            veracity_declaration_attachment, career_id, admision_process_id
-        ) VALUES (
-            'Andrea', 'Rivera', 'Álvarez', 1, '70000012', 
-            'F', '2006-01-26', 'S', 0, 'PERU', 
-            '2025-03-18', 73, 'E', 
-            '6540431c-1da0-4837-85c4-c13e1bbb7067', 'fc2586d9-e9b4-4849-a610-402802939180', 'c291cd5e-21fa-49dc-90b9-b450e27408fb', 
-            'a8b31e21-40dc-4c65-a009-dea9b85ce6c5', '1f9b7511-4b2c-43df-9dfd-2665b841e3a1', 19, 
-            1
-        );
-INSERT INTO candidate(
-            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
-            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
-            origin_institution_type, dni_attachment, study_certificate_attachment, 
-            compromise_study_certificate_attachment, criminal_record_attachment, 
-            veracity_declaration_attachment, career_id, admision_process_id
-        ) VALUES (
-            'Xin', 'Moreno', 'Salinas', 1, '70000013', 
-            'F', '1999-04-22', 'C', 3, 'PERU', 
-            '2025-03-18', 147, 'P', 
-            '51abb799-b162-42b6-944d-2dc28d8703cc', '1d885f00-7db6-45e5-a50c-5f797d786486', '39ef21ba-db43-401a-888d-65555ce8d147', 
-            '4231bc84-7ce4-434d-8f0b-85cf434f9b15', '0f1fb9ac-684f-411c-bbad-f07a4dcb7db2', 27, 
-            1
-        );
-INSERT INTO candidate(
-            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
-            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
-            origin_institution_type, dni_attachment, study_certificate_attachment, 
-            compromise_study_certificate_attachment, criminal_record_attachment, 
-            veracity_declaration_attachment, career_id, admision_process_id
-        ) VALUES (
-            'Patricia', 'Saavedra', 'Poblete', 1, '70000014', 
-            'F', '2005-01-02', 'D', 1, 'PERU', 
-            '2025-03-18', 117, 'E', 
-            '67afc20d-f85a-482d-bb18-32f8f3f442c7', '4c66a51a-9326-4b59-b494-53c02cdde270', '3fcac172-a18e-4517-9555-573318f96a36', 
-            '83c03c7b-5b72-42bd-afea-804d08410c93', '6360d345-a096-42a5-af48-2a1c46e0125e', 15, 
-            1
-        );
-INSERT INTO candidate(
-            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
-            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
-            origin_institution_type, dni_attachment, study_certificate_attachment, 
-            compromise_study_certificate_attachment, criminal_record_attachment, 
-            veracity_declaration_attachment, career_id, admision_process_id
-        ) VALUES (
-            'Jose', 'Medina', 'Espinoza', 1, '70000015', 
-            'M', '1999-09-02', 'D', 1, 'PERU', 
-            '2025-03-18', 112, 'E', 
-            '7ed27a98-bfb0-4671-b26f-ab57a74c58f5', '5360bede-ef39-45c2-b9e1-b12ac35de676', 'be2082d5-2917-46de-9e14-9e9ba784cb07', 
-            '6f3c1af0-244b-411d-b53b-35e92c06e62d', 'd686ac79-ec36-4d02-8dd8-84e21289d159', 7, 
-            1
-        );
-INSERT INTO candidate(
-            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
-            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
-            origin_institution_type, dni_attachment, study_certificate_attachment, 
-            compromise_study_certificate_attachment, criminal_record_attachment, 
-            veracity_declaration_attachment, career_id, admision_process_id
-        ) VALUES (
-            'Yan', 'Yáñez', 'Tapia', 1, '70000016', 
-            'M', '1999-03-08', 'C', 1, 'PERU', 
-            '2025-03-18', 53, 'E', 
-            '61fd47bc-cebf-4bd2-bc38-0b290dc4638d', 'c585f071-1323-4b38-90a1-55187dec070d', 'd5b7a863-f5d5-4e57-acd0-f0ce2a15a8ef', 
-            '81ceba0a-a603-46e7-a53c-6c466cddfe77', 'b218c9c4-932a-4179-8c5c-a6081f9afcd7', 6, 
-            1
-        );
-INSERT INTO candidate(
-            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
-            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
-            origin_institution_type, dni_attachment, study_certificate_attachment, 
-            compromise_study_certificate_attachment, criminal_record_attachment, 
-            veracity_declaration_attachment, career_id, admision_process_id
-        ) VALUES (
-            'Olga', 'Leiva', 'Gómez', 1, '70000017', 
-            'F', '1998-11-01', 'D', 2, 'PERU', 
-            '2025-03-18', 3, 'E', 
-            'e022e477-c67a-4ca9-a3c3-f078c5316fda', 'df49554f-02f5-46ed-87d9-dad19c96d380', '0aa320da-0402-47dc-97a6-a2d3fcd67d78', 
-            '99da4ede-f0a6-4341-b716-243528a46fae', '45ac8524-21be-45cd-9de4-8c89c1845e1e', 16, 
-            1
-        );
-INSERT INTO candidate(
-            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
-            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
-            origin_institution_type, dni_attachment, study_certificate_attachment, 
-            compromise_study_certificate_attachment, criminal_record_attachment, 
-            veracity_declaration_attachment, career_id, admision_process_id
-        ) VALUES (
-            'Yong', 'Henríquez', 'Sáez', 1, '70000018', 
-            'M', '2006-12-30', 'D', 0, 'PERU', 
-            '2025-03-18', 61, 'P', 
-            'df449470-c61e-4c1b-994a-5a88da88d93d', 'a9f5210c-a1f1-42d9-9496-0c9ac2d38bfa', 'd1e416b0-3495-45a2-a6ad-78d773be5e2b', 
-            '4d7bdf7e-8e29-455b-86b5-cd4aa78088d3', '6d8254e8-58fe-43da-bac7-838991c623a1', 12, 
-            1
-        );
-INSERT INTO candidate(
-            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
-            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
-            origin_institution_type, dni_attachment, study_certificate_attachment, 
-            compromise_study_certificate_attachment, criminal_record_attachment, 
-            veracity_declaration_attachment, career_id, admision_process_id
-        ) VALUES (
-            'Anna', 'Venegas', 'Cárdenas', 1, '70000019', 
-            'F', '2001-04-22', 'C', 1, 'PERU', 
-            '2025-03-18', 90, 'P', 
-            'd61948c1-30db-4b5f-a4c5-158e7fc9eab8', '03fb1369-f3ca-42b6-b6e3-e2e7a46ffc6d', '1ae2c9ae-ac21-4fae-abb1-963bcf544124', 
-            'e921c8b0-b239-4269-90bd-706e827cd26a', '06418746-08dd-4a65-b4cb-981807a2b7e5', 21, 
-            1
-        );
-INSERT INTO candidate(
-            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
-            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
-            origin_institution_type, dni_attachment, study_certificate_attachment, 
-            compromise_study_certificate_attachment, criminal_record_attachment, 
-            veracity_declaration_attachment, career_id, admision_process_id
-        ) VALUES (
-            'Daniel', 'Gallardo', 'Cortés', 1, '70000020', 
-            'M', '2004-09-04', 'S', 3, 'PERU', 
-            '2025-03-18', 122, 'E', 
-            '84291c36-066d-4cb3-b967-3e12b2517d32', '55a1559b-7a3c-44a0-93a5-2389a94e92ec', '8c1e2952-45f7-449e-987d-01f39bed096f', 
-            'a04094ad-3f8c-40c1-98c3-6f4c250c14b0', 'ed49061a-8169-47e1-b55f-ddb6febc151a', 4, 
-            1
-        );
-INSERT INTO candidate(
-            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
-            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
-            origin_institution_type, dni_attachment, study_certificate_attachment, 
-            compromise_study_certificate_attachment, criminal_record_attachment, 
-            veracity_declaration_attachment, career_id, admision_process_id
-        ) VALUES (
-            'Roberto', 'Garrido', 'Sepúlveda', 1, '70000021', 
-            'M', '1996-05-20', 'S', 0, 'PERU', 
-            '2025-03-18', 80, 'P', 
-            '3b76432b-df21-4519-8637-4827a417d50e', '929aa99f-c886-477e-aa43-933f6e87b1d5', '084f5c8c-fec1-4ebf-b750-7caa63bd6e6f', 
-            'bf0e60a1-3f9c-4cd1-87bd-fa9d32ee3777', '2b81fb72-bb67-461c-ad39-f60324e463c2', 33, 
-            1
-        );
-INSERT INTO candidate(
-            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
-            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
-            origin_institution_type, dni_attachment, study_certificate_attachment, 
-            compromise_study_certificate_attachment, criminal_record_attachment, 
-            veracity_declaration_attachment, career_id, admision_process_id
-        ) VALUES (
-            'Ram', 'Rojas', 'Herrera', 1, '70000022', 
-            'F', '2003-05-04', 'D', 2, 'PERU', 
-            '2025-03-18', 137, 'E', 
-            '99ad3e7d-2966-419f-ace2-133853875507', '560328c4-e7d2-42df-93fe-a31cc871fecd', '116c5301-b7ba-4d0f-8322-b96d5ad2e27e', 
-            'a7a72805-e0a1-4f50-bdaf-f337a45a756f', '89403320-6da5-4cda-8b11-28b18aabbbc3', 8, 
-            1
-        );
-INSERT INTO candidate(
-            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
-            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
-            origin_institution_type, dni_attachment, study_certificate_attachment, 
-            compromise_study_certificate_attachment, criminal_record_attachment, 
-            veracity_declaration_attachment, career_id, admision_process_id
-        ) VALUES (
-            'Samuel', 'Salinas', 'Gález', 1, '70000023', 
-            'M', '1998-07-22', 'D', 2, 'PERU', 
-            '2025-03-18', 75, 'E', 
-            'cc4d3b5e-10b6-4b69-bcec-a655a3833d95', 'ff54d6da-fa20-48f1-b6b3-d0608f6d1ee1', '51ab8003-3b3a-4625-ac73-594544ae47db', 
-            '04dc163b-2f29-4a77-aefd-79883b2c5539', '58387418-8773-414b-ac21-97e1081f5d89', 11, 
-            1
-        );
-INSERT INTO candidate(
-            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
-            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
-            origin_institution_type, dni_attachment, study_certificate_attachment, 
-            compromise_study_certificate_attachment, criminal_record_attachment, 
-            veracity_declaration_attachment, career_id, admision_process_id
-        ) VALUES (
-            'Vladimir', 'Silva', 'Valenzuela', 1, '70000024', 
-            'F', '2005-11-14', 'C', 1, 'PERU', 
-            '2025-03-18', 116, 'P', 
-            '3a333682-c646-40bc-96a7-e4b37ddbcbed', '714e1e18-9df6-4707-aea6-9ce792cbfcab', '6d1f9af3-02f0-423f-9f4e-b1f5b4b083df', 
-            '147916ca-d374-4f71-8f40-0949e4a156cf', '9428735d-7099-4a5c-931b-572f8242e11d', 22, 
-            1
-        );
-INSERT INTO candidate(
-            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
-            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
-            origin_institution_type, dni_attachment, study_certificate_attachment, 
-            compromise_study_certificate_attachment, criminal_record_attachment, 
-            veracity_declaration_attachment, career_id, admision_process_id
-        ) VALUES (
-            'Laura', 'Sepúlveda', 'Gález', 1, '70000025', 
-            'F', '2006-12-02', 'C', 3, 'PERU', 
-            '2025-03-18', 116, 'P', 
-            'f14b3648-5381-40d0-8f96-d2885ffc226b', 'f4653091-1650-411f-98eb-7d43e3719a9c', '57d3ad65-7885-4ae5-b12b-486cf9470a1b', 
-            'a9bf03d0-63ef-4f80-a57a-78b0f47230fe', '0e47448a-b73e-48bd-aa42-428264bcece2', 20, 
-            1
-        );
-INSERT INTO candidate(
-            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
-            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
-            origin_institution_type, dni_attachment, study_certificate_attachment, 
-            compromise_study_certificate_attachment, criminal_record_attachment, 
-            veracity_declaration_attachment, career_id, admision_process_id
-        ) VALUES (
-            'Min', 'Miranda', 'Fuentes', 1, '70000026', 
-            'F', '2000-12-28', 'C', 2, 'PERU', 
-            '2025-03-18', 10, 'E', 
-            '48d6fdd3-8452-4d19-bcdc-266514febb07', '6ec8c043-9727-4111-ab32-11a7e8298506', '6cf94997-6ae2-4789-a097-9e8373d4697a', 
-            '30faf414-0bbc-409c-985d-6b126fab9c2b', '9156d4db-eded-451f-a432-90c845a399ae', 2, 
-            1
-        );
-INSERT INTO candidate(
-            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
-            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
-            origin_institution_type, dni_attachment, study_certificate_attachment, 
-            compromise_study_certificate_attachment, criminal_record_attachment, 
-            veracity_declaration_attachment, career_id, admision_process_id
-        ) VALUES (
-            'Mary', 'Gómez', 'Muñoz', 1, '70000027', 
-            'F', '1995-05-29', 'D', 3, 'PERU', 
-            '2025-03-18', 75, 'P', 
-            '31d56b30-23fa-4267-bb3c-7e5bf2551f85', 'c0cdde14-850c-44d3-b876-3be4dfbff24b', 'dea077a2-772e-44e3-8471-965eea1d1c27', 
-            '8c9e9172-a37f-4d99-aa46-ae72e78336cc', '22652b60-913e-42ef-ad51-06e905a419c4', 34, 
-            1
-        );
-INSERT INTO candidate(
-            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
-            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
-            origin_institution_type, dni_attachment, study_certificate_attachment, 
-            compromise_study_certificate_attachment, criminal_record_attachment, 
-            veracity_declaration_attachment, career_id, admision_process_id
-        ) VALUES (
-            'Martha', 'Figueroa', 'Silva', 1, '70000028', 
-            'F', '1998-07-13', 'S', 2, 'PERU', 
-            '2025-03-18', 20, 'P', 
-            'f91e13a5-730e-4db6-954a-7b54adcf1f63', '1b11f5b3-8735-4c29-83bd-d6bce054b97d', '9c579dea-7399-483d-8cad-670d10325e1b', 
-            '1900a136-b505-4547-878f-13db8b7d8f8d', 'b9ed069a-cf43-4203-a7e1-fc934d50a7eb', 31, 
-            1
-        );
-INSERT INTO candidate(
-            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
-            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
-            origin_institution_type, dni_attachment, study_certificate_attachment, 
-            compromise_study_certificate_attachment, criminal_record_attachment, 
-            veracity_declaration_attachment, career_id, admision_process_id
-        ) VALUES (
-            'Luis', 'Herrera', 'Rojas', 1, '70000029', 
-            'M', '2004-11-15', 'C', 0, 'PERU', 
-            '2025-03-18', 76, 'E', 
-            'd71536ce-195e-4778-a94d-240f00ac5969', '24b3c9c7-e572-4744-99ed-56a19f66303d', '9147da9a-6eb9-47b3-853f-6bc6fe07e198', 
-            'd3529a79-dd67-449a-a9fa-e03718ddf0ec', '4afcb231-9e36-4e11-87ea-3ce0c2751053', 33, 
-            1
-        );
-INSERT INTO candidate(
-            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
-            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
-            origin_institution_type, dni_attachment, study_certificate_attachment, 
-            compromise_study_certificate_attachment, criminal_record_attachment, 
-            veracity_declaration_attachment, career_id, admision_process_id
-        ) VALUES (
-            'Svetlana', 'San Martín', 'Carvajal', 1, '70000030', 
-            'F', '2005-04-09', 'D', 3, 'PERU', 
-            '2025-03-18', 69, 'E', 
-            '9827ffd8-3bd4-4309-a373-e12d24739f1f', '708abcad-46a7-46b2-8906-ed4ccbe5a10c', '56c5c819-9cc2-4acf-a76c-9cc658f9488c', 
-            'dda5a7cc-2636-449e-b846-642ac844525d', '24e3ecf4-ce58-46d8-9430-aa17781f8783', 3, 
-            1
-        );
-INSERT INTO candidate(
-            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
-            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
-            origin_institution_type, dni_attachment, study_certificate_attachment, 
-            compromise_study_certificate_attachment, criminal_record_attachment, 
-            veracity_declaration_attachment, career_id, admision_process_id
-        ) VALUES (
-            'David', 'Parra', 'Vidal', 1, '70000031', 
-            'M', '2005-04-23', 'S', 1, 'PERU', 
-            '2025-03-18', 126, 'P', 
-            '8fc0693c-28d7-4144-9b2b-ae52a785ea94', 'd6b0e936-696a-4f92-9331-478bca73063e', '7f6823cf-e936-4bc0-8e48-aa2c800b8402', 
-            'bbc113a2-e5dc-43dd-a5f0-5e3df1669821', 'e4117a15-7919-4a4b-b5ae-9a0930b99f3d', 17, 
-            1
-        );
-INSERT INTO candidate(
-            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
-            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
-            origin_institution_type, dni_attachment, study_certificate_attachment, 
-            compromise_study_certificate_attachment, criminal_record_attachment, 
-            veracity_declaration_attachment, career_id, admision_process_id
-        ) VALUES (
-            'Hassan', 'García', 'Vergara', 1, '70000032', 
-            'F', '1998-04-17', 'D', 1, 'PERU', 
-            '2025-03-18', 68, 'E', 
-            'e194b5ae-c8e5-4ebf-9e13-1243ca26e348', '5ec7056f-1010-469f-bc46-b0dc0342ef7a', '8b2440cb-398a-4793-a2e9-e7cd036e0a17', 
-            '870dbbd4-3d92-4c60-a54c-3d15631b9ded', '175b673f-6227-4281-b863-8b7d47e6fc27', 31, 
-            1
-        );
-INSERT INTO candidate(
-            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
-            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
-            origin_institution_type, dni_attachment, study_certificate_attachment, 
-            compromise_study_certificate_attachment, criminal_record_attachment, 
-            veracity_declaration_attachment, career_id, admision_process_id
-        ) VALUES (
-            'Michael', 'Medina', 'Sepúlveda', 1, '70000033', 
-            'M', '2001-07-07', 'D', 3, 'PERU', 
-            '2025-03-18', 50, 'P', 
-            '07f71c7e-41d2-4feb-9b12-43b16b9cedc6', 'ba8c07cc-a40c-4350-bb74-76a86e330a1f', '09c937d6-d8c4-4d54-bd27-85799dd6ce5f', 
-            '6c09b8a8-30fd-4f27-b0b4-968b8b4f22d7', '3b8ce93b-6bdb-4181-8dc7-ec184fce7c99', 12, 
-            1
-        );
-INSERT INTO candidate(
-            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
-            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
-            origin_institution_type, dni_attachment, study_certificate_attachment, 
-            compromise_study_certificate_attachment, criminal_record_attachment, 
-            veracity_declaration_attachment, career_id, admision_process_id
-        ) VALUES (
-            'Robert', 'Jara', 'Reyes', 1, '70000034', 
-            'M', '2006-01-21', 'C', 3, 'PERU', 
-            '2025-03-18', 57, 'P', 
-            '57ef12f9-c8da-40c2-8173-a7e815b24625', 'dcbf7008-05fd-4421-90ef-ed54c8a9ccb6', '5eab38a2-d882-48bf-af45-67f3e207907b', 
-            '54a4214f-bce1-4a59-814f-996385e05bc3', '0b15c33a-e96f-4f75-89ce-e74400c65199', 39, 
-            1
-        );
-INSERT INTO candidate(
-            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
-            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
-            origin_institution_type, dni_attachment, study_certificate_attachment, 
-            compromise_study_certificate_attachment, criminal_record_attachment, 
-            veracity_declaration_attachment, career_id, admision_process_id
-        ) VALUES (
-            'Robert', 'Soto', 'Carrasco', 1, '70000035', 
-            'M', '2004-01-06', 'S', 0, 'PERU', 
-            '2025-03-18', 100, 'E', 
-            '946c04b2-eaa1-42d9-b2f8-001164fdcc7f', '1bf293f6-d7de-482b-b91d-06af4219812b', '63d4a186-8c86-4b76-9a04-c891156838b0', 
-            '1a46886d-8195-440e-ac30-29f0c6df67cd', '40fccd10-d49b-4d6c-bef1-a0742caff64c', 27, 
-            1
-        );
-INSERT INTO candidate(
-            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
-            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
-            origin_institution_type, dni_attachment, study_certificate_attachment, 
-            compromise_study_certificate_attachment, criminal_record_attachment, 
-            veracity_declaration_attachment, career_id, admision_process_id
-        ) VALUES (
-            'Patrick', 'Muñoz', 'Carrasco', 1, '70000036', 
-            'F', '2000-05-26', 'S', 0, 'PERU', 
-            '2025-03-18', 127, 'E', 
-            '06f2cab1-6644-4439-ad97-b06c08fa5f14', '78743963-7e50-42b7-9471-4c97709172a7', 'd994e6b1-6938-4691-8429-e1408f6a3d52', 
-            '9f703c9b-fe6b-4b96-8d42-225801c6846f', '8779e7b5-d2b9-4312-b0b3-bfa85ce5a29d', 37, 
-            1
-        );
-INSERT INTO candidate(
-            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
-            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
-            origin_institution_type, dni_attachment, study_certificate_attachment, 
-            compromise_study_certificate_attachment, criminal_record_attachment, 
-            veracity_declaration_attachment, career_id, admision_process_id
-        ) VALUES (
-            'Elena', 'Vera', 'Silva', 1, '70000037', 
-            'F', '1996-04-07', 'D', 2, 'PERU', 
-            '2025-03-18', 66, 'P', 
-            'bceca59a-da6f-4cb9-8e43-16715fa803ea', 'bea9f2f0-f3b2-4950-840e-864900280da7', '398e7a66-c3f1-4edf-b595-0e626bdca358', 
-            'a00843de-e673-4b99-a723-ae4c55d72bd9', '1514616a-ef02-4328-a113-2ab801882505', 29, 
-            1
-        );
-INSERT INTO candidate(
-            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
-            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
-            origin_institution_type, dni_attachment, study_certificate_attachment, 
-            compromise_study_certificate_attachment, criminal_record_attachment, 
-            veracity_declaration_attachment, career_id, admision_process_id
-        ) VALUES (
-            'Rosa', 'Palma', 'Escobar', 1, '70000038', 
-            'F', '2005-07-30', 'C', 3, 'PERU', 
-            '2025-03-18', 48, 'P', 
-            '0de9d840-f85a-4ebc-b293-e315e10020f9', '2adc723f-5602-4e0f-90ec-b76c5c90f1ec', '2e8b6624-4094-4eef-b129-da0777039e34', 
-            '854c126e-9504-43b1-bdf5-485fd16ef48b', 'bee49f9f-3d32-4f1a-8dd8-37504a83d4ad', 25, 
-            1
-        );
-INSERT INTO candidate(
-            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
-            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
-            origin_institution_type, dni_attachment, study_certificate_attachment, 
-            compromise_study_certificate_attachment, criminal_record_attachment, 
-            veracity_declaration_attachment, career_id, admision_process_id
-        ) VALUES (
-            'Elizabeth', 'Leiva', 'Bustamante', 1, '70000039', 
-            'F', '2005-06-18', 'S', 0, 'PERU', 
-            '2025-03-18', 21, 'E', 
-            '3b54b1ed-308f-4be9-a217-3764d1ff9a51', '9b3547e5-6e48-4d9e-b446-37ece197915c', '3985fc15-ac2e-4bde-825f-c5bc654da297', 
-            'a53c7e65-62b1-453b-846d-35107a11e290', '028c8f97-0ce3-45c7-97f9-bb738ced9cd6', 39, 
-            1
-        );
-INSERT INTO candidate(
-            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
-            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
-            origin_institution_type, dni_attachment, study_certificate_attachment, 
-            compromise_study_certificate_attachment, criminal_record_attachment, 
-            veracity_declaration_attachment, career_id, admision_process_id
-        ) VALUES (
-            'Luis', 'Carvajal', 'Rodríguez', 1, '70000040', 
-            'M', '1995-07-07', 'S', 1, 'PERU', 
-            '2025-03-18', 56, 'P', 
-            '118db7ec-9a30-45fb-b084-36c523fccd80', '60af10d7-4ff6-4465-b34f-a2ac74cf9b59', 'ddd1687c-f116-436d-8800-412c93bb8f90', 
-            '7b776005-416e-4516-8d97-786a92d130ea', '0207c1d2-e5c1-439b-9148-afc70bed469b', 31, 
-            1
-        );
-INSERT INTO candidate(
-            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
-            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
-            origin_institution_type, dni_attachment, study_certificate_attachment, 
-            compromise_study_certificate_attachment, criminal_record_attachment, 
-            veracity_declaration_attachment, career_id, admision_process_id
-        ) VALUES (
-            'Roberto', 'Bustamante', 'Escobar', 1, '70000041', 
-            'M', '2002-03-08', 'C', 3, 'PERU', 
-            '2025-03-18', 85, 'P', 
-            'a3237a14-cd1a-4f15-8b09-82c2da0c3544', 'dc3e026c-6873-4348-b5c4-5717e32ce9bd', '6a210e80-a1fb-4c21-bff3-84f05da5fe08', 
-            'd92c9795-1af9-44cd-a1d1-788d674bcf47', '40e884ba-4701-4cfc-b7eb-f78c39368127', 28, 
-            1
-        );
-INSERT INTO candidate(
-            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
-            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
-            origin_institution_type, dni_attachment, study_certificate_attachment, 
-            compromise_study_certificate_attachment, criminal_record_attachment, 
-            veracity_declaration_attachment, career_id, admision_process_id
-        ) VALUES (
-            'Ghulam', 'Sanhueza', 'Sepúlveda', 1, '70000042', 
-            'F', '2000-04-20', 'D', 0, 'PERU', 
-            '2025-03-18', 36, 'P', 
-            'e9066945-753c-465d-89ff-88123143233c', '2a970901-7f0f-4e06-8d59-2b52dc75fd26', '35be327e-d33f-4442-83f1-fc8ef5d3e6f3', 
-            '59c180e4-6a99-4452-a633-f52d9405bc6b', 'acc9adf7-6dc4-4839-8fc2-f26d49c15484', 33, 
-            1
-        );
-INSERT INTO candidate(
-            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
-            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
-            origin_institution_type, dni_attachment, study_certificate_attachment, 
-            compromise_study_certificate_attachment, criminal_record_attachment, 
-            veracity_declaration_attachment, career_id, admision_process_id
-        ) VALUES (
-            'Abdul', 'Carvajal', 'Cárdenas', 1, '70000043', 
-            'M', '2005-12-08', 'D', 2, 'PERU', 
-            '2025-03-18', 159, 'E', 
-            '830bf711-dcfa-43e7-b3ca-bc6e574f9580', 'abbe99f4-e0b4-4f1b-8f89-c761e7dd8740', '3be03b90-a645-4682-a609-55300cbd3e65', 
-            '3a42333c-a2f0-4f92-9b67-11cde5d572fd', '2ed94d0f-42b9-4c70-9c66-61b3f3ad5166', 37, 
-            1
-        );
-INSERT INTO candidate(
-            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
-            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
-            origin_institution_type, dni_attachment, study_certificate_attachment, 
-            compromise_study_certificate_attachment, criminal_record_attachment, 
-            veracity_declaration_attachment, career_id, admision_process_id
-        ) VALUES (
-            'Yong', 'Lopez', 'Campos', 1, '70000044', 
-            'M', '2006-03-28', 'S', 3, 'PERU', 
-            '2025-03-18', 83, 'E', 
-            '95b9acca-b4ae-47dd-bdf3-b27864539055', 'ac403b92-2885-4797-be39-ef7aa2ca851d', 'eedfb8df-4ff0-4d6f-80b8-280caa269385', 
-            '95f33876-25f1-49c5-bad0-c4aeec13cfd0', 'db8a8f07-3094-42c5-9f7b-95561ead503f', 33, 
-            1
-        );
-INSERT INTO candidate(
-            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
-            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
-            origin_institution_type, dni_attachment, study_certificate_attachment, 
-            compromise_study_certificate_attachment, criminal_record_attachment, 
-            veracity_declaration_attachment, career_id, admision_process_id
-        ) VALUES (
-            'George', 'Gález', 'García', 1, '70000045', 
-            'F', '2002-09-22', 'C', 1, 'PERU', 
-            '2025-03-18', 53, 'P', 
-            'b68de341-31dc-445c-8d1b-74998213e527', '9f8f2c09-773b-40db-8087-f1211feda6f2', '9d1a74ed-015b-4252-aa58-0a5d84704b92', 
-            'a9f797a9-a9e9-4f65-aa1e-27051265ce23', 'edd4a833-d93e-46b2-973e-9baaf9e35696', 21, 
-            1
-        );
-INSERT INTO candidate(
-            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
-            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
-            origin_institution_type, dni_attachment, study_certificate_attachment, 
-            compromise_study_certificate_attachment, criminal_record_attachment, 
-            veracity_declaration_attachment, career_id, admision_process_id
-        ) VALUES (
-            'Ming', 'Aravena', 'Romero', 1, '70000046', 
-            'F', '2005-11-01', 'D', 0, 'PERU', 
-            '2025-03-18', 37, 'P', 
-            '249b659c-e2e2-4d9b-8f64-b7e4556eab57', '1103dc4e-7403-442e-9b55-60a5d3f833e3', '90472eb7-27e3-42ff-a80b-6c528ce26d5d', 
-            '8cc442bc-ee63-4afc-a68f-d7ce469323f5', '012a2abf-edaa-45e8-b524-6170283d0061', 27, 
-            1
-        );
-INSERT INTO candidate(
-            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
-            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
-            origin_institution_type, dni_attachment, study_certificate_attachment, 
-            compromise_study_certificate_attachment, criminal_record_attachment, 
-            veracity_declaration_attachment, career_id, admision_process_id
-        ) VALUES (
-            'Anna', 'Jara', 'Salinas', 1, '70000047', 
-            'F', '1998-09-14', 'S', 3, 'PERU', 
-            '2025-03-18', 59, 'P', 
-            '50ce5350-2c3b-4fa1-99ec-0734eb596a8c', '23ab3743-c428-40ea-a7fa-5d4f34a65e24', '31e1bd45-d48e-4a5f-9092-c759bf2f2162', 
-            'da99ebd7-2d4b-4fd5-80bb-f1d8b9b0396a', '685f8f79-8d76-4a38-8909-027ae5b9e0d4', 23, 
-            1
-        );
-INSERT INTO candidate(
-            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
-            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
-            origin_institution_type, dni_attachment, study_certificate_attachment, 
-            compromise_study_certificate_attachment, criminal_record_attachment, 
-            veracity_declaration_attachment, career_id, admision_process_id
-        ) VALUES (
-            'Jose', 'Sanhueza', 'Vega', 1, '70000048', 
-            'M', '2001-09-29', 'S', 1, 'PERU', 
-            '2025-03-18', 14, 'P', 
-            '77dd1cc7-2615-4522-bca3-4d3efc785be8', '22f57ab8-f9dd-4112-9834-54de674b3d8e', 'eeff196b-b87e-439b-8ad3-1d91e0b38fce', 
-            '72c9fdfa-bd8a-4a76-8b13-ad00064cd461', '2b9fbe8e-0026-4def-bd8b-8e68885397fe', 34, 
-            1
-        );
-INSERT INTO candidate(
-            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
-            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
-            origin_institution_type, dni_attachment, study_certificate_attachment, 
-            compromise_study_certificate_attachment, criminal_record_attachment, 
-            veracity_declaration_attachment, career_id, admision_process_id
-        ) VALUES (
-            'Yong', 'Cáceres', 'Toro', 1, '70000049', 
-            'M', '1995-09-30', 'D', 3, 'PERU', 
-            '2025-03-18', 89, 'P', 
-            'bd867636-403c-406f-914b-459baaadd348', '593e2269-46af-481b-bdef-bf6d409cdfc3', 'bd56a373-5359-49c5-b21a-05ed44576364', 
-            '0b33eefc-0f71-4f19-b391-47eff565abdc', 'da78d486-592b-45ac-8a85-eec5851da783', 19, 
-            1
-        );
-INSERT INTO candidate(
-            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
-            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
-            origin_institution_type, dni_attachment, study_certificate_attachment, 
-            compromise_study_certificate_attachment, criminal_record_attachment, 
-            veracity_declaration_attachment, career_id, admision_process_id
-        ) VALUES (
-            'David', 'Valenzuela', 'Vidal', 1, '70000050', 
-            'M', '2000-03-10', 'C', 2, 'PERU', 
-            '2025-03-18', 7, 'E', 
-            'c4b05169-59a1-4167-8f37-9ab9d7062901', 'f1df3cf2-8d1a-4932-9f50-2d48c4b47a79', '9a28a06c-a961-4835-be2e-5f749701334f', 
-            '0073d346-b9a6-4000-8810-8473ae2c72ee', '0f63599b-b52e-4ce7-99b6-8d0047214e5e', 26, 
-            1
-        );
-INSERT INTO candidate(
-            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
-            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
-            origin_institution_type, dni_attachment, study_certificate_attachment, 
-            compromise_study_certificate_attachment, criminal_record_attachment, 
-            veracity_declaration_attachment, career_id, admision_process_id
-        ) VALUES (
-            'Marie', 'Reyes', 'Romero', 1, '70000051', 
-            'F', '2003-06-01', 'D', 0, 'PERU', 
-            '2025-03-18', 90, 'P', 
-            'db4dff3c-4f91-4b4c-a723-5b44df45c06d', '0290977c-9bbd-463f-8bf1-012a1ba87085', 'effe84b4-62f9-4934-93aa-5a9580537d3a', 
-            '9590e8da-17d5-495e-8c38-6a81430800e5', 'ab8b4066-1b45-4a3d-af70-3c20f59effde', 36, 
-            1
-        );
-INSERT INTO candidate(
-            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
-            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
-            origin_institution_type, dni_attachment, study_certificate_attachment, 
-            compromise_study_certificate_attachment, criminal_record_attachment, 
-            veracity_declaration_attachment, career_id, admision_process_id
-        ) VALUES (
-            'Anita', 'Herrera', 'Gutiérrez', 1, '70000052', 
-            'F', '2003-12-25', 'D', 3, 'PERU', 
-            '2025-03-18', 119, 'P', 
-            '9d6e869a-1eb1-490e-bded-779a3cfc6b87', '7aede1bb-ac5c-4ca6-9102-42dcf18113e0', '8742ed31-8882-4cc3-bada-5ad69ad681e3', 
-            '1b3a47ad-9d4c-4fdd-9f35-ad9691b09af1', '9a0a2eab-70ce-4cd5-bcba-5f35cbd1b656', 3, 
-            1
-        );
-INSERT INTO candidate(
-            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
-            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
-            origin_institution_type, dni_attachment, study_certificate_attachment, 
-            compromise_study_certificate_attachment, criminal_record_attachment, 
-            veracity_declaration_attachment, career_id, admision_process_id
-        ) VALUES (
-            'Emmanuel', 'Tapia', 'Herrera', 1, '70000053', 
-            'M', '2002-08-13', 'D', 1, 'PERU', 
-            '2025-03-18', 105, 'P', 
-            '87125530-39d0-4c7a-9814-2aab1163a963', '901a7258-aa7c-46f2-9c4b-c74556ac70ee', '16f3a2ef-a521-408d-b3b7-7c23d4f09e21', 
-            'd741aa31-44cf-4360-8ce2-fc8258be728e', 'b6cb1d01-8ad7-49b8-a353-ba07fd592064', 3, 
-            1
-        );
-INSERT INTO candidate(
-            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
-            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
-            origin_institution_type, dni_attachment, study_certificate_attachment, 
-            compromise_study_certificate_attachment, criminal_record_attachment, 
-            veracity_declaration_attachment, career_id, admision_process_id
-        ) VALUES (
-            'Ibrahim', 'Bustamante', 'Aguilera', 1, '70000054', 
-            'F', '1995-05-18', 'C', 0, 'PERU', 
-            '2025-03-18', 133, 'P', 
-            '8d2377d6-2e3e-4e1f-94cb-852c05080d75', 'aa3f5ced-730c-4b01-867c-5475e57732de', '61cd2de5-d6d6-47d8-ac81-6fd1932790cb', 
-            '5746bbdd-a2ed-4898-a207-c0fdd17653fb', 'd93e3b7a-a886-48c8-9949-6c3b56f8b504', 29, 
-            1
-        );
-INSERT INTO candidate(
-            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
-            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
-            origin_institution_type, dni_attachment, study_certificate_attachment, 
-            compromise_study_certificate_attachment, criminal_record_attachment, 
-            veracity_declaration_attachment, career_id, admision_process_id
-        ) VALUES (
-            'Mark', 'Tapia', 'Cárdenas', 1, '70000055', 
-            'F', '1998-02-15', 'D', 3, 'PERU', 
-            '2025-03-18', 67, 'E', 
-            'fc0dcbd2-8265-484f-8c4b-4b1e560660c1', 'c739b646-87a7-4b75-8a9d-d7fdc6b1f904', '78660c1d-90b9-446b-9e8b-5949ccde6a80', 
-            '0f8e20dd-54b4-42af-b2f6-ee82caea7dea', '68f399c1-4e31-458d-9454-0eb59d9ba5bd', 23, 
-            1
-        );
-INSERT INTO candidate(
-            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
-            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
-            origin_institution_type, dni_attachment, study_certificate_attachment, 
-            compromise_study_certificate_attachment, criminal_record_attachment, 
-            veracity_declaration_attachment, career_id, admision_process_id
-        ) VALUES (
-            'Mohammad', 'Peña', 'Lagos', 1, '70000056', 
-            'M', '2005-02-28', 'S', 3, 'PERU', 
-            '2025-03-18', 137, 'P', 
-            '7a25f284-5ad8-4076-8b39-98d649725aba', '7d1d6c18-7f9e-4f4f-bea8-2311635060ed', 'fd2bcca8-7a16-424b-9e6f-48f53cac4a53', 
-            '07f219ed-46a8-44e7-9423-b349a3b14828', 'c9662e1d-9440-4e62-b045-cdcbc76b265b', 24, 
-            1
-        );
-INSERT INTO candidate(
-            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
-            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
-            origin_institution_type, dni_attachment, study_certificate_attachment, 
-            compromise_study_certificate_attachment, criminal_record_attachment, 
-            veracity_declaration_attachment, career_id, admision_process_id
-        ) VALUES (
-            'Daniel', 'Araya', 'Sanhueza', 1, '70000057', 
-            'M', '2005-10-03', 'D', 1, 'PERU', 
-            '2025-03-18', 91, 'E', 
-            '3a3db882-192b-4b7d-bc1f-b59fd4bed748', '6250771c-ecff-4bcf-97a7-5bdcccdc0ec4', 'ec27e906-a7d6-4073-b54e-ccf36ff19224', 
-            'd7270aa3-8934-4fc2-9a90-f7ab33c153cb', 'eb4438f6-191e-495d-85c1-9e0fb9273af6', 30, 
-            1
-        );
-INSERT INTO candidate(
-            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
-            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
-            origin_institution_type, dni_attachment, study_certificate_attachment, 
-            compromise_study_certificate_attachment, criminal_record_attachment, 
-            veracity_declaration_attachment, career_id, admision_process_id
-        ) VALUES (
-            'Patrick', 'Parra', 'Silva', 1, '70000058', 
-            'F', '2003-06-02', 'S', 2, 'PERU', 
-            '2025-03-18', 105, 'P', 
-            'e37dd595-d188-4ee0-bb3b-38ffee708a29', 'd7903446-bf59-49d2-ac40-e2a2669fdfc2', '62fb50f8-593b-49aa-95c1-09cb5aaa7e64', 
-            '436d6500-16f3-48c4-8c2a-3f9eff1b8d7e', '14c7d591-1c41-4ddd-90da-2b81c91a084a', 33, 
-            1
-        );
-INSERT INTO candidate(
-            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
-            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
-            origin_institution_type, dni_attachment, study_certificate_attachment, 
-            compromise_study_certificate_attachment, criminal_record_attachment, 
-            veracity_declaration_attachment, career_id, admision_process_id
-        ) VALUES (
-            'Sarah', 'Sepúlveda', 'Pérez', 1, '70000059', 
-            'F', '2006-12-24', 'C', 0, 'PERU', 
-            '2025-03-18', 85, 'E', 
-            '82ebd1c6-0bae-4844-a7b9-1d77af4dbb4e', 'eb133141-1f6e-49ba-8953-64ca3c5e8919', 'a36f0e5b-6f7a-45ea-bf64-478ebd8ecaf4', 
-            '99c4c015-a75a-4fe2-b1bb-1ec821fc7ec0', 'd2130160-7df6-455d-8622-8c1a792a093a', 11, 
-            1
-        );
-INSERT INTO candidate(
-            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
-            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
-            origin_institution_type, dni_attachment, study_certificate_attachment, 
-            compromise_study_certificate_attachment, criminal_record_attachment, 
-            veracity_declaration_attachment, career_id, admision_process_id
-        ) VALUES (
-            'David', 'Toro', 'Pérez', 1, '70000060', 
-            'M', '2002-12-11', 'C', 1, 'PERU', 
-            '2025-03-18', 146, 'E', 
-            '34e94a28-bb66-40c4-bab1-1f157f8b5d90', '00851a69-7f6e-4345-934c-56929680c2e9', '26c1471c-23cd-4a08-8fa3-3a2f2d2617ab', 
-            '11f8a2c2-c3e3-48ef-b0cc-4c49eac4ec71', 'acf42fcf-13ec-40e8-ae87-152b811700a7', 35, 
-            1
-        );
-INSERT INTO candidate(
-            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
-            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
-            origin_institution_type, dni_attachment, study_certificate_attachment, 
-            compromise_study_certificate_attachment, criminal_record_attachment, 
-            veracity_declaration_attachment, career_id, admision_process_id
-        ) VALUES (
-            'Daniel', 'Martínez', 'Sandoval', 1, '70000061', 
-            'M', '1999-01-06', 'C', 0, 'PERU', 
-            '2025-03-18', 40, 'E', 
-            'bb095491-d949-421f-9ba9-d9db9632c0ab', 'd451fe2b-c631-4d8f-ab47-50418a7dcd01', 'd0708742-d7c8-4516-8d42-75fb43cea613', 
-            '853be072-d023-44d4-b1a5-0533cbf3605c', '921ea3e4-413a-4254-bddf-dab49004bd5d', 20, 
-            1
-        );
-INSERT INTO candidate(
-            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
-            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
-            origin_institution_type, dni_attachment, study_certificate_attachment, 
-            compromise_study_certificate_attachment, criminal_record_attachment, 
-            veracity_declaration_attachment, career_id, admision_process_id
-        ) VALUES (
-            'Marie', 'Jara', 'Ortega', 1, '70000062', 
-            'F', '1999-12-19', 'C', 3, 'PERU', 
-            '2025-03-18', 111, 'E', 
-            '2cf1bdb0-edce-4bc7-99a7-cc3831668363', '001cabf7-99df-4668-9359-52e62396426d', '61d3fc75-9310-478f-94f6-4f04ce17569e', 
-            '910ac171-3332-4c39-974e-823973fe09bc', 'de3e36f3-4eb5-414b-9c45-3b9f4a673438', 7, 
-            1
-        );
-INSERT INTO candidate(
-            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
-            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
-            origin_institution_type, dni_attachment, study_certificate_attachment, 
-            compromise_study_certificate_attachment, criminal_record_attachment, 
-            veracity_declaration_attachment, career_id, admision_process_id
-        ) VALUES (
-            'Christine', 'Gómez', 'Díaz', 1, '70000063', 
-            'F', '2003-04-01', 'C', 0, 'PERU', 
-            '2025-03-18', 152, 'E', 
-            '8985116b-b166-4a78-bd19-ce6d04f9b7e6', '53926446-5b1e-4c28-8e96-4374cb537483', 'fc9a6b8f-17e9-4276-96e0-043bf6284d2c', 
-            'dd09e5a2-01fa-4a17-b6aa-e27f029311a2', '16ec6a50-e886-4703-a366-83fe4648ea10', 32, 
-            1
-        );
-INSERT INTO candidate(
-            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
-            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
-            origin_institution_type, dni_attachment, study_certificate_attachment, 
-            compromise_study_certificate_attachment, criminal_record_attachment, 
-            veracity_declaration_attachment, career_id, admision_process_id
-        ) VALUES (
-            'Hassan', 'Espinoza', 'Núñez', 1, '70000064', 
-            'F', '2001-05-21', 'D', 1, 'PERU', 
-            '2025-03-18', 138, 'E', 
-            'dbe057d7-afbe-431a-afdc-5f79042022e1', '2a36cb32-bb83-423b-81e4-bfcd459a8037', 'df860516-f67a-4f70-ba75-030f924a9029', 
-            'f0f6db71-a605-4827-86f4-417be59bb7e4', '327ad693-b1ff-42c0-836b-ce4878479202', 19, 
-            1
-        );
-INSERT INTO candidate(
-            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
-            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
-            origin_institution_type, dni_attachment, study_certificate_attachment, 
-            compromise_study_certificate_attachment, criminal_record_attachment, 
-            veracity_declaration_attachment, career_id, admision_process_id
-        ) VALUES (
-            'Hassan', 'Contreras', 'Godoy', 1, '70000065', 
-            'F', '1996-08-19', 'C', 2, 'PERU', 
-            '2025-03-18', 70, 'E', 
-            'cf29a84c-406c-4f33-ab40-103683681e0e', 'cbc25514-8c10-44e6-b4c4-e409ecf540ef', '319caf8e-1897-4913-9443-ab099c7a490d', 
-            'b8ececb9-2ce5-4aa4-85f3-966d365e454f', 'daf300b5-6167-44cd-8eee-d673ec947d5f', 14, 
-            1
-        );
-INSERT INTO candidate(
-            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
-            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
-            origin_institution_type, dni_attachment, study_certificate_attachment, 
-            compromise_study_certificate_attachment, criminal_record_attachment, 
-            veracity_declaration_attachment, career_id, admision_process_id
-        ) VALUES (
-            'Siti', 'Olivares', 'Peña', 1, '70000066', 
-            'F', '2003-11-25', 'D', 2, 'PERU', 
-            '2025-03-18', 24, 'E', 
-            '38b87517-f05b-44a2-8b09-92dd8bb669c2', '673a4a87-f6dc-4d93-948b-d4c83824e4e4', '4226f5c3-23a9-4efa-9299-ab8e30c27757', 
-            'f6558db2-f440-4361-8d68-5051efab6654', 'acbe083c-e928-4b5e-bafe-ca48e0d7680b', 1, 
-            1
-        );
-INSERT INTO candidate(
-            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
-            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
-            origin_institution_type, dni_attachment, study_certificate_attachment, 
-            compromise_study_certificate_attachment, criminal_record_attachment, 
-            veracity_declaration_attachment, career_id, admision_process_id
-        ) VALUES (
-            'Hui', 'Saavedra', 'Navarrete', 1, '70000067', 
-            'M', '2006-11-28', 'C', 0, 'PERU', 
-            '2025-03-18', 143, 'P', 
-            '92286ca8-bb4c-4f04-b18b-d70ecf3fb96c', '30383a82-8984-480b-9ec0-81430d59c4d5', 'b5c7234f-245d-47c6-983c-39936de610fc', 
-            '769f7c0a-366b-4a30-add3-28b6744bd88b', '8879c865-fe0c-43cb-91d6-7083c9b0e6b2', 19, 
-            1
-        );
-INSERT INTO candidate(
-            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
-            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
-            origin_institution_type, dni_attachment, study_certificate_attachment, 
-            compromise_study_certificate_attachment, criminal_record_attachment, 
-            veracity_declaration_attachment, career_id, admision_process_id
-        ) VALUES (
-            'Emmanuel', 'Salazar', 'Espinoza', 1, '70000068', 
-            'M', '1998-11-09', 'C', 2, 'PERU', 
-            '2025-03-18', 95, 'P', 
-            'f3044aa2-3fa1-4202-bd20-2690658b1887', 'b9e16418-9fec-40c8-a82f-9440b9fdafbe', 'd067ff1b-76a1-4efb-a3b5-c288a6d09d23', 
-            'd0e1616e-147a-449f-aa38-3c7ac8e3b04b', 'b9964520-133b-4967-9d53-b7170264d66f', 11, 
-            1
-        );
-INSERT INTO candidate(
-            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
-            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
-            origin_institution_type, dni_attachment, study_certificate_attachment, 
-            compromise_study_certificate_attachment, criminal_record_attachment, 
-            veracity_declaration_attachment, career_id, admision_process_id
-        ) VALUES (
-            'Mary', 'Silva', 'Godoy', 1, '70000069', 
-            'F', '1997-11-29', 'D', 3, 'PERU', 
-            '2025-03-18', 155, 'P', 
-            '02108f29-4d2f-460c-bc87-1df7797009af', 'bff44fa8-dde3-40c6-996b-d40fdc34efe8', '3aa2398b-83e9-4900-b70b-f082e570dad1', 
-            'ea1bdd18-b1b3-4815-bd9e-4fde88b9b124', '5fb4a168-3835-42ec-916d-2d674758db58', 24, 
-            1
-        );
-INSERT INTO candidate(
-            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
-            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
-            origin_institution_type, dni_attachment, study_certificate_attachment, 
-            compromise_study_certificate_attachment, criminal_record_attachment, 
-            veracity_declaration_attachment, career_id, admision_process_id
-        ) VALUES (
-            'Qing', 'Álvarez', 'Sepúlveda', 1, '70000070', 
-            'F', '2005-04-25', 'C', 1, 'PERU', 
-            '2025-03-18', 14, 'E', 
-            '2ce5180d-e239-4e05-8bbc-d7b02fd316ec', '18faa77f-4220-41dd-a8e3-8fe674758fdf', 'f277a53d-3bc7-4ce7-8afe-17bea3cfc03d', 
-            '33fbd729-5edc-466e-b367-3e7d9d0bed86', '3011e77b-635d-42a0-8193-9868a02a49d3', 19, 
-            1
-        );
-INSERT INTO candidate(
-            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
-            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
-            origin_institution_type, dni_attachment, study_certificate_attachment, 
-            compromise_study_certificate_attachment, criminal_record_attachment, 
-            veracity_declaration_attachment, career_id, admision_process_id
-        ) VALUES (
-            'Peter', 'Vázquez', 'Vásquez', 1, '70000071', 
-            'M', '1998-10-01', 'S', 3, 'PERU', 
-            '2025-03-18', 126, 'P', 
-            '00628493-1ab6-4696-854c-c48aae8dd390', 'bcfdbc8d-e9b1-477e-889c-48e040b33546', '76f46602-59c2-4c14-855a-2b165a12a53e', 
-            'bd13ed6b-2628-4b6a-aa69-b2d0661c278d', 'e3adafe7-4fdb-46f4-a765-b4f59b7bff29', 22, 
-            1
-        );
-INSERT INTO candidate(
-            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
-            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
-            origin_institution_type, dni_attachment, study_certificate_attachment, 
-            compromise_study_certificate_attachment, criminal_record_attachment, 
-            veracity_declaration_attachment, career_id, admision_process_id
-        ) VALUES (
-            'James', 'Parra', 'Fuentes', 1, '70000072', 
-            'M', '1996-12-08', 'C', 1, 'PERU', 
-            '2025-03-18', 47, 'P', 
-            '1784c8fa-1fb8-4784-9d91-d5f201ddd6fa', 'df0ebe34-da79-4ef1-8bd1-f1ba0ea7deed', '4f7f42e5-902c-4b0a-950a-3e6b29918e6e', 
-            '292be4d0-7a14-4c7c-9b8f-a517accdd8c5', 'f59ebeb6-ce50-4658-b316-49a65cfb6cf3', 41, 
-            1
-        );
-INSERT INTO candidate(
-            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
-            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
-            origin_institution_type, dni_attachment, study_certificate_attachment, 
-            compromise_study_certificate_attachment, criminal_record_attachment, 
-            veracity_declaration_attachment, career_id, admision_process_id
-        ) VALUES (
-            'Elena', 'Álvarez', 'Morales', 1, '70000073', 
-            'F', '1998-05-28', 'S', 1, 'PERU', 
-            '2025-03-18', 47, 'E', 
-            '2e3c61bd-7393-442a-bb94-027843230614', '95252cc5-6869-4b30-9c78-3ac586c0f71c', '4d07bc99-5f2f-46ec-9728-cf526117d7fd', 
-            'a8fe0cfa-b16a-4818-8e9c-5ef457368a0d', 'ffb64475-9c67-4ad8-a8bc-6a1409801d8d', 20, 
-            1
-        );
-INSERT INTO candidate(
-            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
-            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
-            origin_institution_type, dni_attachment, study_certificate_attachment, 
-            compromise_study_certificate_attachment, criminal_record_attachment, 
-            veracity_declaration_attachment, career_id, admision_process_id
-        ) VALUES (
-            'Roberto', 'Vega', 'Peña', 1, '70000074', 
-            'M', '2001-04-12', 'C', 3, 'PERU', 
-            '2025-03-18', 38, 'E', 
-            'd50800e9-cb8d-49d7-b16b-28836ff4668c', '2a94241e-2756-4221-81e6-65a02c5a549c', '59ee0156-9164-41c6-a757-505d420c7ff9', 
-            '0faadd14-ed2f-4ba4-99e3-ceb6140d9a70', 'ba99c7f9-93b0-4917-86e3-1409194de94f', 36, 
-            1
-        );
-INSERT INTO candidate(
-            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
-            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
-            origin_institution_type, dni_attachment, study_certificate_attachment, 
-            compromise_study_certificate_attachment, criminal_record_attachment, 
-            veracity_declaration_attachment, career_id, admision_process_id
-        ) VALUES (
-            'Yong', 'Moreno', 'Olivares', 1, '70000075', 
-            'M', '1998-05-08', 'C', 3, 'PERU', 
-            '2025-03-18', 97, 'P', 
-            '0583d1ca-3f57-4439-ba8b-18a8e79dda90', 'e7764caf-3f10-47cc-aa20-8b72f835a177', '2e011caf-53d1-495a-b981-3485b448e85c', 
-            '86baa320-48d3-4fdc-99ee-4035f07ca7e6', 'f18658b5-075b-47b3-a7ff-e299ecbe6395', 22, 
-            1
-        );
-INSERT INTO candidate(
-            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
-            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
-            origin_institution_type, dni_attachment, study_certificate_attachment, 
-            compromise_study_certificate_attachment, criminal_record_attachment, 
-            veracity_declaration_attachment, career_id, admision_process_id
-        ) VALUES (
-            'Thomas', 'Vidal', 'San Martín', 1, '70000076', 
-            'M', '1997-10-25', 'S', 3, 'PERU', 
-            '2025-03-18', 20, 'P', 
-            '6d025a7f-8382-45d1-85d4-daef1e7046c6', 'f80f0387-86bf-4c7a-9530-768c4d9da731', '1f4446d4-3d21-4fdc-8d9c-d6cec2d7293b', 
-            'e1f92315-b9ee-4bbf-b2eb-1b2c2172d20f', '3e1d4029-fc80-4e5a-ad0b-483cae27d04a', 21, 
-            1
-        );
-INSERT INTO candidate(
-            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
-            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
-            origin_institution_type, dni_attachment, study_certificate_attachment, 
-            compromise_study_certificate_attachment, criminal_record_attachment, 
-            veracity_declaration_attachment, career_id, admision_process_id
-        ) VALUES (
-            'Irina', 'Donoso', 'Salazar', 1, '70000077', 
-            'F', '1995-07-01', 'S', 3, 'PERU', 
-            '2025-03-18', 69, 'P', 
-            '5b4982fe-7646-40e5-8006-3461d935f000', '780b9664-f361-4f71-badf-ec2e6ee11ef6', 'f2f207e5-2b47-4287-950f-0269c4578a38', 
-            'e79ee249-d9b7-4fcd-9ea1-fab6db52f7c9', '6a848343-c2c7-4a9d-a970-de548544c93a', 12, 
-            1
-        );
-INSERT INTO candidate(
-            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
-            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
-            origin_institution_type, dni_attachment, study_certificate_attachment, 
-            compromise_study_certificate_attachment, criminal_record_attachment, 
-            veracity_declaration_attachment, career_id, admision_process_id
-        ) VALUES (
-            'Hassan', 'Morales', 'Campos', 1, '70000078', 
-            'F', '2006-12-06', 'S', 0, 'PERU', 
-            '2025-03-18', 100, 'E', 
-            '50a7dd1f-ddd6-476a-ba2e-119598cc87d4', 'b9943c02-19b5-4116-b41b-88f162a5167f', '949add91-9a3b-4fad-8bea-bb474a0f8c47', 
-            'd7383223-272e-42af-bfcb-91dacc06fb2d', '06402d30-9ade-4bbe-b8ab-d0654a2e3a9e', 26, 
-            1
-        );
-INSERT INTO candidate(
-            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
-            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
-            origin_institution_type, dni_attachment, study_certificate_attachment, 
-            compromise_study_certificate_attachment, criminal_record_attachment, 
-            veracity_declaration_attachment, career_id, admision_process_id
-        ) VALUES (
-            'Yong', 'Palma', 'Martínez', 1, '70000079', 
-            'M', '2002-05-19', 'S', 1, 'PERU', 
-            '2025-03-18', 147, 'E', 
-            '1a8c80b7-e38a-4eaa-a330-8dc472d98325', '04d1e0f0-b5c2-4302-b560-b5ad33037506', 'f71beef1-3e7b-4d32-b325-0d7d98ef489a', 
-            'b68f419a-963a-4b18-a409-33bafa5a547e', '0f7f4baa-eb8c-4de8-b5e8-bd93a555879f', 3, 
-            1
-        );
-INSERT INTO candidate(
-            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
-            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
-            origin_institution_type, dni_attachment, study_certificate_attachment, 
-            compromise_study_certificate_attachment, criminal_record_attachment, 
-            veracity_declaration_attachment, career_id, admision_process_id
-        ) VALUES (
-            'Ram', 'Morales', 'Muñoz', 1, '70000080', 
-            'F', '2005-07-08', 'S', 1, 'PERU', 
-            '2025-03-18', 147, 'P', 
-            '1db20d15-ac0f-4bf8-868c-2c55348a48b8', '93f4680b-d1b3-43c4-b53a-59f5f6f4c207', '01b97c38-5f3f-4121-8b58-0aab1a523792', 
-            '0cc2d743-b430-440b-8b79-9a6141dd3c37', '3e19e46e-356d-44d3-a797-de7a025789d5', 12, 
-            1
-        );
-INSERT INTO candidate(
-            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
-            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
-            origin_institution_type, dni_attachment, study_certificate_attachment, 
-            compromise_study_certificate_attachment, criminal_record_attachment, 
-            veracity_declaration_attachment, career_id, admision_process_id
-        ) VALUES (
-            'Yan', 'Donoso', 'Valdés', 1, '70000081', 
-            'M', '2001-12-17', 'C', 3, 'PERU', 
-            '2025-03-18', 22, 'E', 
-            '3491aad4-791e-44b5-b345-1e158490c46a', 'b66e6181-c428-4594-93cf-83544c1f4a07', '57397439-be83-4d15-aefa-0a71dce8dc47', 
-            '00127812-c457-41ea-a882-679e2e17abe4', '62a22ca1-8ced-42c3-80e8-992fc5f749ee', 14, 
-            1
-        );
-INSERT INTO candidate(
-            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
-            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
-            origin_institution_type, dni_attachment, study_certificate_attachment, 
-            compromise_study_certificate_attachment, criminal_record_attachment, 
-            veracity_declaration_attachment, career_id, admision_process_id
-        ) VALUES (
-            'Emmanuel', 'Gómez', 'Jara', 1, '70000082', 
-            'M', '2003-12-01', 'S', 3, 'PERU', 
-            '2025-03-18', 147, 'E', 
-            'f244008a-f65f-46d5-9137-92bf1c10068b', 'd66d2138-9afd-4943-b557-6b3532616ef8', '81fefae7-5989-4bf8-a1e5-2480bebc1019', 
-            'b2eccc4e-6bc2-430f-be11-68604286d34e', '0b54494e-607a-4b29-b585-5137732a503e', 37, 
-            1
-        );
-INSERT INTO candidate(
-            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
-            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
-            origin_institution_type, dni_attachment, study_certificate_attachment, 
-            compromise_study_certificate_attachment, criminal_record_attachment, 
-            veracity_declaration_attachment, career_id, admision_process_id
-        ) VALUES (
-            'Hong', 'Figueroa', 'Bustamante', 1, '70000083', 
-            'M', '2002-09-22', 'S', 2, 'PERU', 
-            '2025-03-18', 31, 'E', 
-            'dd9433d4-7eb1-42ee-857d-6b2dbc19ae53', 'cc87bc97-f812-4a12-a8f6-021e97efa280', '247421e9-17ae-454c-b13d-d5f5a00f18a0', 
-            'b2c67da2-7445-42a3-bee8-0b5e82b9099d', '619c2c95-4525-4afb-9a71-e75db113f22b', 5, 
-            1
-        );
-INSERT INTO candidate(
-            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
-            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
-            origin_institution_type, dni_attachment, study_certificate_attachment, 
-            compromise_study_certificate_attachment, criminal_record_attachment, 
-            veracity_declaration_attachment, career_id, admision_process_id
-        ) VALUES (
-            'Emmanuel', 'Carrasco', 'Martínez', 1, '70000084', 
-            'M', '2003-04-06', 'D', 0, 'PERU', 
-            '2025-03-18', 12, 'E', 
-            '6390a9a9-5fca-4250-8fd0-5cc236760f39', '394e3c75-c9ae-497d-b6db-1c38dd11d660', 'f8568b22-be32-4b9b-a870-3287cdfc3e57', 
-            '5d0765eb-3782-4209-a702-acb05ddd914d', 'bb9237a5-7e29-43bc-a859-f9c3100f2a41', 34, 
-            1
-        );
-INSERT INTO candidate(
-            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
-            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
-            origin_institution_type, dni_attachment, study_certificate_attachment, 
-            compromise_study_certificate_attachment, criminal_record_attachment, 
-            veracity_declaration_attachment, career_id, admision_process_id
-        ) VALUES (
-            'Marie', 'Alarcón', 'Sepúlveda', 1, '70000085', 
-            'F', '1996-11-29', 'S', 2, 'PERU', 
-            '2025-03-18', 90, 'P', 
-            '4d950e90-47d3-4cba-b77c-24df032056a9', '97f7be23-e2a5-42ad-8948-a4a06b0a0d77', 'a5c04426-c7ca-4bf2-9643-1227d46dad2c', 
-            '93ef16e2-3e4b-4a04-a635-84bb69ff8277', 'fa75dc69-9c46-4693-a268-42d4c15391ff', 15, 
-            1
-        );
-INSERT INTO candidate(
-            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
-            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
-            origin_institution_type, dni_attachment, study_certificate_attachment, 
-            compromise_study_certificate_attachment, criminal_record_attachment, 
-            veracity_declaration_attachment, career_id, admision_process_id
-        ) VALUES (
-            'Olga', 'Ortiz', 'Olivares', 1, '70000086', 
-            'F', '1996-01-15', 'D', 1, 'PERU', 
-            '2025-03-18', 138, 'E', 
-            'c5576666-ec7c-4342-9947-0ae2fb5ae58c', '65891faa-2f10-4811-8fc1-9aa7c653e7e7', '83640882-5fe2-4f8e-865f-050f2bed0401', 
-            '4fdbcd73-5492-45d0-88d0-175425c7cf58', '8c59e65f-81f6-4156-874d-fa5658484345', 9, 
-            1
-        );
-INSERT INTO candidate(
-            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
-            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
-            origin_institution_type, dni_attachment, study_certificate_attachment, 
-            compromise_study_certificate_attachment, criminal_record_attachment, 
-            veracity_declaration_attachment, career_id, admision_process_id
-        ) VALUES (
-            'Andrey', 'Poblete', 'Herrera', 1, '70000087', 
-            'F', '2005-07-08', 'D', 2, 'PERU', 
-            '2025-03-18', 126, 'E', 
-            '7e89e7c4-7d28-49de-912a-07c724e8f471', 'f66f8e7e-00c2-4ba4-b376-4847731eea93', '33b30c32-d8cf-4ea6-91bb-5dde982e7cd0', 
-            'd569e01f-b5c0-4559-a4e2-d7c33a03ccc1', '4484ebdc-4cc7-44b4-98ba-37b1268e3a30', 29, 
-            1
-        );
-INSERT INTO candidate(
-            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
-            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
-            origin_institution_type, dni_attachment, study_certificate_attachment, 
-            compromise_study_certificate_attachment, criminal_record_attachment, 
-            veracity_declaration_attachment, career_id, admision_process_id
-        ) VALUES (
-            'Michael', 'Cárdenas', 'Yáñez', 1, '70000088', 
-            'M', '2003-05-09', 'C', 0, 'PERU', 
-            '2025-03-18', 156, 'E', 
-            'efbeb91c-e6c4-4dcb-936f-3eaa0897d494', '4c5614fc-afa5-485c-95c0-572edc0a4632', 'b13756c3-48e8-46a7-881f-0ed6fd7e7070', 
-            '0320adc3-9ffd-4917-96a0-61e1fdc3b003', 'ffc279a8-f275-45ee-9a10-a19853b27855', 3, 
-            1
-        );
-INSERT INTO candidate(
-            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
-            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
-            origin_institution_type, dni_attachment, study_certificate_attachment, 
-            compromise_study_certificate_attachment, criminal_record_attachment, 
-            veracity_declaration_attachment, career_id, admision_process_id
-        ) VALUES (
-            'Luis', 'Alvarado', 'Alarcón', 1, '70000089', 
-            'M', '1997-11-19', 'D', 0, 'PERU', 
-            '2025-03-18', 19, 'E', 
-            '6dfd9c59-0d25-440e-bf68-44dda82feb20', '3b39cd26-02ac-4703-8d88-a3156c48f7cd', '8c755396-8e66-43ef-9b83-bdff208f4302', 
-            '30e693fc-0c1e-4ea9-87c2-4940a5cbd58d', '208f6062-c63c-4542-9081-d139b4f6dfae', 6, 
-            1
-        );
-INSERT INTO candidate(
-            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
-            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
-            origin_institution_type, dni_attachment, study_certificate_attachment, 
-            compromise_study_certificate_attachment, criminal_record_attachment, 
-            veracity_declaration_attachment, career_id, admision_process_id
-        ) VALUES (
-            'Qing', 'Pérez', 'Morales', 1, '70000090', 
-            'F', '2004-06-17', 'C', 0, 'PERU', 
-            '2025-03-18', 49, 'E', 
-            '05f11ef1-7e56-4bc0-941d-13f1310a3315', '713b122f-d151-4a07-b646-032bf3c97925', '21a362fd-a8a7-4af9-a755-6241ab2ebee2', 
-            'e83124e7-b718-4866-8b68-f6bb62824971', '668bad35-6913-4c67-8cf5-b68f2e036ae2', 3, 
-            1
-        );
-INSERT INTO candidate(
-            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
-            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
-            origin_institution_type, dni_attachment, study_certificate_attachment, 
-            compromise_study_certificate_attachment, criminal_record_attachment, 
-            veracity_declaration_attachment, career_id, admision_process_id
-        ) VALUES (
-            'Natalya', 'Venegas', 'Carvajal', 1, '70000091', 
-            'F', '1997-05-20', 'S', 3, 'PERU', 
-            '2025-03-18', 140, 'P', 
-            'ae842cc2-c9d7-4a92-8fe9-21b517f24366', '157b2fe3-6d4d-4a40-a6b8-924f5b314586', '370c62e9-3fd0-467d-8422-062480eff582', 
-            'cae60333-40a2-418f-8d75-8eb1cb3a2e6f', 'bd74c199-5742-4e9a-aa82-daede72d46fd', 32, 
-            1
-        );
-INSERT INTO candidate(
-            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
-            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
-            origin_institution_type, dni_attachment, study_certificate_attachment, 
-            compromise_study_certificate_attachment, criminal_record_attachment, 
-            veracity_declaration_attachment, career_id, admision_process_id
-        ) VALUES (
-            'Thomas', 'Garrido', 'Martínez', 1, '70000092', 
-            'M', '2005-11-16', 'S', 1, 'PERU', 
-            '2025-03-18', 103, 'P', 
-            '93d798c5-c38a-4b9f-b968-0d09737a430b', 'd3f37d96-6b25-4ba8-9e5f-793ad268c26c', '31a6e771-4806-4c01-9913-e0892dd6834a', 
-            'd453caaf-db4b-458d-89a8-8d901bb129b2', 'b177d2a1-fd82-41e6-82ff-10be7e9c5ced', 39, 
-            1
-        );
-INSERT INTO candidate(
-            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
-            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
-            origin_institution_type, dni_attachment, study_certificate_attachment, 
-            compromise_study_certificate_attachment, criminal_record_attachment, 
-            veracity_declaration_attachment, career_id, admision_process_id
-        ) VALUES (
-            'Bin', 'Hernández', 'Alvarado', 1, '70000093', 
-            'F', '2001-09-09', 'S', 2, 'PERU', 
-            '2025-03-18', 49, 'P', 
-            '9d0fd173-e345-4ff9-8087-378a0004e802', '57ca654e-fa79-4e24-8abf-70eb559c8003', 'acb97b59-cb6a-44ec-b8d6-c1581c683c69', 
-            'd622e6cd-fa8e-4ad0-8983-213d7348774a', '895d876e-a9b7-4377-a28b-fee599d10453', 21, 
-            1
-        );
-INSERT INTO candidate(
-            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
-            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
-            origin_institution_type, dni_attachment, study_certificate_attachment, 
-            compromise_study_certificate_attachment, criminal_record_attachment, 
-            veracity_declaration_attachment, career_id, admision_process_id
-        ) VALUES (
-            'Thomas', 'Valdés', 'Carrasco', 1, '70000094', 
-            'M', '2004-01-04', 'C', 3, 'PERU', 
+            'María', 'Flores', 'Fernández', 1, '70000000', 
+            'F', '1998-01-20', 'D', 0, 'PERU', 
             '2025-03-18', 110, 'E', 
-            'd28dc09f-fe9c-487a-afd4-6e5848ea121f', '303f2bf4-dce9-4455-8ce8-35aae4bb06c4', '2f783243-f22e-466a-9d67-99fcdb74291c', 
-            'a2017252-2fcc-4974-8591-a39e8d9d3637', 'e84ba185-f4d6-48d0-89a4-a19ddebba24b', 23, 
+            '753c68b8-1896-4a58-bc96-c43c7ba9720f', '57b1a89d-2730-4715-9d5e-3d0d15c9a2a4', '068b3092-eec0-4f17-b5fe-8b7e4a59aed5', 
+            '7aba1ebe-0120-42a1-80c0-fd293397bc81', '624963f9-a42c-4152-9e7d-32295774ffef', 36, 
             1
         );
 INSERT INTO candidate(
@@ -1335,11 +19,683 @@ INSERT INTO candidate(
             compromise_study_certificate_attachment, criminal_record_attachment, 
             veracity_declaration_attachment, career_id, admision_process_id
         ) VALUES (
-            'Ana', 'Olivares', 'Henríquez', 1, '70000095', 
-            'F', '2003-01-21', 'D', 3, 'PERU', 
+            'Manuel', 'Rojas', 'Fuentes', 1, '70000001', 
+            'M', '1999-05-01', 'C', 1, 'PERU', 
+            '2025-03-18', 24, 'E', 
+            '161c28ca-90b8-4b45-9f15-7e6bed4ade8f', 'a0dfa000-c815-408e-89eb-7e3849fb0459', '68203c40-c182-4d82-8e51-ab4939b9c651', 
+            '6917380c-5ce4-402a-b665-3cfe276cafc3', 'e07f0d83-e6bb-47fa-8017-670088e693cb', 27, 
+            1
+        );
+INSERT INTO candidate(
+            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
+            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
+            origin_institution_type, dni_attachment, study_certificate_attachment, 
+            compromise_study_certificate_attachment, criminal_record_attachment, 
+            veracity_declaration_attachment, career_id, admision_process_id
+        ) VALUES (
+            'Víctor', 'Leiva', 'Campos', 1, '70000002', 
+            'M', '2006-12-06', 'D', 0, 'PERU', 
+            '2025-03-18', 154, 'E', 
+            'd0e77240-a5c3-4d18-a039-c1b55b109b49', '5b120621-1d87-4e7e-b878-d1f148c29d18', '4c1ef63f-ada1-439c-9fe1-9cbe169c5f8e', 
+            'ad9956bf-468c-4286-b72b-6fa934d69374', '65874446-5141-49cb-9952-13cd44de9d98', 6, 
+            1
+        );
+INSERT INTO candidate(
+            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
+            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
+            origin_institution_type, dni_attachment, study_certificate_attachment, 
+            compromise_study_certificate_attachment, criminal_record_attachment, 
+            veracity_declaration_attachment, career_id, admision_process_id
+        ) VALUES (
+            'Pedro', 'Venegas', 'Morales', 1, '70000003', 
+            'M', '2000-12-15', 'S', 1, 'PERU', 
+            '2025-03-18', 153, 'E', 
+            '5d16c580-dfe5-4605-92b7-d0ded10a76aa', '129f88e6-cbc6-4756-bc77-cd07fedfdc7f', 'a5c5c2b9-8c42-4a28-b9e0-8262003d527b', 
+            '90bf39b1-8783-41ac-80b4-e27a044ae61f', '1c8afe61-0c06-4af1-9e9e-31e13317f100', 16, 
+            1
+        );
+INSERT INTO candidate(
+            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
+            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
+            origin_institution_type, dni_attachment, study_certificate_attachment, 
+            compromise_study_certificate_attachment, criminal_record_attachment, 
+            veracity_declaration_attachment, career_id, admision_process_id
+        ) VALUES (
+            'Mark', 'Navarrete', 'Cárdenas', 1, '70000004', 
+            'F', '2005-10-22', 'C', 2, 'PERU', 
+            '2025-03-18', 16, 'E', 
+            'f85e08e2-b3a1-4e7a-9234-8ca43681077b', '20e1ec74-b0d3-4084-adb4-cf6f5e87ad58', 'a909af32-1c27-4f3d-8741-e8a7f9238717', 
+            'f7153608-2799-46fd-928e-4814f6959bb7', '6ae159d7-34ac-441f-8458-3ce0d386dfb7', 12, 
+            1
+        );
+INSERT INTO candidate(
+            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
+            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
+            origin_institution_type, dni_attachment, study_certificate_attachment, 
+            compromise_study_certificate_attachment, criminal_record_attachment, 
+            veracity_declaration_attachment, career_id, admision_process_id
+        ) VALUES (
+            'Angela', 'Donoso', 'Zúñiga', 1, '70000005', 
+            'F', '1999-01-06', 'D', 1, 'PERU', 
+            '2025-03-18', 19, 'P', 
+            'e8fec207-d0ea-43df-887b-a581a7e27122', '69ea0600-b0d3-4d9d-952a-e8ca1c837332', 'bb11b44e-30e7-49ed-b35b-799647d44cd4', 
+            '375c64f9-5bfc-43ad-b56b-4ac6683f2800', '75a6d72f-da6f-47a8-9c3a-f0505f83b20f', 22, 
+            1
+        );
+INSERT INTO candidate(
+            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
+            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
+            origin_institution_type, dni_attachment, study_certificate_attachment, 
+            compromise_study_certificate_attachment, criminal_record_attachment, 
+            veracity_declaration_attachment, career_id, admision_process_id
+        ) VALUES (
+            'George', 'Castro', 'Orellana', 1, '70000006', 
+            'F', '2001-07-14', 'D', 1, 'PERU', 
+            '2025-03-18', 43, 'P', 
+            '2593a5d8-95d2-4821-8e79-5ab6ce171135', 'e3c404ae-7e9f-4586-bb3a-abe44e0969f3', 'd4971036-3b73-46ee-a72f-6a3edab73336', 
+            '75b724eb-60d0-4efb-9f29-6caebc69a009', 'ca989e1d-957d-4c07-bb49-ab3d3b4e8463', 35, 
+            1
+        );
+INSERT INTO candidate(
+            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
+            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
+            origin_institution_type, dni_attachment, study_certificate_attachment, 
+            compromise_study_certificate_attachment, criminal_record_attachment, 
+            veracity_declaration_attachment, career_id, admision_process_id
+        ) VALUES (
+            'Pedro', 'Silva', 'Vega', 1, '70000007', 
+            'M', '2004-01-19', 'D', 2, 'PERU', 
+            '2025-03-18', 90, 'E', 
+            '954c3708-4d6a-409d-b08c-2c55392e1022', 'd6ff91b8-3e0a-45f4-9fb4-193e8f361bb8', '9fffa71f-5b08-4f69-9976-9300d467f5bf', 
+            '20a863ae-ff0e-4f28-beac-e68a446e9389', 'bb0bee46-3f11-4fc3-b3eb-00a8dda3ed09', 13, 
+            1
+        );
+INSERT INTO candidate(
+            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
+            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
+            origin_institution_type, dni_attachment, study_certificate_attachment, 
+            compromise_study_certificate_attachment, criminal_record_attachment, 
+            veracity_declaration_attachment, career_id, admision_process_id
+        ) VALUES (
+            'Patricia', 'Hernández', 'Farías', 1, '70000008', 
+            'F', '2003-09-14', 'S', 3, 'PERU', 
+            '2025-03-18', 143, 'E', 
+            '29de9b02-5fff-43d0-ac2f-450135886b5a', '8c22cb5e-0c99-4965-ba7c-22bf1b8baa73', '23cdab8e-c459-4a3a-b9c0-301e07b25bc3', 
+            '7db4275d-7f3f-472d-bd62-a1df863185de', 'a53b11d2-5c38-4dfc-b609-6074e436b96b', 8, 
+            1
+        );
+INSERT INTO candidate(
+            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
+            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
+            origin_institution_type, dni_attachment, study_certificate_attachment, 
+            compromise_study_certificate_attachment, criminal_record_attachment, 
+            veracity_declaration_attachment, career_id, admision_process_id
+        ) VALUES (
+            'Min', 'Pizarro', 'Espinoza', 1, '70000009', 
+            'F', '2004-02-07', 'C', 2, 'PERU', 
+            '2025-03-18', 29, 'P', 
+            '7c2a7f6f-9c89-4f8d-a341-a03b2a84dbf9', '7b871293-485f-4b4d-83db-852c4092d05e', '4d19d270-5394-4d9c-8e12-1f42052c602e', 
+            '1266e570-96ef-430d-9ae5-9f7c6fea774b', 'e9b9bd1e-fb93-4b61-a2c8-19bc3dcf7555', 24, 
+            1
+        );
+INSERT INTO candidate(
+            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
+            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
+            origin_institution_type, dni_attachment, study_certificate_attachment, 
+            compromise_study_certificate_attachment, criminal_record_attachment, 
+            veracity_declaration_attachment, career_id, admision_process_id
+        ) VALUES (
+            'Hong', 'Aguilera', 'Torres', 1, '70000010', 
+            'M', '2000-06-25', 'C', 2, 'PERU', 
+            '2025-03-18', 79, 'E', 
+            '1ca52f5a-22cf-4d52-8b59-6e714e11385f', 'fe3f8f02-7e56-4e1c-933c-bafc88fa395e', '6e44552e-5770-4d6a-a7d2-588065be54ec', 
+            'b1575ba4-30a1-4fe0-96df-6ba220191138', 'fcf55fe6-0782-4695-92df-b27a836c5bbd', 3, 
+            1
+        );
+INSERT INTO candidate(
+            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
+            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
+            origin_institution_type, dni_attachment, study_certificate_attachment, 
+            compromise_study_certificate_attachment, criminal_record_attachment, 
+            veracity_declaration_attachment, career_id, admision_process_id
+        ) VALUES (
+            'Charles', 'Aravena', 'Núñez', 1, '70000011', 
+            'M', '1995-06-13', 'C', 3, 'PERU', 
+            '2025-03-18', 71, 'P', 
+            '4ffcad02-cb8d-4d1c-8e9c-dad71073a0bf', '0be484e5-c8f3-4369-a02a-b04cedf11c5c', '61237f12-98b5-4f9f-81f1-3fe0ed20dc7c', 
+            '27625d14-b168-472c-b26f-43928134902d', 'c297a34c-6406-4799-9bce-549d32b35c39', 11, 
+            1
+        );
+INSERT INTO candidate(
+            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
+            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
+            origin_institution_type, dni_attachment, study_certificate_attachment, 
+            compromise_study_certificate_attachment, criminal_record_attachment, 
+            veracity_declaration_attachment, career_id, admision_process_id
+        ) VALUES (
+            'Patricia', 'Díaz', 'Ramírez', 1, '70000012', 
+            'F', '1996-04-14', 'D', 3, 'PERU', 
+            '2025-03-18', 133, 'P', 
+            '0035162e-3c72-4ef6-965e-920779074b9a', '6837e329-142c-4b51-a8d5-334c8b174d77', '3622cd42-d206-4689-9478-1bde87d471ae', 
+            '017bef52-8ab0-41d4-9d8a-e27a4bcb4439', '19c3eb01-79f6-445d-8c4d-504b2dbf6368', 39, 
+            1
+        );
+INSERT INTO candidate(
+            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
+            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
+            origin_institution_type, dni_attachment, study_certificate_attachment, 
+            compromise_study_certificate_attachment, criminal_record_attachment, 
+            veracity_declaration_attachment, career_id, admision_process_id
+        ) VALUES (
+            'Tatyana', 'Bustamante', 'Lagos', 1, '70000013', 
+            'F', '2000-12-19', 'D', 0, 'PERU', 
+            '2025-03-18', 77, 'P', 
+            '2996f2f2-b546-434c-abd1-1a7db35ea0c9', '9ca623cd-cfe7-4956-9afd-fe0f65daf58f', '49b97f53-a50c-401e-bfbf-b933b4d286f0', 
+            '7061a60c-bddf-462d-aba6-f8de3e133090', '0deca41f-137e-41f8-89d9-8050d475d6d8', 12, 
+            1
+        );
+INSERT INTO candidate(
+            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
+            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
+            origin_institution_type, dni_attachment, study_certificate_attachment, 
+            compromise_study_certificate_attachment, criminal_record_attachment, 
+            veracity_declaration_attachment, career_id, admision_process_id
+        ) VALUES (
+            'Marina', 'López', 'Contreras', 1, '70000014', 
+            'F', '1995-11-18', 'C', 3, 'PERU', 
+            '2025-03-18', 6, 'E', 
+            'f677a181-46fc-4f8a-a6a1-8a5f0c6aa71f', '4125d0c0-7159-421d-b5f9-b99907f5d8a8', 'c96e6079-703f-4a34-9c1d-65b9937b7e60', 
+            '3c71ac42-92f3-4c3b-8c3a-6df5413ee0cb', '4d482f58-f9cc-4562-ab97-7a2b5312b89c', 27, 
+            1
+        );
+INSERT INTO candidate(
+            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
+            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
+            origin_institution_type, dni_attachment, study_certificate_attachment, 
+            compromise_study_certificate_attachment, criminal_record_attachment, 
+            veracity_declaration_attachment, career_id, admision_process_id
+        ) VALUES (
+            'Sergey', 'Cáceres', 'Vergara', 1, '70000015', 
+            'F', '1996-09-09', 'S', 0, 'PERU', 
+            '2025-03-18', 34, 'E', 
+            'ee05e90a-45f5-4b31-a2b5-0e6baa37db0a', '4278d604-32eb-4e30-8bdb-412b4ca25160', 'e97ff798-9f51-45f4-90c7-c69efd746d6b', 
+            'a0531062-be41-49be-b040-01d0bdcb1b11', '479d8785-d507-422c-933c-dade10b13bf1', 5, 
+            1
+        );
+INSERT INTO candidate(
+            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
+            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
+            origin_institution_type, dni_attachment, study_certificate_attachment, 
+            compromise_study_certificate_attachment, criminal_record_attachment, 
+            veracity_declaration_attachment, career_id, admision_process_id
+        ) VALUES (
+            'Lei', 'Martínez', 'Aguilera', 1, '70000016', 
+            'F', '2007-03-22', 'C', 0, 'PERU', 
+            '2025-03-18', 10, 'P', 
+            '0a5a9359-d38a-40c4-9b78-48b852cb0e4d', 'fb67fc68-d1da-44f1-a3cb-91cf1e790624', 'a28e7dfe-d1b2-479d-b60e-81585344bbb9', 
+            '8a89abed-3223-4ca3-8772-4e1ef09396c7', '71cd11f3-96c1-46ad-9fe1-7781b81bb210', 29, 
+            1
+        );
+INSERT INTO candidate(
+            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
+            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
+            origin_institution_type, dni_attachment, study_certificate_attachment, 
+            compromise_study_certificate_attachment, criminal_record_attachment, 
+            veracity_declaration_attachment, career_id, admision_process_id
+        ) VALUES (
+            'Hassan', 'Ortiz', 'Álvarez', 1, '70000017', 
+            'F', '2004-05-27', 'S', 2, 'PERU', 
+            '2025-03-18', 55, 'E', 
+            'fe153d82-c4bc-4cf4-9e99-1bac09fb4e25', '8103a490-91ff-42e7-a6f1-5622c1cca3b4', '68ef53a9-916e-416a-8ff6-e290a42036d3', 
+            '8858f2d5-8ea0-484b-bd98-ce056a14a8bc', '6f650f90-64f5-43bc-b86d-84f7a05461b2', 9, 
+            1
+        );
+INSERT INTO candidate(
+            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
+            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
+            origin_institution_type, dni_attachment, study_certificate_attachment, 
+            compromise_study_certificate_attachment, criminal_record_attachment, 
+            veracity_declaration_attachment, career_id, admision_process_id
+        ) VALUES (
+            'Juan', 'Pino', 'Muñoz', 1, '70000018', 
+            'M', '2006-09-12', 'C', 2, 'PERU', 
+            '2025-03-18', 108, 'P', 
+            'f5fa4e0a-245b-449a-9a34-c92c0a36eb8e', 'bfad4965-743b-41f8-8c73-c3226f06e44d', 'c07be9e5-08b2-4b84-8632-62aee42724c9', 
+            'b42066ec-4cec-4017-9f94-e3cdbf2b16ec', 'b43aa008-002c-4d2a-8a1f-321a916cdbea', 33, 
+            1
+        );
+INSERT INTO candidate(
+            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
+            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
+            origin_institution_type, dni_attachment, study_certificate_attachment, 
+            compromise_study_certificate_attachment, criminal_record_attachment, 
+            veracity_declaration_attachment, career_id, admision_process_id
+        ) VALUES (
+            'Irina', 'Martínez', 'Aguilera', 1, '70000019', 
+            'F', '1996-08-09', 'C', 0, 'PERU', 
+            '2025-03-18', 153, 'P', 
+            'c9224eeb-90e6-4ecf-a563-ef535d8c7fb6', '7fa76e42-142b-412b-bd92-8296fad025e1', 'dbbb00dd-fd48-4770-b868-1f4c8557e8eb', 
+            '7ae2c2de-2024-4287-bba5-66a085e3755b', '2d4a0ef8-d916-4aaf-951e-80eca5c61be2', 36, 
+            1
+        );
+INSERT INTO candidate(
+            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
+            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
+            origin_institution_type, dni_attachment, study_certificate_attachment, 
+            compromise_study_certificate_attachment, criminal_record_attachment, 
+            veracity_declaration_attachment, career_id, admision_process_id
+        ) VALUES (
+            'Yan', 'Lagos', 'Vidal', 1, '70000020', 
+            'M', '2002-04-09', 'S', 0, 'PERU', 
+            '2025-03-18', 52, 'P', 
+            '98eb65ec-7da7-4bb4-a0cf-e040e44ab4ad', '618d2dc3-5a87-4fc8-9059-68158de27b85', '0fd93f45-8b5a-4a64-98de-5f3150fa5ea9', 
+            '22f8c294-3034-4669-9ec0-952d373a096c', 'bffcc7eb-668d-49ef-825c-5eeaf80625ce', 29, 
+            1
+        );
+INSERT INTO candidate(
+            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
+            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
+            origin_institution_type, dni_attachment, study_certificate_attachment, 
+            compromise_study_certificate_attachment, criminal_record_attachment, 
+            veracity_declaration_attachment, career_id, admision_process_id
+        ) VALUES (
+            'Andrea', 'Venegas', 'Garrido', 1, '70000021', 
+            'F', '1996-11-18', 'C', 0, 'PERU', 
+            '2025-03-18', 131, 'P', 
+            'd5873455-3e06-4359-930c-21d2e425c5ad', '5783f249-b3bc-4461-a857-0579db03322c', '404ac4b6-ec7b-4e3a-b3b7-0cb6026b73a4', 
+            '5c42dada-cced-48e7-97b7-396439b9073e', '18bf8274-7f50-4460-a0b6-a27df56b3e88', 11, 
+            1
+        );
+INSERT INTO candidate(
+            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
+            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
+            origin_institution_type, dni_attachment, study_certificate_attachment, 
+            compromise_study_certificate_attachment, criminal_record_attachment, 
+            veracity_declaration_attachment, career_id, admision_process_id
+        ) VALUES (
+            'Hui', 'Sanhueza', 'Herrera', 1, '70000022', 
+            'M', '1997-08-13', 'D', 0, 'PERU', 
+            '2025-03-18', 11, 'P', 
+            '57e58f87-4202-46e2-a6e3-b76b297f8d93', '28832b0a-28bd-4b91-a2ac-8b8c065e8890', 'abf271e7-e5ec-4d53-9ab5-eb4f6877a506', 
+            'd20a417c-8eeb-4114-a4ab-f8c0708394ef', '9da38fbf-32d9-4782-8d7f-a81a3ec817cb', 7, 
+            1
+        );
+INSERT INTO candidate(
+            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
+            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
+            origin_institution_type, dni_attachment, study_certificate_attachment, 
+            compromise_study_certificate_attachment, criminal_record_attachment, 
+            veracity_declaration_attachment, career_id, admision_process_id
+        ) VALUES (
+            'Min', 'Saavedra', 'Palma', 1, '70000023', 
+            'F', '1995-11-14', 'S', 3, 'PERU', 
+            '2025-03-18', 73, 'P', 
+            '91094a59-7623-433b-908f-7b7942a11ce8', '00edb9a9-3a07-4442-b94e-af6f736aeddf', '970d049d-b1e7-4269-bfab-7628aae0f757', 
+            'c8e1e987-1aa1-41c3-8b39-a729491f22db', 'a42135cb-e27e-438d-9169-6335e2483366', 14, 
+            1
+        );
+INSERT INTO candidate(
+            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
+            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
+            origin_institution_type, dni_attachment, study_certificate_attachment, 
+            compromise_study_certificate_attachment, criminal_record_attachment, 
+            veracity_declaration_attachment, career_id, admision_process_id
+        ) VALUES (
+            'Ahmad', 'López', 'Figueroa', 1, '70000024', 
+            'F', '2004-08-17', 'D', 1, 'PERU', 
+            '2025-03-18', 1, 'E', 
+            'd4029f1e-a2eb-48cf-accd-02832937d7a8', 'ed435a12-282c-4ecd-9ba5-2aacae0ef386', 'cc4b5cf5-eb78-4b7e-8cad-e2415349afb0', 
+            '052fb29e-4ab6-4607-ad67-740c53f73cf2', 'ebf554d7-6931-46e9-b6c3-554fc63041f4', 24, 
+            1
+        );
+INSERT INTO candidate(
+            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
+            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
+            origin_institution_type, dni_attachment, study_certificate_attachment, 
+            compromise_study_certificate_attachment, criminal_record_attachment, 
+            veracity_declaration_attachment, career_id, admision_process_id
+        ) VALUES (
+            'Ghulam', 'Fernández', 'López', 1, '70000025', 
+            'F', '2002-08-02', 'D', 1, 'PERU', 
+            '2025-03-18', 77, 'P', 
+            'c9b11986-79b3-457c-aca4-4ff6fe042461', '47a14469-af63-4692-b1c8-c1aa8cff317a', '384bd420-8c3e-4dfc-96c7-5193de1e0405', 
+            '943d8e1b-9d6b-45ea-8b8d-2967a708e534', '774bdec2-ada3-44cc-8281-eb008277dd49', 33, 
+            1
+        );
+INSERT INTO candidate(
+            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
+            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
+            origin_institution_type, dni_attachment, study_certificate_attachment, 
+            compromise_study_certificate_attachment, criminal_record_attachment, 
+            veracity_declaration_attachment, career_id, admision_process_id
+        ) VALUES (
+            'Hassan', 'Gallardo', 'Sáez', 1, '70000026', 
+            'F', '2000-06-02', 'S', 2, 'PERU', 
+            '2025-03-18', 110, 'E', 
+            'af3dd858-4c90-45f2-84f9-4453b9447c34', 'e06e6609-6de4-4a8e-96c4-15d3ebbfef4e', '839a28be-430b-4af3-b48e-0028acf6e683', 
+            '3af2540c-12ff-4e1e-a66c-d15d5f7aa437', '2de26010-d3bc-482c-8b52-3d94e3a031e3', 10, 
+            1
+        );
+INSERT INTO candidate(
+            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
+            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
+            origin_institution_type, dni_attachment, study_certificate_attachment, 
+            compromise_study_certificate_attachment, criminal_record_attachment, 
+            veracity_declaration_attachment, career_id, admision_process_id
+        ) VALUES (
+            'Ahmad', 'Reyes', 'Figueroa', 1, '70000027', 
+            'F', '1995-08-08', 'C', 2, 'PERU', 
+            '2025-03-18', 131, 'E', 
+            '7c3d1c57-05dc-4947-b613-9d8fdb4e655a', '28514842-2893-4789-9b2e-07fb69f8c7a7', 'd068c480-1774-4961-8f26-33691d757b66', 
+            '4013fbbc-e5a6-477b-9ac5-fb61f95f51e7', '0feac0f3-4a50-4661-b354-63084a58ceea', 27, 
+            1
+        );
+INSERT INTO candidate(
+            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
+            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
+            origin_institution_type, dni_attachment, study_certificate_attachment, 
+            compromise_study_certificate_attachment, criminal_record_attachment, 
+            veracity_declaration_attachment, career_id, admision_process_id
+        ) VALUES (
+            'Mario', 'Alvarado', 'Vera', 1, '70000028', 
+            'M', '2000-06-18', 'S', 0, 'PERU', 
+            '2025-03-18', 18, 'E', 
+            '01a31fe5-3a23-4f1d-88b2-14cf0fb1f998', '175479ba-55ec-4de3-9366-789348720202', '259e638b-5038-4491-8fc4-4e2a2ebefcc8', 
+            '56e05b97-7303-4940-bcde-1986d3c4fb95', '7ce88f90-2167-4292-98c3-2c94c9fa6f5f', 23, 
+            1
+        );
+INSERT INTO candidate(
+            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
+            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
+            origin_institution_type, dni_attachment, study_certificate_attachment, 
+            compromise_study_certificate_attachment, criminal_record_attachment, 
+            veracity_declaration_attachment, career_id, admision_process_id
+        ) VALUES (
+            'Svetlana', 'Valdés', 'Gómez', 1, '70000029', 
+            'F', '1999-04-10', 'C', 0, 'PERU', 
+            '2025-03-18', 42, 'P', 
+            '107c92ac-7079-401c-a181-3fee7dca94b5', '806c6be0-e858-44b8-a6b9-c4e3acfb7e01', '5579985e-f90c-4595-8e03-e1058f5cdae9', 
+            '0b87b763-28b1-4ed3-8920-8b46428a8073', '4d88f0db-e6f5-4aab-ac3d-29cd2bca19bd', 18, 
+            1
+        );
+INSERT INTO candidate(
+            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
+            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
+            origin_institution_type, dni_attachment, study_certificate_attachment, 
+            compromise_study_certificate_attachment, criminal_record_attachment, 
+            veracity_declaration_attachment, career_id, admision_process_id
+        ) VALUES (
+            'David', 'Parra', 'Sepúlveda', 1, '70000030', 
+            'M', '2001-05-25', 'D', 2, 'PERU', 
+            '2025-03-18', 2, 'E', 
+            '2db602b2-f943-4db3-9048-9044101acf51', '9f9f905a-476e-4bf9-b13f-dd4d5e043d28', 'b2a2fd71-a1c1-4344-887c-8710723964f9', 
+            'cdc3a20c-ba6d-429a-b393-97cd2847ddad', '7fca53b4-ce10-4683-8409-3c7705dada7d', 36, 
+            1
+        );
+INSERT INTO candidate(
+            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
+            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
+            origin_institution_type, dni_attachment, study_certificate_attachment, 
+            compromise_study_certificate_attachment, criminal_record_attachment, 
+            veracity_declaration_attachment, career_id, admision_process_id
+        ) VALUES (
+            'Joseph', 'Bravo', 'Silva', 1, '70000031', 
+            'M', '1996-08-19', 'S', 2, 'PERU', 
+            '2025-03-18', 61, 'E', 
+            '885cb34f-585a-43a0-8e8b-f58e62524d19', '732f0487-1680-41b7-9728-080bb96041e2', '470e2440-c4ca-4ac5-b154-ff2787d4d835', 
+            '6fa841a3-6790-4638-bd46-608f5c330a08', 'b394cc6d-f8fd-4ded-bd4e-08a446cf976e', 9, 
+            1
+        );
+INSERT INTO candidate(
+            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
+            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
+            origin_institution_type, dni_attachment, study_certificate_attachment, 
+            compromise_study_certificate_attachment, criminal_record_attachment, 
+            veracity_declaration_attachment, career_id, admision_process_id
+        ) VALUES (
+            'Mary', 'Castillo', 'Cortés', 1, '70000032', 
+            'F', '1996-03-19', 'C', 0, 'PERU', 
+            '2025-03-18', 89, 'P', 
+            'e920d35a-7351-4ddd-a108-c0cc5a9747be', 'cd09b66a-3d2f-4bb5-8cda-835b1c8baaf4', 'f7b586c2-9e1d-4dfc-9756-fa847e5c1c35', 
+            '3e71a225-7680-45bd-a64d-0a2c618ceb14', '0142dcc1-67d7-48e6-a305-9cd7d96e3b4e', 7, 
+            1
+        );
+INSERT INTO candidate(
+            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
+            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
+            origin_institution_type, dni_attachment, study_certificate_attachment, 
+            compromise_study_certificate_attachment, criminal_record_attachment, 
+            veracity_declaration_attachment, career_id, admision_process_id
+        ) VALUES (
+            'Rita', 'Reyes', 'Salazar', 1, '70000033', 
+            'F', '2006-08-05', 'S', 3, 'PERU', 
+            '2025-03-18', 2, 'E', 
+            'e21f622e-dd96-4c6d-b255-1e114f2afcb6', '273cce84-5ff0-4a5e-8fc3-ef46956a9b46', '587a3b51-aafb-45ff-858f-5fda96c2a8cb', 
+            '4e706312-ed2e-4f77-ae1d-e388ea243293', '1ce9c6e6-322e-4fde-bb0e-93569239a229', 21, 
+            1
+        );
+INSERT INTO candidate(
+            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
+            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
+            origin_institution_type, dni_attachment, study_certificate_attachment, 
+            compromise_study_certificate_attachment, criminal_record_attachment, 
+            veracity_declaration_attachment, career_id, admision_process_id
+        ) VALUES (
+            'Thomas', 'Hernández', 'Martínez', 1, '70000034', 
+            'M', '2006-03-16', 'D', 1, 'PERU', 
+            '2025-03-18', 56, 'E', 
+            '503b6aaf-18d6-4c01-ac94-3f60c1913c8b', '0dc76864-9fcb-4b21-b07a-e0f463431622', '8976d2aa-4234-421c-ad09-a38551125c96', 
+            'ee305861-4f19-462b-9128-1080786fba82', '84feea2e-788f-45a9-8aa9-bad7a78f534d', 11, 
+            1
+        );
+INSERT INTO candidate(
+            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
+            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
+            origin_institution_type, dni_attachment, study_certificate_attachment, 
+            compromise_study_certificate_attachment, criminal_record_attachment, 
+            veracity_declaration_attachment, career_id, admision_process_id
+        ) VALUES (
+            'Ali', 'Olivares', 'Gutiérrez', 1, '70000035', 
+            'M', '2006-06-27', 'S', 0, 'PERU', 
+            '2025-03-18', 116, 'E', 
+            '8e649716-94ae-42a1-80de-9b4835044c3a', '0cdf0e89-6573-4e1b-97da-93621b925403', '2edecd7a-ce46-4384-860d-e2706107461b', 
+            'd7df8581-ffaa-46d4-9b08-023fb302e2d8', '48c39957-bcad-413d-8cef-b498e0e6292d', 22, 
+            1
+        );
+INSERT INTO candidate(
+            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
+            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
+            origin_institution_type, dni_attachment, study_certificate_attachment, 
+            compromise_study_certificate_attachment, criminal_record_attachment, 
+            veracity_declaration_attachment, career_id, admision_process_id
+        ) VALUES (
+            'Marina', 'Álvarez', 'Rojas', 1, '70000036', 
+            'F', '1995-04-08', 'C', 2, 'PERU', 
+            '2025-03-18', 10, 'E', 
+            '443a094d-a702-4abb-adfe-a26c292c42bb', 'c84d7765-feda-4ab5-9acf-06b6e630b6de', '8aba5506-37bc-4982-8f6d-89d18f85ce0e', 
+            '8162c45c-4798-4680-91d7-b479b1f5f6b5', 'df98f6c2-f11e-4c6a-90f9-b9652eed879b', 24, 
+            1
+        );
+INSERT INTO candidate(
+            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
+            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
+            origin_institution_type, dni_attachment, study_certificate_attachment, 
+            compromise_study_certificate_attachment, criminal_record_attachment, 
+            veracity_declaration_attachment, career_id, admision_process_id
+        ) VALUES (
+            'Carlos', 'Riquelme', 'Aravena', 1, '70000037', 
+            'M', '2004-11-22', 'S', 0, 'PERU', 
+            '2025-03-18', 64, 'E', 
+            'bff52147-55ec-4589-91b9-e2eed310c122', 'a9e56135-8e2e-4839-9442-80ab2ce2d772', '39504af9-bad1-49a8-ad1b-c59bf4c50959', 
+            '76d39d68-4b09-4014-b448-e4acf623bf5a', '26a62191-59ef-41f2-ae86-499f8e0ea080', 40, 
+            1
+        );
+INSERT INTO candidate(
+            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
+            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
+            origin_institution_type, dni_attachment, study_certificate_attachment, 
+            compromise_study_certificate_attachment, criminal_record_attachment, 
+            veracity_declaration_attachment, career_id, admision_process_id
+        ) VALUES (
+            'Ahmed', 'Sepúlveda', 'Vázquez', 1, '70000038', 
+            'M', '2001-04-26', 'C', 2, 'PERU', 
+            '2025-03-18', 140, 'P', 
+            'c083c607-fe3e-4161-a442-77b874cdd9f0', '80b1258c-bf8f-4f5d-a4f0-40e9d31ce8f8', 'b82af22b-16a4-4146-83d0-488a0e848cde', 
+            'f4f6df1e-f545-4566-a6a1-4908b86ac517', '485bbe22-7b95-4821-9647-0784bdb1d237', 14, 
+            1
+        );
+INSERT INTO candidate(
+            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
+            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
+            origin_institution_type, dni_attachment, study_certificate_attachment, 
+            compromise_study_certificate_attachment, criminal_record_attachment, 
+            veracity_declaration_attachment, career_id, admision_process_id
+        ) VALUES (
+            'Angela', 'Rodríguez', 'Alarcón', 1, '70000039', 
+            'F', '2003-03-01', 'D', 3, 'PERU', 
+            '2025-03-18', 74, 'P', 
+            '492efb45-715e-40b3-9bd8-bd80ce11944b', '80455451-ca52-4bba-b26a-fa4efc7d55dc', 'ed87b9cb-0e39-4d9c-9bea-d3e5ba7ee4cc', 
+            '8def65d0-3222-4ec6-b7ea-323852920ebb', '82a969bf-728c-48d8-8c60-b6922f2d746e', 11, 
+            1
+        );
+INSERT INTO candidate(
+            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
+            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
+            origin_institution_type, dni_attachment, study_certificate_attachment, 
+            compromise_study_certificate_attachment, criminal_record_attachment, 
+            veracity_declaration_attachment, career_id, admision_process_id
+        ) VALUES (
+            'Xin', 'Yáñez', 'Gallardo', 1, '70000040', 
+            'F', '1999-02-11', 'C', 2, 'PERU', 
+            '2025-03-18', 15, 'E', 
+            '2b544ca1-7c3d-4791-89fb-6e704ef03886', '6df92839-ac11-480f-b947-fb94f38a3104', 'c1c58664-5a5e-41f8-af99-30872f1f3a15', 
+            '69f1c284-0f76-4483-9277-12711d6fa985', '6c1cc91d-b1a7-4be7-a0c5-abf1d4e2e154', 18, 
+            1
+        );
+INSERT INTO candidate(
+            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
+            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
+            origin_institution_type, dni_attachment, study_certificate_attachment, 
+            compromise_study_certificate_attachment, criminal_record_attachment, 
+            veracity_declaration_attachment, career_id, admision_process_id
+        ) VALUES (
+            'Andrey', 'Torres', 'Alvarado', 1, '70000041', 
+            'F', '1999-06-03', 'S', 1, 'PERU', 
+            '2025-03-18', 110, 'E', 
+            '9447f67d-b13f-4a47-b28e-483072a0342c', '193c5cd0-64a8-48c2-8477-603a4374d1c5', '19ba8e23-4b10-4161-b3da-eab212ade31f', 
+            '63b5c9d8-8933-4d07-ac1d-172129ea726d', 'b18230a5-3cf2-4801-a163-0e336c454344', 16, 
+            1
+        );
+INSERT INTO candidate(
+            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
+            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
+            origin_institution_type, dni_attachment, study_certificate_attachment, 
+            compromise_study_certificate_attachment, criminal_record_attachment, 
+            veracity_declaration_attachment, career_id, admision_process_id
+        ) VALUES (
+            'Manuel', 'Lagos', 'Díaz', 1, '70000042', 
+            'M', '1999-10-10', 'C', 3, 'PERU', 
+            '2025-03-18', 72, 'P', 
+            '50260e1e-1e32-4a18-b3b7-6e4d78e80348', '868cb501-3f73-4994-862e-269df71c692c', '6d450421-eb3a-401e-bc86-9372872efa61', 
+            '1fb89a02-f408-4f18-8c0d-4e810672966f', '56dbad91-b153-4b48-9c74-93a6c52cdd46', 21, 
+            1
+        );
+INSERT INTO candidate(
+            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
+            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
+            origin_institution_type, dni_attachment, study_certificate_attachment, 
+            compromise_study_certificate_attachment, criminal_record_attachment, 
+            veracity_declaration_attachment, career_id, admision_process_id
+        ) VALUES (
+            'Manuel', 'Ramírez', 'Bravo', 1, '70000043', 
+            'M', '1999-06-18', 'D', 1, 'PERU', 
+            '2025-03-18', 48, 'E', 
+            'd4e772b0-dd58-4f00-8b89-722073d9800f', 'b79e34a1-6403-4c59-a794-c6aae724601a', 'fa3a1f0b-96c8-44cf-977b-d6ca6b7950f8', 
+            'd867683f-6293-43bf-b525-0ce6c82471d8', '588493be-d3d7-4cb4-932b-d051f44dd196', 12, 
+            1
+        );
+INSERT INTO candidate(
+            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
+            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
+            origin_institution_type, dni_attachment, study_certificate_attachment, 
+            compromise_study_certificate_attachment, criminal_record_attachment, 
+            veracity_declaration_attachment, career_id, admision_process_id
+        ) VALUES (
+            'Angela', 'San Martín', 'Álvarez', 1, '70000044', 
+            'F', '1996-09-30', 'C', 2, 'PERU', 
+            '2025-03-18', 141, 'E', 
+            'febb451e-37fb-432d-9555-bb24544f83fa', '7d3cdbb1-8e1d-47d3-84ca-a9829e0ec437', '8e7cfe16-3a12-4cbf-9c53-6f2be86615bd', 
+            'f69700f7-92e2-4e46-aff8-503c1dddaf50', 'e7cb2cc6-371d-4156-9533-cea570d8c092', 38, 
+            1
+        );
+INSERT INTO candidate(
+            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
+            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
+            origin_institution_type, dni_attachment, study_certificate_attachment, 
+            compromise_study_certificate_attachment, criminal_record_attachment, 
+            veracity_declaration_attachment, career_id, admision_process_id
+        ) VALUES (
+            'Andrea', 'Castro', 'Carvajal', 1, '70000045', 
+            'F', '2000-08-01', 'D', 1, 'PERU', 
+            '2025-03-18', 83, 'E', 
+            'ae9ce6d4-5885-45f3-824b-9ac46301ab78', '9656fe08-aba9-4ad3-9725-4e3ce6ae574b', '64e1a41c-c6b1-4c9a-9e58-1cbe443a3b70', 
+            'f0a9d220-38fb-4b57-ad32-c8a64dd147a8', 'a52b4f2a-5c97-4283-9a4c-32b39a5291f8', 32, 
+            1
+        );
+INSERT INTO candidate(
+            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
+            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
+            origin_institution_type, dni_attachment, study_certificate_attachment, 
+            compromise_study_certificate_attachment, criminal_record_attachment, 
+            veracity_declaration_attachment, career_id, admision_process_id
+        ) VALUES (
+            'María', 'Navarro', 'Aguilera', 1, '70000046', 
+            'F', '1999-11-16', 'D', 0, 'PERU', 
+            '2025-03-18', 141, 'P', 
+            '3bfd98f8-cad6-42ea-bcb3-9c068bb42bf2', '0f84e3b8-60d3-41e2-b808-3112acdc2880', '57a535bc-0da1-45f2-a2f1-e57e9b48aaef', 
+            '80303ee7-6994-4707-9b16-4a0bd302aa67', 'd4afe837-2cd5-4b63-858b-a132d9a027dc', 9, 
+            1
+        );
+INSERT INTO candidate(
+            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
+            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
+            origin_institution_type, dni_attachment, study_certificate_attachment, 
+            compromise_study_certificate_attachment, criminal_record_attachment, 
+            veracity_declaration_attachment, career_id, admision_process_id
+        ) VALUES (
+            'Francisco', 'Vera', 'Toro', 1, '70000047', 
+            'M', '1995-11-21', 'S', 3, 'PERU', 
+            '2025-03-18', 142, 'P', 
+            '96be6563-4bec-4d39-935a-ca14fbe3dfdf', 'e3a6caf5-7307-4d16-a107-90046e3fee7f', 'b2bb1d33-eaa2-4531-bcd7-c0b652952827', 
+            '6cde1a69-d6c0-498d-a5e9-7b2e6a904f68', 'caec98c0-bd7e-41a7-b3dc-fa475c3b6acf', 13, 
+            1
+        );
+INSERT INTO candidate(
+            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
+            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
+            origin_institution_type, dni_attachment, study_certificate_attachment, 
+            compromise_study_certificate_attachment, criminal_record_attachment, 
+            veracity_declaration_attachment, career_id, admision_process_id
+        ) VALUES (
+            'Mark', 'Fuentes', 'Aguilera', 1, '70000048', 
+            'F', '2003-10-27', 'C', 1, 'PERU', 
+            '2025-03-18', 105, 'P', 
+            'eabc28de-bdb9-440f-ab9b-94014d5a3605', '0211a640-c2c7-47ce-903f-2d4b5548a071', 'c1485e58-94a2-466d-bd5e-f052db0c2a06', 
+            '73ceee48-212f-4dda-b391-2264bcac324e', 'ad236fb1-29bf-401d-bbed-a5a5ecca0a25', 5, 
+            1
+        );
+INSERT INTO candidate(
+            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
+            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
+            origin_institution_type, dni_attachment, study_certificate_attachment, 
+            compromise_study_certificate_attachment, criminal_record_attachment, 
+            veracity_declaration_attachment, career_id, admision_process_id
+        ) VALUES (
+            'Svetlana', 'Molina', 'Pérez', 1, '70000049', 
+            'F', '2001-01-09', 'D', 0, 'PERU', 
             '2025-03-18', 63, 'P', 
-            '9348a538-21ba-40c7-864f-82cad6fbada9', 'b58504d9-10a2-4916-a3d5-33a5359e17bd', 'a875095c-3367-4fbc-8273-f2d29d5a47d7', 
-            'dbed62d8-f056-40c7-ad7a-47a253841f37', 'fa77202e-4f4e-4c21-b4bd-b2679e589a92', 25, 
+            '5ccb753c-dbfa-4bef-8621-cee7bf3be416', '7fa72a65-a61b-4073-bb8e-58d4d4ee4281', 'ff1d420e-675c-4b3b-a576-b542ed36a01b', 
+            '061d67ea-05d1-4dc2-916c-c71ce30afa5d', '86ac0a92-59fc-42c6-bbd4-d0b175a6c330', 5, 
             1
         );
 INSERT INTO candidate(
@@ -1349,11 +705,11 @@ INSERT INTO candidate(
             compromise_study_certificate_attachment, criminal_record_attachment, 
             veracity_declaration_attachment, career_id, admision_process_id
         ) VALUES (
-            'Rosa', 'Henríquez', 'Miranda', 1, '70000096', 
-            'F', '1995-11-29', 'C', 1, 'PERU', 
-            '2025-03-18', 41, 'E', 
-            'a6b1607e-ad33-45fc-ac57-f865871b9cb6', 'eec956bf-2fb5-499b-b593-932edadcbfb9', '8cb23e28-66a1-40e3-bf55-aa6dd418cdd2', 
-            'a67f4a75-97da-49c0-8975-2a39dd78f1be', '9910f937-242a-4f63-a137-c77d63a0c4d7', 35, 
+            'Mohammad', 'Donoso', 'Aravena', 1, '70000050', 
+            'M', '2000-04-30', 'D', 0, 'PERU', 
+            '2025-03-18', 62, 'E', 
+            '344fc775-3c15-4d65-84b7-7f645059a2f7', 'd8359e7b-b1e7-48ec-89a7-bfbad5001269', 'b0c07726-b89e-4c28-a275-5a1a74c25072', 
+            'c9c0f426-bd57-4253-81ec-1f1620059492', '634e5b84-2c6e-463d-a641-f708446b7f04', 19, 
             1
         );
 INSERT INTO candidate(
@@ -1363,11 +719,669 @@ INSERT INTO candidate(
             compromise_study_certificate_attachment, criminal_record_attachment, 
             veracity_declaration_attachment, career_id, admision_process_id
         ) VALUES (
-            'Patricia', 'Tapia', 'Herrera', 1, '70000097', 
-            'F', '2005-07-14', 'C', 0, 'PERU', 
+            'Hong', 'Yáñez', 'Muñoz', 1, '70000051', 
+            'M', '1997-05-18', 'C', 2, 'PERU', 
+            '2025-03-18', 36, 'P', 
+            '45f7b1ee-b271-4b34-af5e-063976faa35a', 'aeb7b4c0-d034-4153-b93e-2f4b0fae84b2', 'f6fbabcc-2af6-4bb9-8105-0035f14ccceb', 
+            'd19596aa-e7cb-4257-9c47-0d1056ea246e', '33da94fc-ca38-4f8e-8e7f-a5583516b7b1', 35, 
+            1
+        );
+INSERT INTO candidate(
+            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
+            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
+            origin_institution_type, dni_attachment, study_certificate_attachment, 
+            compromise_study_certificate_attachment, criminal_record_attachment, 
+            veracity_declaration_attachment, career_id, admision_process_id
+        ) VALUES (
+            'Siti', 'Godoy', 'Valenzuela', 1, '70000052', 
+            'F', '1999-12-29', 'D', 3, 'PERU', 
+            '2025-03-18', 155, 'P', 
+            'dc405b3f-4318-48b2-a2ca-83f53a1ed223', '9ae2eefd-6ff1-4108-8ff5-f93b166119c4', 'f0130ab2-1692-45d6-a190-b71e00822544', 
+            '91dbf819-424b-4756-8a7e-adfa33fcd074', 'f9e30aa2-67e8-426d-806a-e4b16efacce4', 4, 
+            1
+        );
+INSERT INTO candidate(
+            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
+            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
+            origin_institution_type, dni_attachment, study_certificate_attachment, 
+            compromise_study_certificate_attachment, criminal_record_attachment, 
+            veracity_declaration_attachment, career_id, admision_process_id
+        ) VALUES (
+            'Marina', 'Álvarez', 'Castillo', 1, '70000053', 
+            'F', '2001-03-24', 'S', 2, 'PERU', 
+            '2025-03-18', 29, 'E', 
+            'f2e0f2a7-828d-4260-b3a7-8c6a573115b3', 'de9ab77e-5e34-4b13-9e5e-0e569a0acde8', 'f81f29c1-45f6-4a7e-8174-e687de90b6d8', 
+            '641249db-049b-47fd-931c-a3e48d01a2b5', '82b25baf-4a85-4c22-9d3b-9e62b5a0820d', 29, 
+            1
+        );
+INSERT INTO candidate(
+            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
+            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
+            origin_institution_type, dni_attachment, study_certificate_attachment, 
+            compromise_study_certificate_attachment, criminal_record_attachment, 
+            veracity_declaration_attachment, career_id, admision_process_id
+        ) VALUES (
+            'Ahmed', 'Miranda', 'Silva', 1, '70000054', 
+            'M', '2000-12-10', 'D', 2, 'PERU', 
+            '2025-03-18', 160, 'E', 
+            '70e6c955-4bb8-4265-b6f8-e1ec6d5a6357', '29370714-3888-482d-bf39-19dbaacebb54', 'c24297c6-ec35-4ac1-991d-24f6d19d8317', 
+            '7cf7fa26-d472-44f1-9f29-e66ecfc822bb', '6ed43371-f52c-410b-ae3e-40f42067ca2e', 31, 
+            1
+        );
+INSERT INTO candidate(
+            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
+            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
+            origin_institution_type, dni_attachment, study_certificate_attachment, 
+            compromise_study_certificate_attachment, criminal_record_attachment, 
+            veracity_declaration_attachment, career_id, admision_process_id
+        ) VALUES (
+            'Sunita', 'Medina', 'Morales', 1, '70000055', 
+            'F', '2001-10-09', 'C', 3, 'PERU', 
+            '2025-03-18', 86, 'E', 
+            'fbccabe9-c06e-4397-9105-c4c95c82af0d', 'abfa4a85-92c5-4b0b-b5c5-d9f18e7fdbcc', '4e264265-f26c-4a0e-b4a1-c0126329de71', 
+            'fe52da17-57da-475c-b6d9-ec34e1300c45', 'd3ca196c-da2a-40a9-b084-83ca13a0c358', 9, 
+            1
+        );
+INSERT INTO candidate(
+            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
+            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
+            origin_institution_type, dni_attachment, study_certificate_attachment, 
+            compromise_study_certificate_attachment, criminal_record_attachment, 
+            veracity_declaration_attachment, career_id, admision_process_id
+        ) VALUES (
+            'Ibrahim', 'Campos', 'Bustos', 1, '70000056', 
+            'F', '1997-01-27', 'C', 0, 'PERU', 
+            '2025-03-18', 9, 'P', 
+            '7542ad01-1eef-4108-8df1-cb7e80a65eec', 'a524d4b9-fbc0-44c2-a461-bb9c1b06cb07', 'b9df171d-b08d-4978-ab45-e94342093a0c', 
+            'e5c35b6d-465c-47df-b3eb-1e5e717422fa', '556350d2-45a4-4b44-a2bd-4f4fe52d03da', 11, 
+            1
+        );
+INSERT INTO candidate(
+            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
+            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
+            origin_institution_type, dni_attachment, study_certificate_attachment, 
+            compromise_study_certificate_attachment, criminal_record_attachment, 
+            veracity_declaration_attachment, career_id, admision_process_id
+        ) VALUES (
+            'Ming', 'Vera', 'Gómez', 1, '70000057', 
+            'F', '2006-05-17', 'C', 3, 'PERU', 
+            '2025-03-18', 71, 'P', 
+            '9a5d1a95-8e7d-41d9-843b-6707f1eb0e27', '23c3fb09-a547-44ca-80ee-596c581a4dce', '89bf9f99-62c3-41fb-adfd-82f585a173e2', 
+            'bd627d11-a096-46a5-ba4c-881fe08e2914', '6a3cd53c-c37e-4d09-b8b6-e71c9422cc44', 27, 
+            1
+        );
+INSERT INTO candidate(
+            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
+            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
+            origin_institution_type, dni_attachment, study_certificate_attachment, 
+            compromise_study_certificate_attachment, criminal_record_attachment, 
+            veracity_declaration_attachment, career_id, admision_process_id
+        ) VALUES (
+            'Xin', 'Godoy', 'Morales', 1, '70000058', 
+            'F', '1995-08-22', 'S', 0, 'PERU', 
+            '2025-03-18', 102, 'P', 
+            '47790da1-4362-44b0-8d74-49c269ae3da9', '434551e7-375a-4ff1-be83-a60bd55db509', '62d6d284-2090-4b67-96e7-f28b4bbe343d', 
+            'b54bfed7-cab4-489e-9ed0-d4f8a249b804', 'b3d83922-22c1-4fcb-8d82-2500383a5a1c', 26, 
+            1
+        );
+INSERT INTO candidate(
+            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
+            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
+            origin_institution_type, dni_attachment, study_certificate_attachment, 
+            compromise_study_certificate_attachment, criminal_record_attachment, 
+            veracity_declaration_attachment, career_id, admision_process_id
+        ) VALUES (
+            'George', 'Núñez', 'Saavedra', 1, '70000059', 
+            'F', '1996-05-19', 'D', 3, 'PERU', 
+            '2025-03-18', 31, 'E', 
+            'aff587a2-b21e-4386-a117-6f6b781c24c6', '01b74f0e-a473-400d-9c8f-c8f2d368feb3', '029565a3-695b-4980-a275-0db1ca5c8c71', 
+            '2b6abe24-498a-4286-bd26-4e32cd79b350', 'c8c70651-0727-481e-a057-806f212bea20', 36, 
+            1
+        );
+INSERT INTO candidate(
+            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
+            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
+            origin_institution_type, dni_attachment, study_certificate_attachment, 
+            compromise_study_certificate_attachment, criminal_record_attachment, 
+            veracity_declaration_attachment, career_id, admision_process_id
+        ) VALUES (
+            'Irina', 'Pino', 'Ortiz', 1, '70000060', 
+            'F', '2007-01-01', 'C', 0, 'PERU', 
+            '2025-03-18', 97, 'E', 
+            'b2fc866e-01dd-419d-8995-d24062c85994', '29a2d32c-d747-4913-bfce-32caca67a290', 'e3c07a3e-9b69-4306-bf7d-e4dd575eb184', 
+            '0b112815-e83b-4308-bdba-ce7d97887791', '3c6c59d8-4280-4432-8217-8ab605e43294', 23, 
+            1
+        );
+INSERT INTO candidate(
+            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
+            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
+            origin_institution_type, dni_attachment, study_certificate_attachment, 
+            compromise_study_certificate_attachment, criminal_record_attachment, 
+            veracity_declaration_attachment, career_id, admision_process_id
+        ) VALUES (
+            'Barbara', 'Lagos', 'Hernández', 1, '70000061', 
+            'F', '2000-06-02', 'S', 2, 'PERU', 
+            '2025-03-18', 52, 'E', 
+            '9d677fb8-e2df-497d-94d8-7725bd3b202e', '6be98580-c923-4d7a-8ed9-232e89a26d3b', '8c91bca3-118e-4d41-bba1-ae8790b18f0e', 
+            '8bc09fa4-86d6-4822-8fcc-17320f2c634e', '1dedefdb-660e-414a-863c-610f3887a18c', 5, 
+            1
+        );
+INSERT INTO candidate(
+            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
+            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
+            origin_institution_type, dni_attachment, study_certificate_attachment, 
+            compromise_study_certificate_attachment, criminal_record_attachment, 
+            veracity_declaration_attachment, career_id, admision_process_id
+        ) VALUES (
+            'Anna', 'Romero', 'Hernández', 1, '70000062', 
+            'F', '2007-01-17', 'D', 3, 'PERU', 
+            '2025-03-18', 11, 'P', 
+            'fa9af065-1f1d-490d-b976-f320ead156f1', 'abdb27e3-e0ff-4e92-9552-f626c53ef8c3', '512c79e5-988e-4b37-a473-5d7562f3da1b', 
+            '6bbc3ca2-7137-4f90-a5c2-2d250d4ffe86', '41ced6d7-a9e1-4f6f-a1b7-657873a399b8', 14, 
+            1
+        );
+INSERT INTO candidate(
+            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
+            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
+            origin_institution_type, dni_attachment, study_certificate_attachment, 
+            compromise_study_certificate_attachment, criminal_record_attachment, 
+            veracity_declaration_attachment, career_id, admision_process_id
+        ) VALUES (
+            'Yu', 'Pérez', 'Maldonado', 1, '70000063', 
+            'F', '1996-04-07', 'S', 0, 'PERU', 
+            '2025-03-18', 3, 'P', 
+            'db13e143-8f94-4b84-b854-2f7b63ffb433', '6b851fc8-4841-4f27-8b4c-d101401da938', '21283eed-f41f-4d3a-ba6c-37041ef67ebc', 
+            '089e7047-d316-4bca-a1f4-00edaa6fb9be', '282a39f3-2d9b-4c6b-935e-79b74e2dad67', 39, 
+            1
+        );
+INSERT INTO candidate(
+            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
+            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
+            origin_institution_type, dni_attachment, study_certificate_attachment, 
+            compromise_study_certificate_attachment, criminal_record_attachment, 
+            veracity_declaration_attachment, career_id, admision_process_id
+        ) VALUES (
+            'Miguel', 'Herrera', 'Salazar', 1, '70000064', 
+            'M', '1996-03-05', 'C', 3, 'PERU', 
+            '2025-03-18', 89, 'P', 
+            '1d27230d-f4c0-48ca-9367-b6297fbd8596', 'b7d0def0-a6b3-4586-8ef4-4be7f7c4fd38', '60ee9d66-bfdd-492f-8cc3-8de0cb48bd96', 
+            'ad912277-9fb2-4856-b1a4-f886df01ce75', '36c28f7d-2ddb-4947-ac75-12c0a9c50533', 28, 
+            1
+        );
+INSERT INTO candidate(
+            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
+            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
+            origin_institution_type, dni_attachment, study_certificate_attachment, 
+            compromise_study_certificate_attachment, criminal_record_attachment, 
+            veracity_declaration_attachment, career_id, admision_process_id
+        ) VALUES (
+            'María', 'Figueroa', 'Peña', 1, '70000065', 
+            'F', '2002-08-12', 'D', 1, 'PERU', 
+            '2025-03-18', 18, 'P', 
+            'a146c86e-c293-49e5-b06d-0bd1be9b3e34', 'd4e61fdc-ada9-4852-b387-78363314689c', 'fdfbb8a9-c94d-43ef-97bb-0a3873232a33', 
+            'd6256fc3-a188-4e64-81e1-a1c6621dca28', '6cc87553-027d-4c73-8f19-397e5c6d046d', 32, 
+            1
+        );
+INSERT INTO candidate(
+            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
+            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
+            origin_institution_type, dni_attachment, study_certificate_attachment, 
+            compromise_study_certificate_attachment, criminal_record_attachment, 
+            veracity_declaration_attachment, career_id, admision_process_id
+        ) VALUES (
+            'Jean', 'Sandoval', 'Bustos', 1, '70000066', 
+            'F', '1998-02-01', 'D', 3, 'PERU', 
+            '2025-03-18', 72, 'P', 
+            '28550d51-b207-48d2-ab40-4b9a5ccd39b5', 'fdfc3612-1ee1-4363-a497-6ac5f84b2260', '4dc285c5-9cf6-495c-ae41-1dfc69c1a61b', 
+            '99d7fa4a-0d45-4f1c-b50c-5fdffbc95624', 'a356c0fb-afd7-42e8-a620-2a88d288ae4c', 1, 
+            1
+        );
+INSERT INTO candidate(
+            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
+            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
+            origin_institution_type, dni_attachment, study_certificate_attachment, 
+            compromise_study_certificate_attachment, criminal_record_attachment, 
+            veracity_declaration_attachment, career_id, admision_process_id
+        ) VALUES (
+            'Jose', 'Tapia', 'Poblete', 1, '70000067', 
+            'M', '2006-04-15', 'D', 3, 'PERU', 
+            '2025-03-18', 67, 'E', 
+            '30ab16e9-80c8-4fd4-a325-08f7285f2c90', '16e58737-01c6-411b-ba09-596ea2f09577', 'd8e03f7a-d02d-4555-9e61-0cb19b580b27', 
+            '2bcdc50e-b208-4f6e-9910-03b5504e5f0a', '347031d3-1076-4e7e-9701-c6c26eaadbb7', 23, 
+            1
+        );
+INSERT INTO candidate(
+            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
+            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
+            origin_institution_type, dni_attachment, study_certificate_attachment, 
+            compromise_study_certificate_attachment, criminal_record_attachment, 
+            veracity_declaration_attachment, career_id, admision_process_id
+        ) VALUES (
+            'Ali', 'Sáez', 'Vidal', 1, '70000068', 
+            'M', '1997-04-18', 'S', 1, 'PERU', 
+            '2025-03-18', 159, 'E', 
+            '1cbb1d9c-09d3-4f80-b9a8-12ebc2787e39', 'de55f2f5-722e-4fa9-ad53-d7dddb4e546b', 'f3c26d83-0c80-4f3e-9bcf-c6a192a3c0d2', 
+            '5e238b07-d2ef-46b4-bd00-6d4431921840', '58b84344-5f36-4c8e-8d5f-943acbac5d9f', 2, 
+            1
+        );
+INSERT INTO candidate(
+            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
+            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
+            origin_institution_type, dni_attachment, study_certificate_attachment, 
+            compromise_study_certificate_attachment, criminal_record_attachment, 
+            veracity_declaration_attachment, career_id, admision_process_id
+        ) VALUES (
+            'Min', 'Gallardo', 'Venegas', 1, '70000069', 
+            'F', '1996-01-28', 'S', 0, 'PERU', 
+            '2025-03-18', 156, 'E', 
+            '3c7f5269-97d1-4868-8ff8-678920e18ad6', 'f9d088a7-765b-445c-a817-569902ee106c', '052919fb-1f2e-48cc-be05-4c437f465919', 
+            '063d6a0f-aa66-4204-974e-0f970a16c420', 'f8baeb89-83be-417b-9f21-764f0f232130', 17, 
+            1
+        );
+INSERT INTO candidate(
+            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
+            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
+            origin_institution_type, dni_attachment, study_certificate_attachment, 
+            compromise_study_certificate_attachment, criminal_record_attachment, 
+            veracity_declaration_attachment, career_id, admision_process_id
+        ) VALUES (
+            'Víctor', 'Lagos', 'Ramírez', 1, '70000070', 
+            'M', '2001-12-08', 'C', 3, 'PERU', 
+            '2025-03-18', 152, 'E', 
+            '80449d68-91f2-4a11-89ff-7e7ab14400b0', '7745b951-9ed3-4af2-99fd-9ba6504f0dff', '60219416-5d3e-4f37-a5a3-205ef359fe02', 
+            'e213c857-0995-42d9-9796-57d8ecaae379', '361edf2e-a315-4941-b2c7-54d6d023ff55', 10, 
+            1
+        );
+INSERT INTO candidate(
+            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
+            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
+            origin_institution_type, dni_attachment, study_certificate_attachment, 
+            compromise_study_certificate_attachment, criminal_record_attachment, 
+            veracity_declaration_attachment, career_id, admision_process_id
+        ) VALUES (
+            'Angela', 'Martínez', 'Araya', 1, '70000071', 
+            'F', '2003-04-04', 'S', 0, 'PERU', 
+            '2025-03-18', 67, 'P', 
+            '246346f9-9893-45c6-8865-d73b5b82ddde', 'acae4e3a-2a5e-48f7-a904-9c0461b15f89', '60708f61-e3f8-4cc4-834c-83feaf1f86a2', 
+            '834b2ae9-eaa7-4291-999a-a23e8ceef928', 'ac6f9d91-428e-4121-8229-f28e1048805a', 23, 
+            1
+        );
+INSERT INTO candidate(
+            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
+            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
+            origin_institution_type, dni_attachment, study_certificate_attachment, 
+            compromise_study_certificate_attachment, criminal_record_attachment, 
+            veracity_declaration_attachment, career_id, admision_process_id
+        ) VALUES (
+            'Linda', 'Vergara', 'Peña', 1, '70000072', 
+            'F', '2004-10-17', 'D', 0, 'PERU', 
+            '2025-03-18', 139, 'E', 
+            '5edad19f-3207-462e-99e0-ada7b9507447', '0eab86a7-1712-4cbd-8967-a9aa76617f4a', '5bfdde3b-0363-4caf-9d31-244e4043cd3f', 
+            '3f3e6fb0-3c41-4da6-ba0a-fd30ebca7fe3', 'e9e13a01-dc1c-4b82-8699-bea044276975', 25, 
+            1
+        );
+INSERT INTO candidate(
+            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
+            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
+            origin_institution_type, dni_attachment, study_certificate_attachment, 
+            compromise_study_certificate_attachment, criminal_record_attachment, 
+            veracity_declaration_attachment, career_id, admision_process_id
+        ) VALUES (
+            'John', 'Ramírez', 'Moreno', 1, '70000073', 
+            'M', '2005-05-22', 'S', 3, 'PERU', 
+            '2025-03-18', 38, 'P', 
+            'bba840c1-b965-4d9a-8eb7-14ddce65592d', '59d76f6a-7c49-4517-9133-8a0c504505c5', '46d47a2e-888b-46ed-9f6d-455b5c7d1af6', 
+            '11ef8d21-a7db-41c1-8c3e-c752d2a8958d', 'f5f7e253-7ade-4f31-a1fc-f784737aca80', 11, 
+            1
+        );
+INSERT INTO candidate(
+            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
+            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
+            origin_institution_type, dni_attachment, study_certificate_attachment, 
+            compromise_study_certificate_attachment, criminal_record_attachment, 
+            veracity_declaration_attachment, career_id, admision_process_id
+        ) VALUES (
+            'Irina', 'Saavedra', 'Guzmán', 1, '70000074', 
+            'F', '2001-02-15', 'D', 1, 'PERU', 
+            '2025-03-18', 153, 'E', 
+            '386020d5-103b-4101-8318-4070abcadb0b', 'e1d1cfe1-0d3c-45ed-9506-4dea2817cf5e', '7ca382e4-c70d-4e63-bda1-ed6214aafb9a', 
+            '86f8d26b-a420-4cd5-b9b2-68c309632442', 'aae01234-ae68-4694-ad65-412620cc8287', 31, 
+            1
+        );
+INSERT INTO candidate(
+            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
+            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
+            origin_institution_type, dni_attachment, study_certificate_attachment, 
+            compromise_study_certificate_attachment, criminal_record_attachment, 
+            veracity_declaration_attachment, career_id, admision_process_id
+        ) VALUES (
+            'Ming', 'Núñez', 'Gallardo', 1, '70000075', 
+            'F', '2006-10-05', 'S', 3, 'PERU', 
+            '2025-03-18', 35, 'E', 
+            'bd9d6e90-9732-491f-93b7-a467bbf9b97c', 'e6ecb603-ee9a-4b53-a8eb-22bca383a624', '759dee84-fcf6-49c5-bf4b-108bcdc25209', 
+            '133c8ac7-c4f6-4ccd-9056-6a14c56df631', 'f6e84484-368e-4c8a-9c5f-b2b6049b1466', 8, 
+            1
+        );
+INSERT INTO candidate(
+            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
+            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
+            origin_institution_type, dni_attachment, study_certificate_attachment, 
+            compromise_study_certificate_attachment, criminal_record_attachment, 
+            veracity_declaration_attachment, career_id, admision_process_id
+        ) VALUES (
+            'Andrey', 'Vergara', 'Álvarez', 1, '70000076', 
+            'F', '1999-05-25', 'S', 1, 'PERU', 
+            '2025-03-18', 90, 'P', 
+            '2011aa0d-f05c-4ba2-947e-d56a5f5061fa', '87ea15e5-82b1-43c7-963a-ca1531e12646', 'df6dd250-fe77-432c-adc5-5fc9adc3f164', 
+            '548321fc-fa8a-4a9c-b521-f69d7afb5203', '298d7885-7c66-411d-a905-9eac33e330fe', 23, 
+            1
+        );
+INSERT INTO candidate(
+            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
+            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
+            origin_institution_type, dni_attachment, study_certificate_attachment, 
+            compromise_study_certificate_attachment, criminal_record_attachment, 
+            veracity_declaration_attachment, career_id, admision_process_id
+        ) VALUES (
+            'Lei', 'Carrasco', 'Bustos', 1, '70000077', 
+            'F', '1996-06-20', 'S', 2, 'PERU', 
+            '2025-03-18', 100, 'E', 
+            'f1cbf107-ed30-4f36-8c6a-e2e0a076046f', '790efd2f-99cf-4155-8c72-407fe2d96bd5', 'f9aa8642-e6b1-4de6-a791-5f8e0b425620', 
+            'b0e34465-7f6a-4803-aa0a-bdcfdab807ab', '0a9a9129-af1c-4913-9298-ebe9afe3e035', 33, 
+            1
+        );
+INSERT INTO candidate(
+            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
+            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
+            origin_institution_type, dni_attachment, study_certificate_attachment, 
+            compromise_study_certificate_attachment, criminal_record_attachment, 
+            veracity_declaration_attachment, career_id, admision_process_id
+        ) VALUES (
+            'Ram', 'Torres', 'Pino', 1, '70000078', 
+            'F', '2000-06-10', 'D', 1, 'PERU', 
+            '2025-03-18', 140, 'E', 
+            'e64ed442-6a4d-46ff-8077-7aee7bcc88e6', '30bc5f57-c9d3-4b20-a7b2-b77bf7b67bc8', 'a3c74ec3-c537-4788-a93e-eab67dca60fc', 
+            'd3b0cdb5-52d2-4ac8-a939-ba1232f13088', '79afe9c6-e76b-4ed3-a030-ea8c0156d49c', 7, 
+            1
+        );
+INSERT INTO candidate(
+            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
+            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
+            origin_institution_type, dni_attachment, study_certificate_attachment, 
+            compromise_study_certificate_attachment, criminal_record_attachment, 
+            veracity_declaration_attachment, career_id, admision_process_id
+        ) VALUES (
+            'Peter', 'Castro', 'Núñez', 1, '70000079', 
+            'M', '1999-08-11', 'S', 1, 'PERU', 
+            '2025-03-18', 93, 'E', 
+            '985c0f81-c6e9-4e02-b190-9e5b866621bb', '18a2b26b-223a-48b0-8009-0f6da0f85eeb', '80d2b27a-bc6a-4866-b60b-2c7f52ddde54', 
+            'd0bf5ec8-23b1-43a0-a8b2-2d7410a8504d', '6fb3c765-2d62-4aed-9bff-cd45a8190025', 15, 
+            1
+        );
+INSERT INTO candidate(
+            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
+            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
+            origin_institution_type, dni_attachment, study_certificate_attachment, 
+            compromise_study_certificate_attachment, criminal_record_attachment, 
+            veracity_declaration_attachment, career_id, admision_process_id
+        ) VALUES (
+            'Sandra', 'Espinoza', 'Zúñiga', 1, '70000080', 
+            'F', '2004-09-19', 'C', 2, 'PERU', 
+            '2025-03-18', 141, 'P', 
+            '15443dec-85cd-449e-a0c6-1bf6159c7f79', '65e02163-2da8-48f0-9606-d3929000bcf7', '6577a508-f196-4d02-90cd-bff652266858', 
+            'ce2278f0-69d7-43ab-8ff0-4949d4f352b3', '193ffc50-03e9-46c6-a674-43cd84498ff6', 27, 
+            1
+        );
+INSERT INTO candidate(
+            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
+            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
+            origin_institution_type, dni_attachment, study_certificate_attachment, 
+            compromise_study_certificate_attachment, criminal_record_attachment, 
+            veracity_declaration_attachment, career_id, admision_process_id
+        ) VALUES (
+            'Emmanuel', 'Saavedra', 'Flores', 1, '70000081', 
+            'M', '2003-10-22', 'S', 2, 'PERU', 
+            '2025-03-18', 76, 'E', 
+            '6624ad6d-bf6f-48f6-84aa-825c62a4f333', 'ad7807b2-5751-47c4-8808-fb6e6a62d520', '9f15db03-07e0-4da1-b705-19368fd7daaa', 
+            '851b46d3-1ff0-4103-88cc-85403c6ddb11', 'b45f0964-8b50-452b-b84d-c9f021ced12e', 19, 
+            1
+        );
+INSERT INTO candidate(
+            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
+            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
+            origin_institution_type, dni_attachment, study_certificate_attachment, 
+            compromise_study_certificate_attachment, criminal_record_attachment, 
+            veracity_declaration_attachment, career_id, admision_process_id
+        ) VALUES (
+            'Joao', 'Fernández', 'Parra', 1, '70000082', 
+            'M', '2007-01-08', 'C', 2, 'PERU', 
+            '2025-03-18', 144, 'E', 
+            'a40d5941-9ea5-4b05-a076-480668f80499', '71130459-afde-458f-9e39-e4293d6587a6', 'eaaf08ba-dcf9-4820-bc60-b759bcddf2c7', 
+            '341bedfe-5fb0-4fc7-ab95-0c6c2ff34cc3', '74052a6c-2bef-40ba-9c86-6319aba5121a', 40, 
+            1
+        );
+INSERT INTO candidate(
+            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
+            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
+            origin_institution_type, dni_attachment, study_certificate_attachment, 
+            compromise_study_certificate_attachment, criminal_record_attachment, 
+            veracity_declaration_attachment, career_id, admision_process_id
+        ) VALUES (
+            'Bin', 'Araya', 'Bravo', 1, '70000083', 
+            'F', '1998-05-23', 'S', 3, 'PERU', 
+            '2025-03-18', 28, 'P', 
+            '53d5c504-8c1a-4508-a754-25b32ef101a4', 'b7749464-f3b8-49b5-b5f7-da0a4caa1223', '3e167cd5-ed1b-4d58-9cd9-7dabc163d242', 
+            '4d9d2e6b-383f-4d85-8122-9970049b13a5', 'acd360d6-26bf-4de9-a9cc-9d51359d7fca', 2, 
+            1
+        );
+INSERT INTO candidate(
+            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
+            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
+            origin_institution_type, dni_attachment, study_certificate_attachment, 
+            compromise_study_certificate_attachment, criminal_record_attachment, 
+            veracity_declaration_attachment, career_id, admision_process_id
+        ) VALUES (
+            'Sarah', 'Castillo', 'Escobar', 1, '70000084', 
+            'F', '1998-12-30', 'D', 0, 'PERU', 
+            '2025-03-18', 107, 'E', 
+            'bbf5441e-64aa-47db-b3e3-88d842033a7e', '1674e4bc-90a8-430d-9c37-7937d5585060', '646c0bc4-5db4-4fef-acba-42365a84aa29', 
+            'ebf95c50-9a3a-42b1-9dde-b88be31fab6f', '6da81c88-1fc2-4c10-a84b-de01050d4177', 29, 
+            1
+        );
+INSERT INTO candidate(
+            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
+            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
+            origin_institution_type, dni_attachment, study_certificate_attachment, 
+            compromise_study_certificate_attachment, criminal_record_attachment, 
+            veracity_declaration_attachment, career_id, admision_process_id
+        ) VALUES (
+            'Miguel', 'Maldonado', 'Navarrete', 1, '70000085', 
+            'M', '2003-12-12', 'C', 3, 'PERU', 
+            '2025-03-18', 6, 'E', 
+            '3e7b49dd-de7f-445d-9b52-b4772e974153', '11876ed8-ab5f-46c8-8feb-dafa770aedc1', '87afc8a0-2423-49c2-a8b4-347adc05c14c', 
+            '9ccdeb13-d247-427e-9acb-616b3924a044', '5536653c-f504-4477-9e0e-12d0318a53d2', 16, 
+            1
+        );
+INSERT INTO candidate(
+            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
+            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
+            origin_institution_type, dni_attachment, study_certificate_attachment, 
+            compromise_study_certificate_attachment, criminal_record_attachment, 
+            veracity_declaration_attachment, career_id, admision_process_id
+        ) VALUES (
+            'Li', 'Valenzuela', 'Peña', 1, '70000086', 
+            'M', '1999-05-20', 'S', 3, 'PERU', 
+            '2025-03-18', 122, 'P', 
+            '4509ab28-9184-450a-9b14-66bd811135ca', '471d0158-b5ce-48c1-8155-02ffbcd03891', '18e0b2e1-cf3b-43be-a4f6-eacd42264bf5', 
+            'e25a0584-2ac7-421c-821d-0f48a761d797', '5be852c2-c5c0-4832-b259-7cd0c34637ca', 11, 
+            1
+        );
+INSERT INTO candidate(
+            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
+            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
+            origin_institution_type, dni_attachment, study_certificate_attachment, 
+            compromise_study_certificate_attachment, criminal_record_attachment, 
+            veracity_declaration_attachment, career_id, admision_process_id
+        ) VALUES (
+            'Natalya', 'Alarcón', 'Bustamante', 1, '70000087', 
+            'F', '2006-01-02', 'D', 0, 'PERU', 
+            '2025-03-18', 112, 'E', 
+            'c3524a67-c647-47d6-93bf-ea48765985b3', '10dc00aa-5479-4ae3-955c-42f45d8fdf85', 'e8d21197-d106-499a-ac70-57b13cebebc8', 
+            '5c8c90f9-1b04-46d7-861f-7963a21ec925', 'e89b4208-aaef-4a7a-8007-76542e24deca', 13, 
+            1
+        );
+INSERT INTO candidate(
+            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
+            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
+            origin_institution_type, dni_attachment, study_certificate_attachment, 
+            compromise_study_certificate_attachment, criminal_record_attachment, 
+            veracity_declaration_attachment, career_id, admision_process_id
+        ) VALUES (
+            'Min', 'Vidal', 'Toro', 1, '70000088', 
+            'F', '2001-03-20', 'S', 1, 'PERU', 
+            '2025-03-18', 67, 'P', 
+            '3e0923a3-7528-4240-a120-53599a039fa1', '0d2c177f-caff-402d-8c24-3556d58d4f06', 'c23c5799-cf0b-450a-9cff-6fcc97f1801c', 
+            '2fd69bb1-496e-45fc-a7b6-d4886aed5864', 'b5d75ada-79fa-4638-bdd7-2bd8b2cbe98b', 37, 
+            1
+        );
+INSERT INTO candidate(
+            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
+            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
+            origin_institution_type, dni_attachment, study_certificate_attachment, 
+            compromise_study_certificate_attachment, criminal_record_attachment, 
+            veracity_declaration_attachment, career_id, admision_process_id
+        ) VALUES (
+            'Antonio', 'Venegas', 'Alarcón', 1, '70000089', 
+            'M', '1999-12-13', 'C', 0, 'PERU', 
+            '2025-03-18', 33, 'E', 
+            '575a6c4e-2e65-48cd-8380-21c41fe90808', '6c6d1269-bb39-4aca-980c-22a27902a8e5', '451d1d51-b8ed-40a7-a498-400a42c9b0a6', 
+            '3da3574d-c4a0-45ec-8a71-a3d1234d83f1', 'b295ed87-aaee-4a04-871e-9a5ed58e725f', 13, 
+            1
+        );
+INSERT INTO candidate(
+            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
+            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
+            origin_institution_type, dni_attachment, study_certificate_attachment, 
+            compromise_study_certificate_attachment, criminal_record_attachment, 
+            veracity_declaration_attachment, career_id, admision_process_id
+        ) VALUES (
+            'Víctor', 'Cortés', 'Palma', 1, '70000090', 
+            'M', '1997-12-02', 'D', 3, 'PERU', 
+            '2025-03-18', 139, 'E', 
+            '96c0e1b6-4d4b-453d-947a-6d156fe4db67', '6ddf2227-1119-4577-890c-e2822da27c29', '4f0c03c8-bfca-4d89-a5f8-f447a34d014e', 
+            '9cf674b7-7b1d-4b50-82cc-45a22864fca6', '1d6e026f-7aa6-4fa2-9ba0-0cd9f6d0a709', 13, 
+            1
+        );
+INSERT INTO candidate(
+            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
+            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
+            origin_institution_type, dni_attachment, study_certificate_attachment, 
+            compromise_study_certificate_attachment, criminal_record_attachment, 
+            veracity_declaration_attachment, career_id, admision_process_id
+        ) VALUES (
+            'Elena', 'Sandoval', 'Toro', 1, '70000091', 
+            'F', '2003-09-04', 'S', 2, 'PERU', 
+            '2025-03-18', 133, 'E', 
+            '5d53a4bc-9c33-4d13-98ec-532131e23c50', '4a4d045d-7320-46c4-8797-8b5196acc88f', 'fdd44eba-0a59-455a-a027-e34c40cd37db', 
+            '30fb7eca-0779-41cb-b54a-152bd0307726', 'f0917ff2-8d56-4e6f-b783-a720e40e1409', 23, 
+            1
+        );
+INSERT INTO candidate(
+            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
+            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
+            origin_institution_type, dni_attachment, study_certificate_attachment, 
+            compromise_study_certificate_attachment, criminal_record_attachment, 
+            veracity_declaration_attachment, career_id, admision_process_id
+        ) VALUES (
+            'William', 'Rivera', 'Vásquez', 1, '70000092', 
+            'M', '1997-05-27', 'C', 0, 'PERU', 
+            '2025-03-18', 81, 'P', 
+            '94fd4b8d-acbc-4ca0-9296-a2b91b25b3b3', 'eed08b81-2cf1-4bf3-9be7-d2fe75785938', '28b763b6-c398-4ada-b734-122c4c682283', 
+            '37ba8c91-d913-4cea-bbf8-0538a633e1bc', '59f20a76-c86a-4939-8041-5cc334830c38', 5, 
+            1
+        );
+INSERT INTO candidate(
+            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
+            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
+            origin_institution_type, dni_attachment, study_certificate_attachment, 
+            compromise_study_certificate_attachment, criminal_record_attachment, 
+            veracity_declaration_attachment, career_id, admision_process_id
+        ) VALUES (
+            'Mark', 'Leiva', 'Silva', 1, '70000093', 
+            'F', '1997-11-25', 'C', 0, 'PERU', 
+            '2025-03-18', 110, 'E', 
+            '6602e32a-22e2-4552-b281-d2ab015684d1', '592dcea5-5d2e-4ae1-8f82-23367e4cc4a7', '4543e75a-5201-4219-be75-1a6d9395dec0', 
+            '4fd2864f-f7a8-4bf4-975e-b03497473cba', '6161176c-2c76-459b-a0b4-91f25d89e161', 17, 
+            1
+        );
+INSERT INTO candidate(
+            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
+            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
+            origin_institution_type, dni_attachment, study_certificate_attachment, 
+            compromise_study_certificate_attachment, criminal_record_attachment, 
+            veracity_declaration_attachment, career_id, admision_process_id
+        ) VALUES (
+            'Siti', 'Carvajal', 'Orellana', 1, '70000094', 
+            'F', '2000-08-27', 'C', 1, 'PERU', 
+            '2025-03-18', 104, 'P', 
+            'd2e8580c-a384-45b7-8e4d-d6056efcd7c4', '4494bae5-c2f5-47e9-b445-f97b796b8da1', '0eb1eddc-f531-46c7-9eba-a4125c4021f9', 
+            '7aa99061-d3ad-4ecc-bc60-69b1762ee9ea', '0fab305e-30b2-4c13-a1e4-9097557339de', 13, 
+            1
+        );
+INSERT INTO candidate(
+            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
+            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
+            origin_institution_type, dni_attachment, study_certificate_attachment, 
+            compromise_study_certificate_attachment, criminal_record_attachment, 
+            veracity_declaration_attachment, career_id, admision_process_id
+        ) VALUES (
+            'Yong', 'Olivares', 'Pérez', 1, '70000095', 
+            'M', '1997-02-21', 'C', 1, 'PERU', 
+            '2025-03-18', 97, 'E', 
+            'c4bafb4e-40ff-4db0-b619-0d72387babc7', '77adfcde-f70e-442a-b919-1a00278c8982', '486ae595-ff09-4ccd-808f-4ad3f3f1fcbf', 
+            'bd2c1232-f2c7-4e4c-ac7f-5f85c100f0f9', '55206f6f-51fd-42d0-9fd2-e8c33e92ab51', 15, 
+            1
+        );
+INSERT INTO candidate(
+            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
+            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
+            origin_institution_type, dni_attachment, study_certificate_attachment, 
+            compromise_study_certificate_attachment, criminal_record_attachment, 
+            veracity_declaration_attachment, career_id, admision_process_id
+        ) VALUES (
+            'Irina', 'Torres', 'Garrido', 1, '70000096', 
+            'F', '2000-08-10', 'S', 2, 'PERU', 
+            '2025-03-18', 142, 'P', 
+            'e98ef9e5-1049-459f-846d-16a990b45906', '632a20ae-ed7d-4ec1-b9b2-3a63d3664267', '29a67362-ccae-4788-ade9-8d09952b0b33', 
+            'a985f4f7-762b-49da-9c78-921359b4c722', '80f5b2f1-7758-44da-a108-bc5998fbc9fa', 11, 
+            1
+        );
+INSERT INTO candidate(
+            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
+            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
+            origin_institution_type, dni_attachment, study_certificate_attachment, 
+            compromise_study_certificate_attachment, criminal_record_attachment, 
+            veracity_declaration_attachment, career_id, admision_process_id
+        ) VALUES (
+            'Marie', 'Aguilera', 'Godoy', 1, '70000097', 
+            'F', '2003-01-14', 'C', 0, 'PERU', 
+            '2025-03-18', 144, 'E', 
+            'b443f2ed-675c-4550-b559-3385add453c1', 'e7d3435e-97e4-456f-b835-b27e3fac7414', '67882501-1873-4e71-847a-7014f3b24a68', 
+            '0f154999-dfdf-47f0-91fb-98e4c8336107', '86dc1be3-6ce0-4ebc-a2f5-20f715fc2be5', 22, 
+            1
+        );
+INSERT INTO candidate(
+            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
+            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
+            origin_institution_type, dni_attachment, study_certificate_attachment, 
+            compromise_study_certificate_attachment, criminal_record_attachment, 
+            veracity_declaration_attachment, career_id, admision_process_id
+        ) VALUES (
+            'Vladimir', 'Vidal', 'Maldonado', 1, '70000098', 
+            'F', '1996-11-26', 'C', 3, 'PERU', 
             '2025-03-18', 27, 'E', 
-            'f913084e-dd6d-4c11-97df-6d156dd0ec09', 'ca4094b3-8734-40fa-bc80-112ca3e722b1', '749059b9-c79b-4591-b71c-e5c0dc63aa0f', 
-            '1fb539e7-d098-48d5-be6f-43dc5e38e1b8', '112a7a79-8a04-47c7-8d21-28aefdec231e', 15, 
+            '05614c36-143d-4dad-9c9e-503f60c5f07c', '9030e724-c6bc-4d18-938b-66e04a39231d', '64f003a5-797f-4392-a286-9a1b236cc766', 
+            'eadbe860-19d8-4673-b5d2-ef6f267ac421', '0eff6774-d545-45f5-b8a8-dd3b77969484', 14, 
             1
         );
 INSERT INTO candidate(
@@ -1377,24 +1391,10 @@ INSERT INTO candidate(
             compromise_study_certificate_attachment, criminal_record_attachment, 
             veracity_declaration_attachment, career_id, admision_process_id
         ) VALUES (
-            'Jean', 'Vargas', 'Pino', 1, '70000098', 
-            'F', '2005-02-16', 'C', 1, 'PERU', 
-            '2025-03-18', 111, 'P', 
-            '60e5ed89-9f65-42b7-90e2-615a25c1a33f', '12a9d3a1-f90f-41d3-b903-fbc96608b8d4', 'ec599042-73b0-4061-bd58-b27720759513', 
-            '30e70f22-ab25-4228-a335-6757082de453', 'da5823de-1ca3-40fe-b473-407db2abdb00', 21, 
-            1
-        );
-INSERT INTO candidate(
-            name, maternal_surname, paternal_surname, identification_type_id, identification, gender, birth_date, 
-            civil_status, children_count, provenance_country, registration_date, origin_district_id, 
-            origin_institution_type, dni_attachment, study_certificate_attachment, 
-            compromise_study_certificate_attachment, criminal_record_attachment, 
-            veracity_declaration_attachment, career_id, admision_process_id
-        ) VALUES (
-            'Mark', 'Navarrete', 'Lopez', 1, '70000099', 
-            'F', '2001-08-22', 'S', 1, 'PERU', 
-            '2025-03-18', 46, 'E', 
-            '8aeabd69-7d99-4f63-ab66-da411390dd6d', '3b61369f-bbfd-47ba-ace1-da9487323127', '3344b3a7-fb23-49c4-90cf-1215d5ac7f06', 
-            'd009318b-2ca1-4d56-bfa7-7ccb6747d00e', 'c1b035b9-73ac-4d10-8d74-1aeeec82d992', 31, 
+            'Peter', 'Pino', 'Soto', 1, '70000099', 
+            'M', '1998-08-11', 'S', 2, 'PERU', 
+            '2025-03-18', 161, 'P', 
+            '6893679b-b86b-48cc-a780-58671f41223d', 'df59590f-0c69-4a83-8449-480a1484542f', 'd3311a33-86cb-43b9-aa9f-2115d48ef35e', 
+            'a6ad2a9e-4576-4779-b8fb-72de2d8c6f78', 'bdde6b90-87eb-4d24-a2ae-f287b33b4510', 32, 
             1
         );

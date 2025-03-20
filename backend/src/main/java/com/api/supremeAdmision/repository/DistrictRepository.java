@@ -10,8 +10,12 @@ import java.util.List;
 public class DistrictRepository extends JdbcRepository {
 
     public List<District> getDistricts() {
-        return jdbcTemplate.query(
-                "CALL get_districts()",
-                new BeanPropertyRowMapper<>(District.class));
+        try{
+            return jdbcTemplate.query(
+                    "CALL get_districts()",
+                    new BeanPropertyRowMapper<>(District.class));
+        }catch (Exception e){
+            throw new RuntimeException(e);
+        }
     }
 }
